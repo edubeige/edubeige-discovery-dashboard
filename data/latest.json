@@ -63,42 +63,6 @@
         "math"
       ],
       "title": "Math Learning Center Number Frames"
-    },
-    {
-      "candidate_id": "cand-manual-seed-04-toy-theater-clock",
-      "decision": "approved",
-      "description": "아날로그 시계를 움직이며 시각 읽기를 연습하는 초등 웹 활동입니다.",
-      "final_url": "https://toytheater.com/clock/",
-      "grade_band": "elementary",
-      "school_access_policy_match": "toytheater.com",
-      "school_access_policy_reason": "V1 policy: education-office/school-network block issue; user re-confirmed Toy Theater as representative blocked site.",
-      "school_access_policy_status": "blocked_at_school",
-      "school_access_review_notes": "",
-      "school_access_review_source": "none",
-      "school_access_status": "unknown",
-      "student_action": "시곗바늘을 움직여 주어진 시각을 만들고 읽습니다.",
-      "subject_tags": [
-        "math"
-      ],
-      "title": "Toy Theater Clock"
-    },
-    {
-      "candidate_id": "cand-manual-seed-05-toy-theater-fraction-strips",
-      "decision": "approved",
-      "description": "분수 막대를 겹치고 비교하며 동치분수와 크기를 탐구하는 웹 활동입니다.",
-      "final_url": "https://toytheater.com/fraction-strips/",
-      "grade_band": "elementary",
-      "school_access_policy_match": "toytheater.com",
-      "school_access_policy_reason": "V1 policy: education-office/school-network block issue; user re-confirmed Toy Theater as representative blocked site.",
-      "school_access_policy_status": "blocked_at_school",
-      "school_access_review_notes": "",
-      "school_access_review_source": "none",
-      "school_access_status": "unknown",
-      "student_action": "분수 막대를 드래그해 길이를 비교하고 동치분수를 찾습니다.",
-      "subject_tags": [
-        "math"
-      ],
-      "title": "Toy Theater Fraction Strips"
     }
   ],
   "latest_run_id": "manual-seed-school-links-20260531-1722",
