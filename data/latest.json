@@ -1,0 +1,20 @@
+{
+  "dashboard_root": "local-dashboard-root-redacted",
+  "lab_root": "local-lab-root-redacted",
+  "latest_audit": null,
+  "latest_run_id": null,
+  "latest_summary": null,
+  "run_count": 0,
+  "runtime_root": "local-runtime-root-redacted",
+  "safety": {
+    "production_folder_write": "disabled",
+    "profile": "dry-run",
+    "supabase_write": "disabled"
+  },
+  "schema_version": "dashboard.v1",
+  "school_access": {
+    "latest_reviews": {},
+    "review_count": 0,
+    "status_counts": {}
+  }
+}

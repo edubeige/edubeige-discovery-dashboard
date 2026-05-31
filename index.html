@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edubeige Discovery V2 Dashboard</title>
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    body { margin: 0; background: #f7f8fb; color: #182033; }
+    main { max-width: 1040px; margin: 0 auto; padding: 32px 20px; }
+    .card { background: white; border: 1px solid #e4e7ef; border-radius: 18px; padding: 20px; margin: 16px 0; box-shadow: 0 8px 28px rgba(20, 32, 54, .06); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+    code { background: #eef2ff; padding: 2px 5px; border-radius: 6px; }
+    .ok { color: #087f5b; font-weight: 700; }
+    .empty { color: #667085; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Edubeige Discovery V2 Dashboard</h1>
+  <p>Mac mini local dashboard for school-computer review of recommended web activities.</p>
+
+  <section class="card">
+    <h2>Safety posture</h2>
+    <div class="grid">
+      <p><strong>Profile:</strong> dry-run</p>
+      <p><strong>Supabase write: disabled</strong></p>
+      <p><strong>Production folder write: disabled</strong></p>
+      <p><strong>Run count:</strong> 0</p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Storage</h2>
+    <p><strong>Runtime root:</strong> <code>local-runtime-root-redacted</code></p>
+    <p><strong>Lab root:</strong> <code>local-lab-root-redacted</code></p>
+    <p><strong>Dashboard root:</strong> <code>local-dashboard-root-redacted</code></p>
+  </section>
+
+  <section class="card">
+    <h2>Latest run</h2>
+    <p class='empty'>No runtime runs yet.</p>
+  </section>
+
+  <section class="card">
+    <h2>School access review</h2>
+    <p><strong>School access reviews: 0</strong></p>
+    <p>This read-only dashboard summarizes school access checks: unknown, opens at school, blocked at school, slow at school, or needs login at school.</p>
+    <ul><li><code>no school access reviews yet</code></li></ul>
+  </section>
+</main>
+</body>
+</html>
