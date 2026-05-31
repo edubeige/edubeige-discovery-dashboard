@@ -67,17 +67,15 @@
   ],
   "latest_run_id": "manual-seed-school-links-20260531-1722",
   "latest_summary": {
-    "approved_count": 5,
+    "approved_count": 3,
     "approved_titles": [
       "Polypad Virtual Manipulatives",
       "Math Learning Center Number Pieces",
-      "Math Learning Center Number Frames",
-      "Toy Theater Clock",
-      "Toy Theater Fraction Strips"
+      "Math Learning Center Number Frames"
     ],
-    "candidate_count": 5,
+    "candidate_count": 3,
     "decision_counts": {
-      "approved": 5
+      "approved": 3
     },
     "duplicate_count": 0,
     "duplicate_reason_counts": {},
