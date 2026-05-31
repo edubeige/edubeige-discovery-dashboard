@@ -16,7 +16,7 @@
       "description": "도형, 타일, 수 막대 등으로 초등 수학 개념을 조작해 보는 웹 활동입니다.",
       "final_url": "https://polypad.amplify.com/p",
       "grade_band": "elementary",
-      "school_access_status": "unknown",
+      "school_access_status": "opens_at_school",
       "student_action": "도형과 수학 교구를 끌어 배치하며 분수·도형·수 개념을 모델링합니다.",
       "subject_tags": [
         "math"
@@ -29,7 +29,7 @@
       "description": "일, 십, 백 모형을 움직이며 자릿값과 연산을 탐구하는 웹 활동입니다.",
       "final_url": "https://apps.mathlearningcenter.org/number-pieces/",
       "grade_band": "elementary",
-      "school_access_status": "unknown",
+      "school_access_status": "opens_at_school",
       "student_action": "base-ten 조각을 드래그해 수를 만들고 덧셈·뺄셈 모델을 표현합니다.",
       "subject_tags": [
         "math"
@@ -42,7 +42,7 @@
       "description": "십틀·오틀을 활용해 수 세기와 덧셈 전략을 연습하는 웹 활동입니다.",
       "final_url": "https://apps.mathlearningcenter.org/number-frames/",
       "grade_band": "elementary",
-      "school_access_status": "unknown",
+      "school_access_status": "opens_at_school",
       "student_action": "칩을 프레임에 놓고 이동하며 수 구성과 연산 전략을 설명합니다.",
       "subject_tags": [
         "math"
@@ -55,7 +55,7 @@
       "description": "아날로그 시계를 움직이며 시각 읽기를 연습하는 초등 웹 활동입니다.",
       "final_url": "https://toytheater.com/clock/",
       "grade_band": "elementary",
-      "school_access_status": "unknown",
+      "school_access_status": "blocked_at_school",
       "student_action": "시곗바늘을 움직여 주어진 시각을 만들고 읽습니다.",
       "subject_tags": [
         "math"
@@ -68,7 +68,7 @@
       "description": "분수 막대를 겹치고 비교하며 동치분수와 크기를 탐구하는 웹 활동입니다.",
       "final_url": "https://toytheater.com/fraction-strips/",
       "grade_band": "elementary",
-      "school_access_status": "unknown",
+      "school_access_status": "blocked_at_school",
       "student_action": "분수 막대를 드래그해 길이를 비교하고 동치분수를 찾습니다.",
       "subject_tags": [
         "math"
@@ -111,8 +111,52 @@
   },
   "schema_version": "dashboard.v1",
   "school_access": {
-    "latest_reviews": {},
-    "review_count": 0,
-    "status_counts": {}
+    "latest_reviews": {
+      "cand-manual-seed-01-polypad": {
+        "candidate_id": "cand-manual-seed-01-polypad",
+        "schema_version": "school_access_review.v1",
+        "school_access_checked_at": "2026-05-31T17:39:55+09:00",
+        "school_access_checked_by": "hwangdoyeon",
+        "school_access_notes": "사용자 학교망 확인: 열림",
+        "school_access_status": "opens_at_school"
+      },
+      "cand-manual-seed-02-number-pieces": {
+        "candidate_id": "cand-manual-seed-02-number-pieces",
+        "schema_version": "school_access_review.v1",
+        "school_access_checked_at": "2026-05-31T17:39:55+09:00",
+        "school_access_checked_by": "hwangdoyeon",
+        "school_access_notes": "사용자 학교망 확인: 열림",
+        "school_access_status": "opens_at_school"
+      },
+      "cand-manual-seed-03-number-frames": {
+        "candidate_id": "cand-manual-seed-03-number-frames",
+        "schema_version": "school_access_review.v1",
+        "school_access_checked_at": "2026-05-31T17:39:55+09:00",
+        "school_access_checked_by": "hwangdoyeon",
+        "school_access_notes": "사용자 학교망 확인: 열림",
+        "school_access_status": "opens_at_school"
+      },
+      "cand-manual-seed-04-toy-theater-clock": {
+        "candidate_id": "cand-manual-seed-04-toy-theater-clock",
+        "schema_version": "school_access_review.v1",
+        "school_access_checked_at": "2026-05-31T17:39:55+09:00",
+        "school_access_checked_by": "hermes_policy",
+        "school_access_notes": "V1 policy and user note: toytheater.com is a representative school-network blocked domain; treat as blocked despite earlier broad 'all open' wording.",
+        "school_access_status": "blocked_at_school"
+      },
+      "cand-manual-seed-05-toy-theater-fraction-strips": {
+        "candidate_id": "cand-manual-seed-05-toy-theater-fraction-strips",
+        "schema_version": "school_access_review.v1",
+        "school_access_checked_at": "2026-05-31T17:39:55+09:00",
+        "school_access_checked_by": "hermes_policy",
+        "school_access_notes": "V1 policy and user note: toytheater.com is a representative school-network blocked domain; treat as blocked despite earlier broad 'all open' wording.",
+        "school_access_status": "blocked_at_school"
+      }
+    },
+    "review_count": 5,
+    "status_counts": {
+      "blocked_at_school": 2,
+      "opens_at_school": 3
+    }
   }
 }
