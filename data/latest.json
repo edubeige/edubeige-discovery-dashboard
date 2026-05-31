@@ -1,10 +1,108 @@
 {
   "dashboard_root": "local-dashboard-root-redacted",
   "lab_root": "local-lab-root-redacted",
-  "latest_audit": null,
-  "latest_run_id": null,
-  "latest_summary": null,
-  "run_count": 0,
+  "latest_audit": {
+    "candidate_count": 5,
+    "errors": [],
+    "evidence_count": 5,
+    "ok": true,
+    "promotion_candidate_count": 0,
+    "promotion_request_present": false
+  },
+  "latest_candidates": [
+    {
+      "candidate_id": "cand-manual-seed-01-polypad",
+      "decision": "approved",
+      "description": "도형, 타일, 수 막대 등으로 초등 수학 개념을 조작해 보는 웹 활동입니다.",
+      "final_url": "https://polypad.amplify.com/p",
+      "grade_band": "elementary",
+      "school_access_status": "unknown",
+      "student_action": "도형과 수학 교구를 끌어 배치하며 분수·도형·수 개념을 모델링합니다.",
+      "subject_tags": [
+        "math"
+      ],
+      "title": "Polypad Virtual Manipulatives"
+    },
+    {
+      "candidate_id": "cand-manual-seed-02-number-pieces",
+      "decision": "approved",
+      "description": "일, 십, 백 모형을 움직이며 자릿값과 연산을 탐구하는 웹 활동입니다.",
+      "final_url": "https://apps.mathlearningcenter.org/number-pieces/",
+      "grade_band": "elementary",
+      "school_access_status": "unknown",
+      "student_action": "base-ten 조각을 드래그해 수를 만들고 덧셈·뺄셈 모델을 표현합니다.",
+      "subject_tags": [
+        "math"
+      ],
+      "title": "Math Learning Center Number Pieces"
+    },
+    {
+      "candidate_id": "cand-manual-seed-03-number-frames",
+      "decision": "approved",
+      "description": "십틀·오틀을 활용해 수 세기와 덧셈 전략을 연습하는 웹 활동입니다.",
+      "final_url": "https://apps.mathlearningcenter.org/number-frames/",
+      "grade_band": "elementary",
+      "school_access_status": "unknown",
+      "student_action": "칩을 프레임에 놓고 이동하며 수 구성과 연산 전략을 설명합니다.",
+      "subject_tags": [
+        "math"
+      ],
+      "title": "Math Learning Center Number Frames"
+    },
+    {
+      "candidate_id": "cand-manual-seed-04-toy-theater-clock",
+      "decision": "approved",
+      "description": "아날로그 시계를 움직이며 시각 읽기를 연습하는 초등 웹 활동입니다.",
+      "final_url": "https://toytheater.com/clock/",
+      "grade_band": "elementary",
+      "school_access_status": "unknown",
+      "student_action": "시곗바늘을 움직여 주어진 시각을 만들고 읽습니다.",
+      "subject_tags": [
+        "math"
+      ],
+      "title": "Toy Theater Clock"
+    },
+    {
+      "candidate_id": "cand-manual-seed-05-toy-theater-fraction-strips",
+      "decision": "approved",
+      "description": "분수 막대를 겹치고 비교하며 동치분수와 크기를 탐구하는 웹 활동입니다.",
+      "final_url": "https://toytheater.com/fraction-strips/",
+      "grade_band": "elementary",
+      "school_access_status": "unknown",
+      "student_action": "분수 막대를 드래그해 길이를 비교하고 동치분수를 찾습니다.",
+      "subject_tags": [
+        "math"
+      ],
+      "title": "Toy Theater Fraction Strips"
+    }
+  ],
+  "latest_run_id": "manual-seed-school-links-20260531-1722",
+  "latest_summary": {
+    "approved_count": 5,
+    "approved_titles": [
+      "Polypad Virtual Manipulatives",
+      "Math Learning Center Number Pieces",
+      "Math Learning Center Number Frames",
+      "Toy Theater Clock",
+      "Toy Theater Fraction Strips"
+    ],
+    "candidate_count": 5,
+    "decision_counts": {
+      "approved": 5
+    },
+    "duplicate_count": 0,
+    "duplicate_reason_counts": {},
+    "duplicate_titles": [],
+    "promotion_candidate_count": 0,
+    "promotion_request_present": false,
+    "promotion_status": "none",
+    "reject_reason_counts": {},
+    "rejected_count": 0,
+    "rejected_titles": [],
+    "run_id": "manual-seed-school-links-20260531-1722",
+    "runtime_only": true
+  },
+  "run_count": 1,
   "runtime_root": "local-runtime-root-redacted",
   "safety": {
     "production_folder_write": "disabled",
