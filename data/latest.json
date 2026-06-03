@@ -14,6 +14,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-run-marco",
       "classroom_use_case": "coding 수업에서 초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "runmarco.com",
@@ -27,7 +28,11 @@
       ],
       "how_students_use_it": "초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-run-marco",
+      "korean_accessibility": "low_text",
       "needs_school_check": false,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -46,6 +51,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -63,6 +70,7 @@
           "coding"
         ]
       },
+      "why_questionable": "특이 경고 없음",
       "why_recommended": "초등 수업에서 초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -75,6 +83,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-codemonkey-banana-tales",
       "classroom_use_case": "coding 수업에서 초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.codemonkey.com",
@@ -83,14 +92,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.codemonkey.com/hour-of-code/banana-tales/"
       ],
       "how_students_use_it": "초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-codemonkey-banana-tales",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -109,6 +122,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -126,6 +141,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -138,6 +154,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-codemonkey-beaver-achiever",
       "classroom_use_case": "coding 수업에서 초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.codemonkey.com",
@@ -146,14 +163,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.codemonkey.com/hour-of-code/beaver-achiever/"
       ],
       "how_students_use_it": "초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-codemonkey-beaver-achiever",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -172,6 +193,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -189,6 +212,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -201,6 +225,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-codemonkey-coding-adventure",
       "classroom_use_case": "coding 수업에서 초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.codemonkey.com",
@@ -209,14 +234,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.codemonkey.com/hour-of-code/coding-adventure/"
       ],
       "how_students_use_it": "초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-codemonkey-coding-adventure",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -235,6 +264,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -252,6 +283,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -264,6 +296,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-tynker-candy-quest",
       "classroom_use_case": "coding 수업에서 초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.tynker.com",
@@ -272,14 +305,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.tynker.com/hour-of-code/candy-quest"
       ],
       "how_students_use_it": "초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-tynker-candy-quest",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -298,6 +335,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -315,6 +354,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -327,6 +367,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-tynker-dragon-blast",
       "classroom_use_case": "coding 수업에서 초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.tynker.com",
@@ -335,14 +376,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.tynker.com/hour-of-code/dragon-blast"
       ],
       "how_students_use_it": "초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-tynker-dragon-blast",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -361,6 +406,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -378,6 +425,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -390,6 +438,7 @@
       },
       "candidate_id": "cand-auto-direct-elementary-web-activity-tynker-space-quest",
       "classroom_use_case": "coding 수업에서 초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [],
       "direct_play_evidence": "직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.",
       "disposition": "candidate_internal_review_only",
       "domain": "www.tynker.com",
@@ -398,14 +447,18 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "반복 도메인 3개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.tynker.com/hour-of-code/space-quest"
       ],
       "how_students_use_it": "초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다.",
       "item_id": "cand-auto-direct-elementary-web-activity-tynker-space-quest",
+      "korean_accessibility": "low_text",
       "needs_school_check": true,
+      "quality_score": 0,
+      "quality_score_band": "unknown",
+      "quality_score_reasons": [],
       "review_actions": [
         "keep",
         "delete",
@@ -424,6 +477,8 @@
         "reject_reason_codes": []
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_direct_elementary_web_activity",
       "subject_unit_tags": [
         "coding"
       ],
@@ -441,6 +496,7 @@
           "coding"
         ]
       },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     }
   ],

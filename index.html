@@ -241,6 +241,9 @@
         <input class="search" id="search" placeholder="후보명, URL, 과목, 경고 신호 검색…" aria-label="검색">
         <select class="sort-select" id="sort" aria-label="정렬">
           <option value="priority">처리 우선순위</option>
+          <option value="score">점수순</option>
+          <option value="subject">과목순</option>
+          <option value="source">소스순</option>
           <option value="unreviewed">미검토 우선</option>
           <option value="warning">경고 우선</option>
           <option value="school">학교컴 우선</option>
@@ -250,6 +253,9 @@
           <button class="filter-chip active" data-filter="all">전체</button>
           <button class="filter-chip" data-filter="unreviewed">미검토</button>
           <button class="filter-chip" data-filter="check_school_computer">학교컴 확인</button>
+          <button class="filter-chip" data-filter="score_warning">점수 경고</button>
+          <button class="filter-chip" data-filter="subject">과목 있음</button>
+          <button class="filter-chip" data-filter="source_profile">소스 있음</button>
           <button class="filter-chip" data-filter="hold">보류</button>
           <button class="filter-chip" data-filter="warning">경고 있음</button>
           <button class="filter-chip" data-filter="existing_domain">기존 도메인</button>
@@ -263,7 +269,7 @@
           <div><h2>후보 검토 큐</h2><p>무엇 / 수업 활용 위치 / 학생 행동 / 근거 / 위험 신호 / 판단 버튼을 한 행에서 확인합니다.</p></div>
           <span class="meta-pill">7 candidates</span>
         </div>
-        <ol class="triage-list" id="candidateGrid"><li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="runmarco.com" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
+        <ol class="triage-list" id="candidateGrid"><li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="runmarco.com" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>40</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -285,8 +291,11 @@
       <div class="chips">
         
         
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -300,6 +309,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>특이 경고 없음</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보·코딩 수업에서 학생이 캐릭터를 움직이는 명령 블록을 순서대로 놓아 목표 지점까지 이동시키는 웹 활동입니다. 브라우저 활동으로 순차와 반복을 직접 조작 활동으로 익히는 블록코딩 활동입니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -311,7 +326,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -332,9 +347,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -348,6 +366,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보 수업에서 학생이 원숭이 캐릭터가 바나나를 찾도록 명령을 만들며 순서와 반복을 연습하는 웹 활동입니다. 브라우저 활동으로 명령 흐름을 직접 조작 활동으로 해결합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -359,7 +383,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -380,9 +404,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -396,6 +423,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보·문제해결 수업에서 학생이 비버의 이동 경로와 목표 달성을 계획하는 웹 활동입니다. 브라우저 활동으로 단계별 명령과 조건을 직접 조작 활동처럼 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -407,7 +440,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.codemonkey.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -428,9 +461,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -444,6 +480,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보 수업에서 학생이 짧은 명령을 조합해 캐릭터의 움직임을 만드는 웹 활동입니다. 브라우저 활동으로 코딩 순서를 직접 조작 활동으로 실험합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -455,7 +497,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -476,9 +518,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -492,6 +537,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 코딩 입문 수업에서 학생이 블록 명령을 끌어 놓아 길을 찾고 문제를 해결하는 웹 활동입니다. 브라우저 활동으로 순차·반복 사고를 직접 조작 활동으로 연습합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -503,7 +554,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -524,9 +575,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -540,6 +594,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보 수업에서 학생이 미션을 보고 명령 블록을 배치해 캐릭터 행동을 만드는 웹 활동입니다. 브라우저 활동으로 문제 해결 절차를 직접 조작 활동으로 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -551,7 +611,7 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.tynker.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true" data-score="0" data-score-band="unknown" data-subject="coding" data-source-profile="auto_direct_elementary_web_activity">
   <article class="row-shell">
     <div class="queue-no"><span>P</span><strong>20</strong><small>우선순위</small></div>
     <div class="main-cell">
@@ -572,9 +632,12 @@
     <div class="signal-cell">
       <div class="chips">
         <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">반복 도메인 3개</span>
+        <span class="chip warn">이번 실행 도메인 3개</span>
+        <span class="chip info">품질 0</span>
         <span class="chip good">초등</span>
         <span class="chip info">코딩</span>
+        <span class="chip info">주제 미상</span>
+        <span class="chip info">auto_direct_elementary_web_activity</span>
       </div>
       <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
     </div>
@@ -588,6 +651,12 @@
         <div class="field"><b>한 줄 요약</b><p>초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다.</p></div>
         <div class="field"><b>학생 행동</b><p>초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다.</p></div>
         <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / 직접 웹활동</p></div>
+        <div class="field"><b>교육과정 주제</b><p>미상</p></div>
+        <div class="field"><b>소스 프로필</b><p>auto_direct_elementary_web_activity</p></div>
+        <div class="field"><b>품질 점수</b><p>0 / unknown</p></div>
+        <div class="field"><b>품질 이유</b><p>미상</p></div>
+        <div class="field"><b>한국어 접근성</b><p>low_text</p></div>
+        <div class="field"><b>의심/확인 포인트</b><p>반복/기존 신호: 이번 실행 도메인 3개</p></div>
         <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
         <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 코딩 수업에서 학생이 우주 미션을 따라 명령 블록을 조합하고 결과를 확인하는 웹 활동입니다. 브라우저 활동으로 순서와 반복을 직접 조작 활동으로 익힙니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
         <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
@@ -630,6 +699,9 @@
       const candidateCards = cards.filter(card => card.dataset.type === 'candidate');
       candidateCards.sort((a, b) => {
         if (value === 'priority') return priority(a) - priority(b);
+        if (value === 'score') return Number(b.dataset.score || '0') - Number(a.dataset.score || '0');
+        if (value === 'subject') return (a.dataset.subject || '').localeCompare(b.dataset.subject || '');
+        if (value === 'source') return (a.dataset.sourceProfile || '').localeCompare(b.dataset.sourceProfile || '');
         if (value === 'domain') return (a.dataset.domain || '').localeCompare(b.dataset.domain || '');
         if (value === 'warning') return Number(b.dataset.warning === 'true') - Number(a.dataset.warning === 'true');
         if (value === 'school') return Number(b.dataset.schoolCheck === 'true') - Number(a.dataset.schoolCheck === 'true');
@@ -645,13 +717,19 @@
         const type = card.dataset.type || '';
         const bucket = card.dataset.triageBucket || '';
         const warning = card.dataset.warning === 'true';
+        const scoreWarning = card.dataset.scoreBand === 'warning';
         const existingDomain = card.dataset.existingDomain === 'true';
         const duplicate = card.dataset.duplicate === 'true';
+        const hasSubject = Boolean(card.dataset.subject || '');
+        const hasSource = Boolean(card.dataset.sourceProfile || '');
         const matchesText = !q || text.includes(q);
         const matchesFilter = activeFilter === 'all'
           || disposition === activeFilter
           || bucket === activeFilter
           || (activeFilter === 'warning' && warning)
+          || (activeFilter === 'score_warning' && scoreWarning)
+          || (activeFilter === 'subject' && hasSubject)
+          || (activeFilter === 'source_profile' && hasSource)
           || (activeFilter === 'existing_domain' && existingDomain)
           || (activeFilter === 'duplicate' && duplicate)
           || (activeFilter === 'rejected' && type === 'rejected');
