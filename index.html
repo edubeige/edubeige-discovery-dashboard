@@ -1,98 +1,661 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Edubeige Discovery V2 Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edubeige Quality-first Dashboard</title>
   <style>
-    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-    body { margin: 0; background: #f7f8fb; color: #182033; }
-    main { max-width: 1040px; margin: 0 auto; padding: 32px 20px; }
-    .card { background: white; border: 1px solid #e4e7ef; border-radius: 18px; padding: 20px; margin: 16px 0; box-shadow: 0 8px 28px rgba(20, 32, 54, .06); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
-    code { background: #eef2ff; padding: 2px 5px; border-radius: 6px; }
-    .ok { color: #087f5b; font-weight: 700; }
-    .empty { color: #667085; }
-    .candidate { border: 1px solid #e4e7ef; border-radius: 14px; padding: 14px 16px; margin: 12px 0; background: #fbfcff; }
-    .candidate h3 { margin: 0 0 8px; font-size: 18px; }
-    .candidate a { color: #1d4ed8; }
-    .muted { color: #667085; }
+    :root {
+      color-scheme: dark;
+      --bg: #08090a;
+      --bg-deep: #010102;
+      --panel: #0f1011;
+      --surface: rgba(255,255,255,0.035);
+      --surface-strong: rgba(255,255,255,0.06);
+      --surface-hover: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.08);
+      --border-subtle: rgba(255,255,255,0.05);
+      --text: #f7f8f8;
+      --text-2: #d0d6e0;
+      --muted: #8a8f98;
+      --faint: #62666d;
+      --brand: #5e6ad2;
+      --brand-2: #7170ff;
+      --green: #10b981;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --blue: #60a5fa;
+      --radius: 18px;
+      --shadow: 0 18px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.03);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 20% -10%, rgba(94,106,210,.25), transparent 34rem),
+        radial-gradient(circle at 85% 5%, rgba(16,185,129,.13), transparent 30rem),
+        linear-gradient(180deg, #08090a 0%, #0b0c0e 52%, #060708 100%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-feature-settings: "cv01", "ss03";
+      letter-spacing: -0.01em;
+    }
+    a { color: inherit; text-decoration: none; }
+    .shell { max-width: 1440px; margin: 0 auto; padding: 28px; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: center;
+      margin: -28px -28px 28px;
+      padding: 18px 28px;
+      background: rgba(8,9,10,.82);
+      backdrop-filter: blur(18px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+    .logo {
+      width: 36px; height: 36px; border-radius: 11px;
+      display: grid; place-items: center;
+      background: linear-gradient(135deg, var(--brand), #9b8cff);
+      box-shadow: 0 0 0 1px rgba(255,255,255,.16), 0 12px 35px rgba(94,106,210,.35);
+      font-weight: 650;
+    }
+    .eyebrow { color: var(--muted); font-size: 12px; font-weight: 510; text-transform: uppercase; letter-spacing: .08em; }
+    .brand h1 { margin: 2px 0 0; font-size: 16px; font-weight: 590; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .nav { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .nav a, .filter-chip {
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      color: var(--text-2);
+      border-radius: 999px;
+      padding: 8px 11px;
+      font-size: 12px;
+      font-weight: 510;
+      cursor: pointer;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(320px, .65fr);
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .hero-card, .panel {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.055), rgba(255,255,255,.025));
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+    }
+    .hero-card { padding: 24px 28px; overflow: hidden; position: relative; }
+    .hero-card:after {
+      content: ""; position: absolute; inset: auto -90px -130px auto; width: 320px; height: 320px;
+      background: radial-gradient(circle, rgba(113,112,255,.32), transparent 68%);
+      pointer-events: none;
+    }
+    .hero h2 { margin: 8px 0 12px; max-width: 820px; font-size: clamp(28px, 4vw, 48px); line-height: 1.02; font-weight: 510; letter-spacing: -0.05em; }
+    .hero p { margin: 0; max-width: 780px; color: var(--muted); font-size: 16px; line-height: 1.7; }
+    .run-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 20px; }
+    .meta-pill, .chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 9px;
+      background: rgba(255,255,255,.025);
+      color: var(--text-2);
+      font-size: 12px;
+      font-weight: 510;
+    }
+    .status-dot { width: 7px; height: 7px; border-radius: 999px; background: var(--green); box-shadow: 0 0 20px var(--green); }
+    .status-dot.warn { background: var(--amber); box-shadow: 0 0 20px rgba(245,158,11,.45); }
+    .stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; padding: 16px; }
+    .stat { padding: 18px; border: 1px solid var(--border-subtle); border-radius: 18px; background: rgba(255,255,255,.026); }
+    .queue-summary { grid-column: 1 / -1; padding: 16px 18px; border: 1px solid rgba(113,112,255,.26); border-radius: 18px; background: rgba(113,112,255,.08); }
+    .queue-summary .line { display:flex; justify-content:space-between; gap:12px; color: var(--text-2); font-size: 13px; font-weight: 590; }
+    .progress-track { margin-top: 10px; height: 8px; border-radius: 999px; overflow: hidden; background: rgba(255,255,255,.08); }
+    .progress-fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--brand), var(--green)); }
+    .stat .value { font-size: 34px; line-height: 1; font-weight: 590; letter-spacing: -0.04em; }
+    .stat .label { margin-top: 8px; color: var(--muted); font-size: 12px; font-weight: 510; }
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(240px, 1fr) auto auto;
+      gap: 12px;
+      align-items: center;
+      margin: 22px 0;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15,16,17,.72);
+      backdrop-filter: blur(16px);
+    }
+    .search, .sort-select {
+      width: 100%; border: 1px solid var(--border-subtle); border-radius: 14px;
+      background: rgba(255,255,255,.03); color: var(--text);
+      padding: 12px 14px; outline: none; font-size: 14px;
+    }
+    .sort-select { width: 170px; color: var(--text-2); }
+    .filters { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .filter-chip.active { background: rgba(94,106,210,.24); border-color: rgba(113,112,255,.55); color: var(--text); }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 30px 0 14px; }
+    .section-head h2 { margin: 0; font-size: 22px; font-weight: 590; letter-spacing: -0.03em; }
+    .section-head p { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; list-style: none; margin: 0; padding: 0; }
+    .review-card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-height: 260px;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.052), rgba(255,255,255,.025));
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.03);
+    }
+    .review-card:hover { border-color: rgba(255,255,255,.14); background: linear-gradient(180deg, rgba(255,255,255,.068), rgba(255,255,255,.032)); }
+    .card-top { padding: 14px 16px; border-bottom: 1px solid var(--border-subtle); }
+    .status-strip { display:flex; justify-content:space-between; gap:8px; align-items:flex-start; margin-bottom: 8px; }
+    .status-strip .chips { justify-content:flex-end; }
+    .card-top h3 { margin: 8px 0 7px; font-size: 18px; line-height: 1.2; font-weight: 590; letter-spacing: -0.03em; }
+    .url { display: block; color: var(--brand-2); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .card-body { padding: 13px 16px 16px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .field { display: grid; gap: 5px; }
+    .field b { color: var(--text); font-size: 12px; font-weight: 590; }
+    .field span, .field p { margin: 0; color: var(--text-2); font-size: 13px; line-height: 1.55; }
+    .summary-text {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    details.more { border-top: 1px solid var(--border-subtle); padding-top: 10px; }
+    details.more summary { cursor: pointer; color: var(--brand-2); font-size: 12px; font-weight: 590; margin-bottom: 10px; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    .chip.good { border-color: rgba(16,185,129,.35); color: #b8f7dc; background: rgba(16,185,129,.1); }
+    .chip.warn { border-color: rgba(245,158,11,.38); color: #fde7b0; background: rgba(245,158,11,.1); }
+    .chip.bad { border-color: rgba(239,68,68,.36); color: #fecaca; background: rgba(239,68,68,.1); }
+    .chip.info { border-color: rgba(96,165,250,.36); color: #bfdbfe; background: rgba(96,165,250,.1); }
+    .saved { border: 1px solid rgba(113,112,255,.36); background: rgba(113,112,255,.11); border-radius: 14px; padding: 12px; }
+    .saved strong { display: block; margin-bottom: 5px; color: var(--text); font-size: 12px; }
+    .saved p { margin: 0; color: var(--text-2); font-size: 12px; line-height: 1.5; }
+    .actions { margin-top: auto; padding-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .action { border: 1px solid var(--border); border-radius: 999px; padding: 6px 8px; color: var(--muted); font-size: 11px; font-weight: 510; background: rgba(255,255,255,.02); }
+    .action.primary { color: #fff; background: rgba(94,106,210,.28); border-color: rgba(113,112,255,.55); }
+    .action.keep { color: #b8f7dc; background: rgba(16,185,129,.11); border-color: rgba(16,185,129,.35); }
+    .action.danger { color: #fecaca; background: rgba(239,68,68,.1); border-color: rgba(239,68,68,.32); }
+    .empty { grid-column: 1 / -1; border: 1px dashed var(--border); border-radius: 18px; padding: 28px; color: var(--muted); background: rgba(255,255,255,.02); }
+    .footer-note { margin: 32px 0 8px; padding: 16px; border: 1px solid var(--border-subtle); border-radius: 18px; color: var(--muted); background: rgba(255,255,255,.02); font-size: 12px; line-height: 1.6; }
+    @media (max-width: 1100px) { .hero { grid-template-columns: 1fr; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 760px) {
+      .shell { padding: 18px; } .topbar { margin: -18px -18px 18px; padding: 14px 18px; align-items: flex-start; flex-direction: column; }
+      .hero-card { padding: 22px; } .stats { grid-template-columns: 1fr 1fr; } .toolbar { grid-template-columns: 1fr; } .sort-select { width: 100%; } .filters { justify-content: flex-start; } .grid { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
-<main>
-  <h1>Edubeige Discovery V2 Dashboard</h1>
-  <p>Mac mini local dashboard for school-computer review of recommended web activities.</p>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">E</div>
+        <div>
+          <div class="eyebrow">Edubeige Discovery V2</div>
+          <h1>Quality-first Dashboard</h1>
+        </div>
+      </div>
+      <nav class="nav" aria-label="대시보드 이동">
+        <a href="#candidates">후보</a>
+        <a href="#rejected">탈락/진단</a>
+        <a href="data/latest.json">JSON</a>
+      </nav>
+    </header>
 
-  <section class="card">
-    <h2>Safety posture</h2>
-    <div class="grid">
-      <p><strong>Profile:</strong> dry-run</p>
-      <p><strong>Supabase write: disabled</strong></p>
-      <p><strong>Production folder write: disabled</strong></p>
-      <p><strong>Run count:</strong> 1</p>
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <div class="eyebrow">runtime-only investigation surface</div>
+          <h2>후보를 등록하지 않고, 먼저 검토 가능한 카드로 정리합니다.</h2>
+          <p>이 화면은 Supabase/승인대기/Published에 쓰지 않는 내부 검토 대시보드입니다. Hermes가 후보 설명, 수업 활용, 학생 행동, 근거, 위험 신호를 정리하고 사용자는 keep/delete/hold/check-school-computer만 판단합니다.</p>
+          <div class="run-meta">
+            <span class="meta-pill"><span class="status-dot "></span>Audit ok: True</span>
+            <span class="meta-pill">Run ID: qf-auto-20260603-120233</span>
+            <span class="meta-pill">Public payload: False</span>
+            <span class="meta-pill">Destination: runtime_only</span>
+          </div>
+        </div>
+        <aside class="panel stats" aria-label="실행 요약">
+          <div class="queue-summary" aria-label="검토 진행률">
+            <div class="line"><span>오늘 미검토 9 / 처리 0</span><span>0%</span></div>
+            <div class="progress-track"><div class="progress-fill" style="width:0%"></div></div>
+          </div>
+          <div class="stat"><div class="value">9</div><div class="label">후보 카드</div></div>
+          <div class="stat"><div class="value">9</div><div class="label">미검토</div></div>
+          <div class="stat"><div class="value">0</div><div class="label">학교컴 확인</div></div>
+          <div class="stat"><div class="value">1</div><div class="label">탈락/진단</div></div>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="후보 필터">
+        <input class="search" id="search" placeholder="후보명, URL, 과목, 경고 신호 검색…" aria-label="검색">
+        <select class="sort-select" id="sort" aria-label="정렬">
+          <option value="unreviewed">미검토 우선</option>
+          <option value="warning">경고 우선</option>
+          <option value="school">학교컴 우선</option>
+          <option value="domain">도메인순</option>
+        </select>
+        <div class="filters">
+          <button class="filter-chip active" data-filter="all">전체</button>
+          <button class="filter-chip" data-filter="unreviewed">미검토</button>
+          <button class="filter-chip" data-filter="check_school_computer">학교컴 확인</button>
+          <button class="filter-chip" data-filter="hold">보류</button>
+          <button class="filter-chip" data-filter="warning">경고 있음</button>
+          <button class="filter-chip" data-filter="existing_domain">기존 도메인</button>
+          <button class="filter-chip" data-filter="rejected">탈락</button>
+        </div>
+      </section>
+
+      <section id="candidates">
+        <div class="section-head">
+          <div><h2>후보 검토 카드</h2><p>무엇 / 수업 활용 위치 / 학생 행동 / 근거 / 위험 신호 / 판단 버튼을 한 카드에서 확인합니다.</p></div>
+          <span class="meta-pill">9 candidates</span>
+        </div>
+        <ul class="grid" id="candidateGrid"><li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="blockly.games">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">코딩</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Blockly Games Maze 한국어 코딩 미로</h3>
+      <a class="url" href="https://blockly.games/maze?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/maze?lang=ko</a>
     </div>
-  </section>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 정보 수업에서 학생이 블록 명령을 순서대로 놓아 캐릭터를 움직이는 한국어 웹 활동 조작 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 정보 수업에서 학생이 블록 명령을 순서대로 놓아 캐릭터를 움직이는 한국어 웹 활동 조작 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보 수업에서 학생이 블록 명령을 순서대로 놓아 캐릭터를 움직이는 한국어 웹 활동 조작 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보 수업에서 학생이 블록 명령을 순서대로 놓아 캐릭터를 움직이는 한국어 웹 활동 조작 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://blockly.games/maze?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/maze?lang=ko</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="blockly.games">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">코딩</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Blockly Games Bird 한국어 조건 블록 활동</h3>
+      <a class="url" href="https://blockly.games/bird?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/bird?lang=ko</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 정보 수업에서 학생이 조건 블록을 조합해 새의 이동 판단을 탐구하는 한국어 브라우저 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 정보 수업에서 학생이 조건 블록을 조합해 새의 이동 판단을 탐구하는 한국어 브라우저 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보 수업에서 학생이 조건 블록을 조합해 새의 이동 판단을 탐구하는 한국어 브라우저 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보 수업에서 학생이 조건 블록을 조합해 새의 이동 판단을 탐구하는 한국어 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://blockly.games/bird?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/bird?lang=ko</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="blockly.games">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">일반</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Blockly Games Turtle 한국어 반복 그림 활동</h3>
+      <a class="url" href="https://blockly.games/turtle?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/turtle?lang=ko</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 정보·미술 융합 수업에서 학생이 반복 명령으로 선과 도형 그림을 만드는 한국어 웹 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 정보·미술 융합 수업에서 학생이 반복 명령으로 선과 도형 그림을 만드는 한국어 웹 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 정보·미술 융합 수업에서 학생이 반복 명령으로 선과 도형 그림을 만드는 한국어 웹 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보·미술 융합 수업에서 학생이 반복 명령으로 선과 도형 그림을 만드는 한국어 웹 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://blockly.games/turtle?lang=ko" target="_blank" rel="noreferrer">https://blockly.games/turtle?lang=ko</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="www.abcya.com">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">일반</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>ABCya Animate 이야기 장면 만들기</h3>
+      <a class="url" href="https://www.abcya.com/games/animate" target="_blank" rel="noreferrer">https://www.abcya.com/games/animate</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 국어·미술 수업에서 학생이 장면과 움직임을 구성해 짧은 이야기를 표현하는 브라우저 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 국어·미술 수업에서 학생이 장면과 움직임을 구성해 짧은 이야기를 표현하는 브라우저 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 국어·미술 수업에서 학생이 장면과 움직임을 구성해 짧은 이야기를 표현하는 브라우저 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 국어·미술 수업에서 학생이 장면과 움직임을 구성해 짧은 이야기를 표현하는 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://www.abcya.com/games/animate" target="_blank" rel="noreferrer">https://www.abcya.com/games/animate</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="www.abcya.com">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">일반</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>ABCya Word Clouds 어휘 구름 만들기</h3>
+      <a class="url" href="https://www.abcya.com/games/word_clouds" target="_blank" rel="noreferrer">https://www.abcya.com/games/word_clouds</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 국어 수업에서 학생이 핵심 낱말을 입력하고 배치와 색을 바꾸어 주제 어휘를 정리하는 웹 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 국어 수업에서 학생이 핵심 낱말을 입력하고 배치와 색을 바꾸어 주제 어휘를 정리하는 웹 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 국어 수업에서 학생이 핵심 낱말을 입력하고 배치와 색을 바꾸어 주제 어휘를 정리하는 웹 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 국어 수업에서 학생이 핵심 낱말을 입력하고 배치와 색을 바꾸어 주제 어휘를 정리하는 웹 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://www.abcya.com/games/word_clouds" target="_blank" rel="noreferrer">https://www.abcya.com/games/word_clouds</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="true" data-existing-domain="true" data-school-check="true" data-domain="www.abcya.com">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip warn">학교컴 확인</span><span class="chip warn">기존 도메인</span><span class="chip warn">경고 있음</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">수학</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>ABCya Tangrams 도형 퍼즐 조작</h3>
+      <a class="url" href="https://www.abcya.com/games/tangrams" target="_blank" rel="noreferrer">https://www.abcya.com/games/tangrams</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 수학·창의 활동에서 학생이 조각을 돌리고 옮겨 모양을 완성하며 공간 감각을 기르는 조작 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 수학·창의 활동에서 학생이 조각을 돌리고 옮겨 모양을 완성하며 공간 감각을 기르는 조작 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span><span class="chip warn">기존 도메인 발견</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 수학 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>math 수업에서 초등 수학·창의 활동에서 학생이 조각을 돌리고 옮겨 모양을 완성하며 공간 감각을 기르는 조작 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 수학·창의 활동에서 학생이 조각을 돌리고 옮겨 모양을 완성하며 공간 감각을 기르는 조작 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://www.abcya.com/games/tangrams" target="_blank" rel="noreferrer">https://www.abcya.com/games/tangrams</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="scratch.mit.edu">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip info">신규 확인</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">코딩</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Scratch 프로젝트 에디터 시작하기</h3>
+      <a class="url" href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noreferrer">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 정보·창의표현 수업에서 학생이 스프라이트와 블록을 직접 조작해 간단한 애니메이션을 만드는 브라우저 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 정보·창의표현 수업에서 학생이 스프라이트와 블록을 직접 조작해 간단한 애니메이션을 만드는 브라우저 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 코딩 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>coding 수업에서 초등 정보·창의표현 수업에서 학생이 스프라이트와 블록을 직접 조작해 간단한 애니메이션을 만드는 브라우저 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 정보·창의표현 수업에서 학생이 스프라이트와 블록을 직접 조작해 간단한 애니메이션을 만드는 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted" target="_blank" rel="noreferrer">https://scratch.mit.edu/projects/editor/?tutorial=getStarted</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="beinternetawesome.withgoogle.com">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip info">신규 확인</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">일반</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Google Interland 디지털 시민성 탐험</h3>
+      <a class="url" href="https://beinternetawesome.withgoogle.com/en_us/interland" target="_blank" rel="noreferrer">https://beinternetawesome.withgoogle.com/en_us/interland</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 범교과 디지털 시민성 수업에서 학생이 선택과 이동을 조작하며 안전한 온라인 행동을 탐구하는 브라우저 활동.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 범교과 디지털 시민성 수업에서 학생이 선택과 이동을 조작하며 안전한 온라인 행동을 탐구하는 브라우저 활동.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 범교과 디지털 시민성 수업에서 학생이 선택과 이동을 조작하며 안전한 온라인 행동을 탐구하는 브라우저 활동. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 범교과 디지털 시민성 수업에서 학생이 선택과 이동을 조작하며 안전한 온라인 행동을 탐구하는 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://beinternetawesome.withgoogle.com/en_us/interland" target="_blank" rel="noreferrer">https://beinternetawesome.withgoogle.com/en_us/interland</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li>
+<li class="review-card" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="earth.google.com">
+  <article>
+    <div class="card-top">
+      <div class="status-strip">
+        <span class="chip warn">미검토</span>
+        <div class="chips"><span class="chip info">신규 확인</span></div>
+      </div>
+      <div class="chips">
+        <span class="chip good">초등</span>
+        <span class="chip info">일반</span>
+        <span class="chip info">direct_play_web_activity</span>
+      </div>
+      <h3>Google Earth Web 지구 탐색 활동</h3>
+      <a class="url" href="https://earth.google.com/web/" target="_blank" rel="noreferrer">https://earth.google.com/web/</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>한 줄 요약</b><p class="summary-text">초등 사회·과학 수업에서 학생이 지구본을 돌리고 확대하며 장소와 지형을 관찰하는 웹 활동 시뮬레이션.</p></div>
+      <div class="field"><b>학생 행동</b><p class="summary-text">초등 사회·과학 수업에서 학생이 지구본을 돌리고 확대하며 장소와 지형을 관찰하는 웹 활동 시뮬레이션.</p></div>
+      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
+      
+      <details class="more">
+        <summary>상세 근거·디버그 펼치기</summary>
+        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / direct_play_web_activity</p></div>
+        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 사회·과학 수업에서 학생이 지구본을 돌리고 확대하며 장소와 지형을 관찰하는 웹 활동 시뮬레이션. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
+        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 사회·과학 수업에서 학생이 지구본을 돌리고 확대하며 장소와 지형을 관찰하는 웹 활동 시뮬레이션. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
+        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
+        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://earth.google.com/web/" target="_blank" rel="noreferrer">https://earth.google.com/web/</a></p></div>
+        <div class="field"><b>교사용 주의</b><p>로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.</p></div>
+        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
+        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
+      </details>
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+    </div>
+  </article>
+</li></ul>
+      </section>
 
-  <section class="card">
-    <h2>Storage</h2>
-    <p><strong>Runtime root:</strong> <code>local-runtime-root-redacted</code></p>
-    <p><strong>Lab root:</strong> <code>local-lab-root-redacted</code></p>
-    <p><strong>Dashboard root:</strong> <code>local-dashboard-root-redacted</code></p>
-  </section>
+      <section id="rejected">
+        <div class="section-head">
+          <div><h2>탈락 / 내부 검토 전용</h2><p>탈락 항목도 소스 프로필 조정을 위한 진단 카드로 보존합니다.</p></div>
+          <span class="meta-pill">1 rejected</span>
+        </div>
+        <ul class="grid" id="rejectedGrid"><li class="review-card" data-card data-type="rejected" data-disposition="rejected" data-warning="true">
+  <article>
+    <div class="card-top">
+      <div class="chips"><span class="chip bad">탈락/진단</span><span class="chip warn">post_recording_gate</span></div>
+      <h3>MakeCode Arcade 브라우저 코딩 에디터</h3>
+      <a class="url" href="https://arcade.makecode.com/" target="_blank" rel="noreferrer">https://arcade.makecode.com/</a>
+    </div>
+    <div class="card-body">
+      <div class="field"><b>탈락 단계</b><p>post_recording_gate</p></div>
+      <div class="field"><b>탈락 이유</b><p>post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨.</p></div>
+      <div class="field"><b>진단 분류</b><p>other_rejection</p></div>
+      <div class="field"><b>출처 힌트</b><p>명확한 표준 분류 밖의 reject reason입니다.</p></div>
+      <div class="field"><b>다음 조정</b><p>reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.</p></div>
+      <div class="field"><b>디버그 보관</b><p>True</p></div>
+      <div class="field"><b>탈락 코드</b><div class="chips"><span class="chip bad">기존 후보와 중복</span></div></div>
+      
+      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
+      <div class="chips"><span class="chip bad">rejected_internal_review_only</span></div>
+    </div>
+  </article>
+</li></ul>
+      </section>
 
-  <section class="card">
-    <h2>Latest run</h2>
-    <p><strong>Latest run:</strong> manual-seed-school-links-20260531-1722</p>
-<p><strong>Candidate count:</strong> 3</p>
-<p><strong>Approved count:</strong> 3</p>
-<p><strong>Rejected count:</strong> 0</p>
-  </section>
-
-  <section class="card">
-    <h2>Candidate links</h2>
-    <p>Open these links on the school computer. Then tell Hermes which IDs open, are blocked, are slow, or need login.</p>
-    
-            <article class="candidate">
-              <h3><a href="https://polypad.amplify.com/p" target="_blank" rel="noopener noreferrer">Polypad Virtual Manipulatives</a></h3>
-              <p>도형, 타일, 수 막대 등으로 초등 수학 개념을 조작해 보는 웹 활동입니다.</p>
-              <p><strong>ID:</strong> <code>cand-manual-seed-01-polypad</code></p>
-              <p><strong>Decision:</strong> <code>approved</code> · <strong>Grade:</strong> <code>elementary</code></p>
-              <p><strong>School review:</strong> <code>review: opens_at_school</code> · <strong>Source:</strong> <code>hwangdoyeon</code></p>
-              <p><strong>Student action:</strong> 도형과 수학 교구를 끌어 배치하며 분수·도형·수 개념을 모델링합니다.</p>
-              <p><strong>Subjects:</strong> math</p>
-            </article>
-            
-
-            <article class="candidate">
-              <h3><a href="https://apps.mathlearningcenter.org/number-pieces/" target="_blank" rel="noopener noreferrer">Math Learning Center Number Pieces</a></h3>
-              <p>일, 십, 백 모형을 움직이며 자릿값과 연산을 탐구하는 웹 활동입니다.</p>
-              <p><strong>ID:</strong> <code>cand-manual-seed-02-number-pieces</code></p>
-              <p><strong>Decision:</strong> <code>approved</code> · <strong>Grade:</strong> <code>elementary</code></p>
-              <p><strong>School review:</strong> <code>review: opens_at_school</code> · <strong>Source:</strong> <code>hwangdoyeon</code></p>
-              <p><strong>Student action:</strong> base-ten 조각을 드래그해 수를 만들고 덧셈·뺄셈 모델을 표현합니다.</p>
-              <p><strong>Subjects:</strong> math</p>
-            </article>
-            
-
-            <article class="candidate">
-              <h3><a href="https://apps.mathlearningcenter.org/number-frames/" target="_blank" rel="noopener noreferrer">Math Learning Center Number Frames</a></h3>
-              <p>십틀·오틀을 활용해 수 세기와 덧셈 전략을 연습하는 웹 활동입니다.</p>
-              <p><strong>ID:</strong> <code>cand-manual-seed-03-number-frames</code></p>
-              <p><strong>Decision:</strong> <code>approved</code> · <strong>Grade:</strong> <code>elementary</code></p>
-              <p><strong>School review:</strong> <code>review: opens_at_school</code> · <strong>Source:</strong> <code>hwangdoyeon</code></p>
-              <p><strong>Student action:</strong> 칩을 프레임에 놓고 이동하며 수 구성과 연산 전략을 설명합니다.</p>
-              <p><strong>Subjects:</strong> math</p>
-            </article>
-            
-  </section>
-
-  <section class="card">
-    <h2>School access review</h2>
-    <p><strong>School access reviews: 3</strong></p>
-    <p>This read-only dashboard shows only candidates that still need school-computer review. Known blocked sites are kept in internal policy and excluded before display.</p>
-    <ul><li><code>opens_at_school: 3</code></li></ul>
-  </section>
-</main>
+      <div class="footer-note">
+        안전 경계: 이 대시보드는 runtime_only이며 자동 업로드, Supabase write, 승인대기 write, Published write를 수행하지 않습니다.
+      </div>
+    </main>
+  </div>
+  <script>
+    const search = document.getElementById('search');
+    const sort = document.getElementById('sort');
+    const chips = [...document.querySelectorAll('.filter-chip')];
+    const cards = [...document.querySelectorAll('[data-card]')];
+    const candidateGrid = document.getElementById('candidateGrid');
+    let activeFilter = 'all';
+    function applySort() {
+      const value = sort.value;
+      const candidateCards = cards.filter(card => card.dataset.type === 'candidate');
+      candidateCards.sort((a, b) => {
+        if (value === 'domain') return (a.dataset.domain || '').localeCompare(b.dataset.domain || '');
+        if (value === 'warning') return Number(b.dataset.warning === 'true') - Number(a.dataset.warning === 'true');
+        if (value === 'school') return Number(b.dataset.schoolCheck === 'true') - Number(a.dataset.schoolCheck === 'true');
+        return Number(a.dataset.disposition !== 'unreviewed') - Number(b.dataset.disposition !== 'unreviewed');
+      });
+      candidateCards.forEach(card => candidateGrid.appendChild(card));
+    }
+    function applyFilters() {
+      const q = (search.value || '').toLowerCase().trim();
+      cards.forEach(card => {
+        const text = card.innerText.toLowerCase();
+        const disposition = card.dataset.disposition || '';
+        const type = card.dataset.type || '';
+        const warning = card.dataset.warning === 'true';
+        const existingDomain = card.dataset.existingDomain === 'true';
+        const matchesText = !q || text.includes(q);
+        const matchesFilter = activeFilter === 'all'
+          || disposition === activeFilter
+          || (activeFilter === 'warning' && warning)
+          || (activeFilter === 'existing_domain' && existingDomain)
+          || (activeFilter === 'rejected' && type === 'rejected');
+        card.style.display = matchesText && matchesFilter ? '' : 'none';
+      });
+    }
+    chips.forEach(chip => chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter;
+      applyFilters();
+    }));
+    sort.addEventListener('change', () => { applySort(); applyFilters(); });
+    search.addEventListener('input', applyFilters);
+    applySort();
+  </script>
 </body>
 </html>

@@ -1,23 +1,14 @@
 {
-  "deploy_commands": {
-    "cloudflare_pages": "npx wrangler pages deploy . --project-name edubeige-discovery-dashboard",
-    "github_pages": "publish this directory to a GitHub Pages branch or Pages-enabled repository",
-    "vercel": "cd . && vercel --prod"
-  },
-  "included_files": [
-    "index.html",
-    "data/latest.json",
-    "publish_manifest.json"
-  ],
-  "notes": [
-    "This is a read-only static bundle for school review.",
-    "School access status writes are not exposed publicly; ask Hermes to record changes."
-  ],
+  "schema_version": "static_publish.v1",
   "provider": "github-pages",
   "public_root": ".",
   "publish_ready": true,
-  "schema_version": "static_publish.v1",
+  "write_back_enabled": false,
   "school_review_write_mode": "ask_hermes",
   "source_dashboard_root": "local-dashboard-root-redacted",
-  "write_back_enabled": false
+  "included_files": ["index.html", "data/latest.json", "publish_manifest.json"],
+  "notes": [
+    "This is a read-only static bundle for school review.",
+    "School access status writes are not exposed publicly; ask Hermes to record changes."
+  ]
 }
