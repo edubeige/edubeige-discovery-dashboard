@@ -1,14 +1,28 @@
 {
-  "schema_version": "static_publish.v1",
+  "deploy_commands": {
+    "cloudflare_pages": "npx wrangler pages deploy . --project-name edubeige-discovery-dashboard",
+    "github_pages": "publish this directory to a GitHub Pages branch or Pages-enabled repository",
+    "vercel": "cd . && vercel --prod"
+  },
+  "destination": "runtime_only",
+  "included_files": [
+    "index.html",
+    "data/latest.json",
+    "data/qf-auto-20260603-131130.json",
+    "publish_manifest.json"
+  ],
+  "notes": [
+    "This is the read-only quality-first review surface.",
+    "School access or candidate review writes are not exposed publicly; ask Hermes/runtime overlay import to record changes."
+  ],
   "provider": "github-pages",
+  "public_payload": false,
   "public_root": ".",
   "publish_ready": true,
-  "write_back_enabled": false,
+  "schema_version": "quality_first_static_publish.v1",
   "school_review_write_mode": "ask_hermes",
   "source_dashboard_root": "local-dashboard-root-redacted",
-  "included_files": ["index.html", "data/latest.json", "publish_manifest.json"],
-  "notes": [
-    "This is a read-only static bundle for school review.",
-    "School access status writes are not exposed publicly; ask Hermes to record changes."
-  ]
+  "source_run_id": "qf-auto-20260603-131130",
+  "source_surface": "quality-first",
+  "write_back_enabled": false
 }
