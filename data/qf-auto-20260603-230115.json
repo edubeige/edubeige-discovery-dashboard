@@ -14118,5 +14118,6 @@
     "qf-curated-20260602-132724"
   ],
   "schema_version": "quality_first_dashboard.v1",
-  "source": "quality-first-runtime"
+  "source": "quality-first-runtime",
+  "write_back_enabled": false
 }
