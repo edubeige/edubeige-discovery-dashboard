@@ -130,7 +130,7 @@
     .triage-row:hover { border-color: #b6c3d1; }
     .row-shell {
       display: grid;
-      grid-template-columns: 54px minmax(0, 1.7fr) minmax(220px, .8fr) 260px;
+      grid-template-columns: 82px minmax(0, 1.7fr) minmax(220px, .8fr) 260px;
       gap: 10px;
       align-items: stretch;
       padding: 10px;
@@ -140,12 +140,16 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 3px;
       min-height: 72px;
+      padding: 0 8px;
       border-right: 1px solid var(--border-subtle);
       color: var(--muted);
       font-size: 11px;
       font-weight: 700;
+      text-align: center;
     }
+    .queue-no span { line-height: 1.15; }
     .queue-no strong { color: var(--text); font-size: 17px; }
     .main-cell, .signal-cell, .action-cell { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
     .row-head { display: flex; align-items: center; gap: 8px; min-width: 0; }
@@ -265,10 +269,9 @@
         </div>
         <ol class="triage-list" id="candidateGrid"><li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="earth.nullschool.net" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
   <article class="row-shell">
-    <div class="queue-no"><span>P</span><strong>40</strong></div>
+    <div class="queue-no" aria-label="우선순위 40" title="우선순위 40"><span>우선순위</span><strong>40</strong></div>
     <div class="main-cell">
       <div class="row-head">
-        <span class="chip warn">미검토</span>
         <span class="chip warn">미검토</span>
         <h3>Earth Nullschool - 지구 바람과 날씨 지도</h3>
       </div>
@@ -313,10 +316,10 @@
 </li>
 <li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.geoguessr.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
   <article class="row-shell">
-    <div class="queue-no"><span>P</span><strong>20</strong></div>
+    <div class="queue-no" aria-label="우선순위 20" title="우선순위 20"><span>우선순위</span><strong>20</strong></div>
     <div class="main-cell">
       <div class="row-head">
-        <span class="chip bad">중복/기존</span>
+        <span class="chip warn">반복 도메인 주의</span>
         <span class="chip warn">미검토</span>
         <h3>Seterra World Continents and Oceans - 대륙과 대양 지도 퀴즈</h3>
       </div>
@@ -361,10 +364,10 @@
 </li>
 <li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.geoguessr.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
   <article class="row-shell">
-    <div class="queue-no"><span>P</span><strong>20</strong></div>
+    <div class="queue-no" aria-label="우선순위 20" title="우선순위 20"><span>우선순위</span><strong>20</strong></div>
     <div class="main-cell">
       <div class="row-head">
-        <span class="chip bad">중복/기존</span>
+        <span class="chip warn">반복 도메인 주의</span>
         <span class="chip warn">미검토</span>
         <h3>Seterra Asia Countries Map Quiz - 아시아 나라 위치 탐구</h3>
       </div>
@@ -409,10 +412,9 @@
 </li>
 <li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="ssec.si.edu" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
   <article class="row-shell">
-    <div class="queue-no"><span>P</span><strong>40</strong></div>
+    <div class="queue-no" aria-label="우선순위 40" title="우선순위 40"><span>우선순위</span><strong>40</strong></div>
     <div class="main-cell">
       <div class="row-head">
-        <span class="chip warn">미검토</span>
         <span class="chip warn">미검토</span>
         <h3>Smithsonian Pick Your Plate - 세계 식단 구성</h3>
       </div>
@@ -464,7 +466,7 @@
         </div>
         <ol class="triage-list" id="rejectedGrid"><li class="triage-row" data-card data-type="rejected" data-disposition="rejected" data-warning="true" data-existing-domain="true" data-school-check="false" data-domain="eyes.nasa.gov" data-triage-bucket="rejected" data-priority="90" data-duplicate="true">
   <article class="row-shell">
-    <div class="queue-no"><span>D</span><strong>90</strong></div>
+    <div class="queue-no" aria-label="진단 우선순위 90" title="진단 우선순위 90"><span>진단 우선</span><strong>90</strong></div>
     <div class="main-cell">
       <div class="row-head">
         <span class="chip bad">탈락/진단</span>
