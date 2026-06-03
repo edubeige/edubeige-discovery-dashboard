@@ -12,16 +12,196 @@
         "hold": "보류",
         "keep": "후보 유지"
       },
-      "candidate_id": "cand-auto-language-word-clouds-abcya-abcya-word-clouds-vocabulary-maker",
-      "classroom_use_case": "Korean/language, vocabulary, creative_expression 수업에서 학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "candidate_id": "cand-auto-social-digital-citizenship-interland-google-interland-digital-citizenship-game",
+      "classroom_use_case": "social studies, digital_citizenship, online_safety 수업에서 학생이 게임 속 장애물을 피하고 선택지를 조작하며 개인정보 보호와 안전한 소통 원칙을 확인합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
       "curriculum_topics": [
-        "어휘 정리",
-        "핵심어 시각화",
-        "단원 마무리 표현"
+        "디지털 시민성",
+        "온라인 안전",
+        "책임 있는 선택"
       ],
-      "direct_play_evidence": "웹 활동 화면에서 단어 입력과 디자인 조작을 바로 수행하는 활동입니다.",
+      "direct_play_evidence": "Interland 웹 게임 화면에서 이동·선택 조작을 직접 수행하는 브라우저 활동입니다.",
       "disposition": "candidate_internal_review_only",
-      "domain": "www.abcya.com",
+      "domain": "beinternetawesome.withgoogle.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://beinternetawesome.withgoogle.com/en_us/interland"
+      ],
+      "how_students_use_it": "학생이 게임 속 장애물을 피하고 선택지를 조작하며 개인정보 보호와 안전한 소통 원칙을 확인합니다.",
+      "item_id": "cand-auto-social-digital-citizenship-interland-google-interland-digital-citizenship-game",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_social_digital_citizenship_interland",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "social studies",
+        "digital_citizenship",
+        "online_safety"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Google Interland Digital Citizenship Game",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://beinternetawesome.withgoogle.com/en_us/interland",
+      "what": "초등 사회·디지털 시민성 수업에서 학생이 온라인 안전 상황을 게임으로 탐색하고 선택 결과를 확인하는 브라우저 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "social studies",
+          "digital_citizenship",
+          "online_safety"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 게임 속 장애물을 피하고 선택지를 조작하며 개인정보 보호와 안전한 소통 원칙을 확인합니다. 방식으로 바로 활용할 수 있고, Interland 웹 게임 화면에서 이동·선택 조작을 직접 수행하는 브라우저 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-social-google-earth-web-google-earth-web-map-exploration",
+      "classroom_use_case": "social studies, map_skills 수업에서 학생이 지구본을 회전하고 검색·확대 조작으로 지역 특징을 관찰합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "지도 읽기",
+        "장소 탐구",
+        "세계 지리"
+      ],
+      "direct_play_evidence": "Google Earth 웹 화면에서 지도 이동, 확대, 회전 조작을 바로 수행합니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "earth.google.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://earth.google.com/web/"
+      ],
+      "how_students_use_it": "학생이 지구본을 회전하고 검색·확대 조작으로 지역 특징을 관찰합니다.",
+      "item_id": "cand-auto-social-google-earth-web-google-earth-web-map-exploration",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_social_google_earth_web",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "social studies",
+        "map_skills"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Google Earth Web Map Exploration",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://earth.google.com/web/",
+      "what": "초등 사회 지리 수업에서 학생이 지구본과 지도를 확대·회전하며 장소, 지형, 거리감을 탐구하는 웹 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "social studies",
+          "map_skills"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 지구본을 회전하고 검색·확대 조작으로 지역 특징을 관찰합니다. 방식으로 바로 활용할 수 있고, Google Earth 웹 화면에서 지도 이동, 확대, 회전 조작을 바로 수행합니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-fraction-mlc-math-learning-center-fractions-app",
+      "classroom_use_case": "math, fractions, visual_models 수업에서 학생이 분수 모델을 추가·이동·겹쳐 보며 분수 관계를 설명합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "분수",
+        "동치분수",
+        "크기 비교"
+      ],
+      "direct_play_evidence": "브라우저 manipulative 화면에서 분수 조각을 직접 배치하고 조작합니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "apps.mathlearningcenter.org",
       "duplicate_signal": {
         "codes": [
           "INVENTORY_DOMAIN_SEEN"
@@ -30,23 +210,23 @@
         "label": "기존 도메인 발견"
       },
       "evidence_urls": [
-        "https://www.abcya.com/games/word_clouds"
+        "https://apps.mathlearningcenter.org/fractions/"
       ],
-      "how_students_use_it": "학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다.",
-      "item_id": "cand-auto-language-word-clouds-abcya-abcya-word-clouds-vocabulary-maker",
-      "korean_accessibility": "teacher_guided",
+      "how_students_use_it": "학생이 분수 모델을 추가·이동·겹쳐 보며 분수 관계를 설명합니다.",
+      "item_id": "cand-auto-math-fraction-mlc-math-learning-center-fractions-app",
+      "korean_accessibility": "low_text_en",
       "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
+      "quality_score": 98,
+      "quality_score_band": "excellent",
       "quality_score_reasons": [
         "direct_play:strong",
-        "student_action:partial",
+        "student_action:strong",
         "curriculum:topic",
         "elementary_fit:strong",
-        "accessibility:teacher_guided",
+        "accessibility:low_text_en",
         "safety:low_risk",
         "novelty:fresh",
-        "source_tier:tier2",
+        "source_tier:tier1",
         "teacher_review:valuable"
       ],
       "review_actions": [
@@ -70,32 +250,32 @@
       },
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
       "school_check_status": "not_checked",
-      "source_profile_id": "auto_language_word_clouds_abcya",
-      "source_run_id": "qf-auto-20260604-015923",
+      "source_profile_id": "auto_math_fraction_mlc",
+      "source_run_id": "qf-auto-20260604-023122",
       "source_run_order": 0,
       "subject_unit_tags": [
-        "Korean/language",
-        "vocabulary",
-        "creative_expression"
+        "math",
+        "fractions",
+        "visual_models"
       ],
       "suggested_grade_label": "초등",
       "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "ABCya Word Clouds Vocabulary Maker",
+      "title": "Math Learning Center Fractions App",
       "triage_bucket": "duplicate_or_existing",
       "triage_priority": 20,
-      "url": "https://www.abcya.com/games/word_clouds",
-      "what": "초등 국어·어휘 수업에서 학생이 단어를 입력하고 모양을 바꾸며 단어구름을 만드는 브라우저 활동입니다.",
+      "url": "https://apps.mathlearningcenter.org/fractions/",
+      "what": "초등 수학 분수 수업에서 학생이 분수 조각과 막대를 움직이며 크기 비교와 동치분수를 탐구하는 조작 활동입니다.",
       "where_in_class": {
         "activity_type": "direct_play_web_activity",
         "grade_band": "elementary",
         "subject_tags": [
-          "Korean/language",
-          "vocabulary",
-          "creative_expression"
+          "math",
+          "fractions",
+          "visual_models"
         ]
       },
       "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다. 방식으로 바로 활용할 수 있고, 웹 활동 화면에서 단어 입력과 디자인 조작을 바로 수행하는 활동입니다. 근거가 확인됨."
+      "why_recommended": "초등 수업에서 학생이 분수 모델을 추가·이동·겹쳐 보며 분수 관계를 설명합니다. 방식으로 바로 활용할 수 있고, 브라우저 manipulative 화면에서 분수 조각을 직접 배치하고 조작합니다. 근거가 확인됨."
     },
     {
       "action_labels": {
@@ -162,7 +342,7 @@
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_polypad",
-      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_id": "qf-auto-20260604-023122",
       "source_run_order": 0,
       "subject_unit_tags": [
         "math",
@@ -187,6 +367,99 @@
       },
       "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
       "why_recommended": "초등 수업에서 학생이 도형 조각을 끌어 놓고 회전·복제하며 성질을 비교합니다. 방식으로 바로 활용할 수 있고, 브라우저에서 Polypad 조작판을 열고 도형을 직접 움직이는 manipulative 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-base-ten-didax-didax-base-ten-blocks",
+      "classroom_use_case": "math, place_value, base_ten 수업에서 학생이 일·십·백 블록을 끌어 놓고 수를 만들거나 비교합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "자리값",
+        "십진 구조",
+        "수 모형"
+      ],
+      "direct_play_evidence": "Base Ten Blocks 웹 앱에서 블록을 직접 추가하고 이동하는 manipulative 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.didax.com",
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "evidence_urls": [
+        "https://www.didax.com/apps/base-ten-blocks/"
+      ],
+      "how_students_use_it": "학생이 일·십·백 블록을 끌어 놓고 수를 만들거나 비교합니다.",
+      "item_id": "cand-auto-math-base-ten-didax-didax-base-ten-blocks",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_base_ten_didax",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "math",
+        "place_value",
+        "base_ten"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "Didax Base Ten Blocks",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.didax.com/apps/base-ten-blocks/",
+      "what": "초등 수학 자리값 수업에서 학생이 십진 블록을 놓고 묶으며 수의 크기와 교환을 탐구하는 웹 조작 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "place_value",
+          "base_ten"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 학생이 일·십·백 블록을 끌어 놓고 수를 만들거나 비교합니다. 방식으로 바로 활용할 수 있고, Base Ten Blocks 웹 앱에서 블록을 직접 추가하고 이동하는 manipulative 활동입니다. 근거가 확인됨."
     },
     {
       "action_labels": {
@@ -253,7 +526,7 @@
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_turtle_pond_nctm",
-      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_id": "qf-auto-20260604-023122",
       "source_run_order": 0,
       "subject_unit_tags": [
         "math",
@@ -344,8 +617,922 @@
       "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_engineering_tamis_tower",
-      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_id": "qf-auto-20260604-023122",
       "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "engineering_design",
+        "problem_solving"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Smithsonian Tami's Tower Engineering Challenge",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://ssec.si.edu/tamis-tower",
+      "what": "초등 과학·공학 설계 수업에서 학생이 재료를 선택해 탑을 만들고 조건을 만족하는지 시험하는 시뮬레이션 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "engineering_design",
+          "problem_solving"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 부품을 선택하고 배치한 뒤 결과를 보고 설계를 개선합니다. 방식으로 바로 활용할 수 있고, 웹 시뮬레이션에서 만들기와 테스트를 반복하는 직접 조작 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-codeorg-artist-code-org-artist-drawing-level",
+      "classroom_use_case": "coding, creative_coding, art 수업에서 학생이 블록을 끌어 놓고 실행해 그림이 어떻게 변하는지 확인합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "순차 명령",
+        "도형 그리기",
+        "창작 코딩"
+      ],
+      "direct_play_evidence": "브라우저에서 블록 명령을 조작하고 결과 그림을 바로 보는 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "studio.code.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_DOMAIN_REPEAT"
+        ],
+        "kind": "same_run_domain",
+        "label": "이번 실행 도메인 6개"
+      },
+      "evidence_urls": [
+        "https://studio.code.org/ar/courses/artist/units/1/lessons/1/levels/1"
+      ],
+      "how_students_use_it": "학생이 블록을 끌어 놓고 실행해 그림이 어떻게 변하는지 확인합니다.",
+      "item_id": "cand-auto-coding-codeorg-artist-code-org-artist-drawing-level",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_codeorg_artist",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "coding",
+        "creative_coding",
+        "art"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Code.org Artist Drawing Level",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://studio.code.org/ar/courses/artist/units/1/lessons/1/levels/1",
+      "what": "초등 정보·미술 융합 수업에서 학생이 블록 명령으로 선을 그리며 순서와 각도를 탐구하는 interactive 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "creative_coding",
+          "art"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 6개",
+      "why_recommended": "초등 수업에서 학생이 블록을 끌어 놓고 실행해 그림이 어떻게 변하는지 확인합니다. 방식으로 바로 활용할 수 있고, 브라우저에서 블록 명령을 조작하고 결과 그림을 바로 보는 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-classifier",
+      "classroom_use_case": "art, ai_drawing, digital_literacy 수업에서 학생이 마우스나 터치패드로 그림을 그리고 AI가 맞히는 과정을 비교합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "표현",
+        "AI 인식",
+        "시각 자료"
+      ],
+      "direct_play_evidence": "웹 게임 화면에서 그리기 조작과 AI 반응 확인이 바로 이루어집니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "quickdraw.withgoogle.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://quickdraw.withgoogle.com/"
+      ],
+      "how_students_use_it": "학생이 마우스나 터치패드로 그림을 그리고 AI가 맞히는 과정을 비교합니다.",
+      "item_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-classifier",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_art_quickdraw",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "art",
+        "ai_drawing",
+        "digital_literacy"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Quick Draw AI Drawing Classifier",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://quickdraw.withgoogle.com/",
+      "what": "초등 미술·AI 이해 수업에서 학생이 제시어를 보고 빠르게 그림을 그리며 인공지능의 추측을 관찰하는 게임형 웹 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "art",
+          "ai_drawing",
+          "digital_literacy"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 마우스나 터치패드로 그림을 그리고 AI가 맞히는 과정을 비교합니다. 방식으로 바로 활용할 수 있고, 웹 게임 화면에서 그리기 조작과 AI 반응 확인이 바로 이루어집니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-scratch-intro-scratch-starter-project-editor",
+      "classroom_use_case": "coding, creative_coding, storytelling 수업에서 학생이 블록을 붙이고 실행해 캐릭터 움직임과 말하기를 확인합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "이벤트",
+        "순차",
+        "디지털 창작"
+      ],
+      "direct_play_evidence": "브라우저 편집기에서 블록과 캐릭터를 직접 조작하는 웹 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "scratch.mit.edu",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
+      ],
+      "how_students_use_it": "학생이 블록을 붙이고 실행해 캐릭터 움직임과 말하기를 확인합니다.",
+      "item_id": "cand-auto-coding-scratch-intro-scratch-starter-project-editor",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_scratch_intro",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "coding",
+        "creative_coding",
+        "storytelling"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Scratch Starter Project Editor",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
+      "what": "초등 정보·창작 수업에서 학생이 스프라이트와 블록을 조합해 간단한 애니메이션을 만드는 브라우저 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "creative_coding",
+          "storytelling"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 블록을 붙이고 실행해 캐릭터 움직임과 말하기를 확인합니다. 방식으로 바로 활용할 수 있고, 브라우저 편집기에서 블록과 캐릭터를 직접 조작하는 웹 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-geometry-geogebra-geogebra-geometry-workspace",
+      "classroom_use_case": "math, geometry, spatial_reasoning 수업에서 학생이 점과 선분을 만들고 드래그해 길이와 모양 변화를 관찰합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "점과 선",
+        "다각형",
+        "도형의 성질"
+      ],
+      "direct_play_evidence": "GeoGebra 웹 조작판에서 기하 도구를 바로 사용하는 interactive 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.geogebra.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.geogebra.org/geometry"
+      ],
+      "how_students_use_it": "학생이 점과 선분을 만들고 드래그해 길이와 모양 변화를 관찰합니다.",
+      "item_id": "cand-auto-math-geometry-geogebra-geogebra-geometry-workspace",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_geometry_geogebra",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "math",
+        "geometry",
+        "spatial_reasoning"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "GeoGebra Geometry Workspace",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.geogebra.org/geometry",
+      "what": "초등 수학 도형 수업에서 학생이 점·선·다각형을 만들고 움직이며 도형 관계를 탐구하는 시뮬레이션 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "geometry",
+          "spatial_reasoning"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 점과 선분을 만들고 드래그해 길이와 모양 변화를 관찰합니다. 방식으로 바로 활용할 수 있고, GeoGebra 웹 조작판에서 기하 도구를 바로 사용하는 interactive 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-climate-kids-games-nasa-climate-kids-games",
+      "classroom_use_case": "science, earth_science, environment 수업에서 학생이 활동을 선택해 조작하고 결과를 관찰하며 기후 개념을 이야기합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "날씨와 기후",
+        "지구 환경",
+        "자료 해석"
+      ],
+      "direct_play_evidence": "NASA Climate Kids의 play 메뉴에서 게임형 interactive 활동으로 이동할 수 있습니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "science.nasa.gov",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://science.nasa.gov/kids/games/"
+      ],
+      "how_students_use_it": "학생이 활동을 선택해 조작하고 결과를 관찰하며 기후 개념을 이야기합니다.",
+      "item_id": "cand-auto-science-climate-kids-games-nasa-climate-kids-games",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_climate_kids_games",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "earth_science",
+        "environment"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "NASA Climate Kids Games",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://science.nasa.gov/kids/games/",
+      "what": "초등 과학 환경 수업에서 학생이 기후와 지구 시스템 주제를 게임·웹 활동으로 탐구하는 브라우저 활동 모음입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "earth_science",
+          "environment"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 활동을 선택해 조작하고 결과를 관찰하며 기후 개념을 이야기합니다. 방식으로 바로 활용할 수 있고, NASA Climate Kids의 play 메뉴에서 게임형 interactive 활동으로 이동할 수 있습니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-forces-motion-phet-phet-forces-and-motion-basics",
+      "classroom_use_case": "science, physics, simulation 수업에서 학생이 힘의 크기와 물체 조건을 조절하고 결과 움직임을 비교합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "힘",
+        "운동",
+        "마찰"
+      ],
+      "direct_play_evidence": "PhET HTML5 시뮬레이션에서 슬라이더와 물체 조작을 직접 수행합니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "evidence_urls": [
+        "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html"
+      ],
+      "how_students_use_it": "학생이 힘의 크기와 물체 조건을 조절하고 결과 움직임을 비교합니다.",
+      "item_id": "cand-auto-science-forces-motion-phet-phet-forces-and-motion-basics",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 98,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_forces_motion_phet",
+      "source_run_id": "qf-auto-20260604-023122",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "physics",
+        "simulation"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "PhET Forces and Motion Basics",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_en.html",
+      "what": "초등 과학 힘과 운동 수업에서 학생이 물체를 밀고 마찰 조건을 바꾸며 움직임 변화를 관찰하는 시뮬레이션 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "physics",
+          "simulation"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 학생이 힘의 크기와 물체 조건을 조절하고 결과 움직임을 비교합니다. 방식으로 바로 활용할 수 있고, PhET HTML5 시뮬레이션에서 슬라이더와 물체 조작을 직접 수행합니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-language-word-clouds-abcya-abcya-word-clouds-vocabulary-maker",
+      "classroom_use_case": "Korean/language, vocabulary, creative_expression 수업에서 학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "어휘 정리",
+        "핵심어 시각화",
+        "단원 마무리 표현"
+      ],
+      "direct_play_evidence": "웹 활동 화면에서 단어 입력과 디자인 조작을 바로 수행하는 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "evidence_urls": [
+        "https://www.abcya.com/games/word_clouds"
+      ],
+      "how_students_use_it": "학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다.",
+      "item_id": "cand-auto-language-word-clouds-abcya-abcya-word-clouds-vocabulary-maker",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_language_word_clouds_abcya",
+      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "Korean/language",
+        "vocabulary",
+        "creative_expression"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "ABCya Word Clouds Vocabulary Maker",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.abcya.com/games/word_clouds",
+      "what": "초등 국어·어휘 수업에서 학생이 단어를 입력하고 모양을 바꾸며 단어구름을 만드는 브라우저 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "Korean/language",
+          "vocabulary",
+          "creative_expression"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 학생이 주제 단어를 입력하고 글꼴·색·배치를 조절해 단어구름을 제작합니다. 방식으로 바로 활용할 수 있고, 웹 활동 화면에서 단어 입력과 디자인 조작을 바로 수행하는 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-geometry-polypad-polypad-shape-workspace",
+      "classroom_use_case": "math, geometry, spatial_reasoning 수업에서 학생이 도형 조각을 끌어 놓고 회전·복제하며 성질을 비교합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "평면도형",
+        "대칭",
+        "도형 구성"
+      ],
+      "direct_play_evidence": "브라우저에서 Polypad 조작판을 열고 도형을 직접 움직이는 manipulative 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://polypad.amplify.com/p"
+      ],
+      "how_students_use_it": "학생이 도형 조각을 끌어 놓고 회전·복제하며 성질을 비교합니다.",
+      "item_id": "cand-auto-math-geometry-polypad-polypad-shape-workspace",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 98,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_geometry_polypad",
+      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "math",
+        "geometry",
+        "spatial_reasoning"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Polypad Shape Workspace",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://polypad.amplify.com/p",
+      "what": "초등 수학 도형 수업에서 학생이 다각형과 타일을 드래그해 분류·합성·대칭을 탐구하는 조작 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "geometry",
+          "spatial_reasoning"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 도형 조각을 끌어 놓고 회전·복제하며 성질을 비교합니다. 방식으로 바로 활용할 수 있고, 브라우저에서 Polypad 조작판을 열고 도형을 직접 움직이는 manipulative 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-reasoning",
+      "classroom_use_case": "math, coordinate_reasoning, spatial_reasoning 수업에서 학생이 이동 값을 조절하고 실행 결과를 관찰해 목표 지점까지의 경로를 수정합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "위치와 방향",
+        "좌표 감각",
+        "문제 해결"
+      ],
+      "direct_play_evidence": "NCTM Illuminations 상호작용 화면에서 값을 넣고 결과를 확인하는 브라우저 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.nctm.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/"
+      ],
+      "how_students_use_it": "학생이 이동 값을 조절하고 실행 결과를 관찰해 목표 지점까지의 경로를 수정합니다.",
+      "item_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-reasoning",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_turtle_pond_nctm",
+      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "math",
+        "coordinate_reasoning",
+        "spatial_reasoning"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "NCTM Turtle Pond Coordinate Reasoning",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/",
+      "what": "초등 수학 좌표 감각 수업에서 학생이 거북이를 목표 지점까지 이동시키며 위치와 방향을 탐구하는 interactive 웹 활동입니다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "coordinate_reasoning",
+          "spatial_reasoning"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 이동 값을 조절하고 실행 결과를 관찰해 목표 지점까지의 경로를 수정합니다. 방식으로 바로 활용할 수 있고, NCTM Illuminations 상호작용 화면에서 값을 넣고 결과를 확인하는 브라우저 활동입니다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
+      "classroom_use_case": "science, engineering_design, problem_solving 수업에서 학생이 부품을 선택하고 배치한 뒤 결과를 보고 설계를 개선합니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "공학적 설계",
+        "구조와 안정성",
+        "시행착오"
+      ],
+      "direct_play_evidence": "웹 시뮬레이션에서 만들기와 테스트를 반복하는 직접 조작 활동입니다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://ssec.si.edu/tamis-tower"
+      ],
+      "how_students_use_it": "학생이 부품을 선택하고 배치한 뒤 결과를 보고 설계를 개선합니다.",
+      "item_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_engineering_tamis_tower",
+      "source_run_id": "qf-auto-20260604-015923",
+      "source_run_order": 1,
       "subject_unit_tags": [
         "science",
         "engineering_design",
@@ -438,7 +1625,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_blockly_maze_ko",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "sequencing",
@@ -529,7 +1716,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_codeorg_artist",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "creative_coding",
@@ -620,7 +1807,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_quickdraw",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "art",
         "ai_drawing",
@@ -711,7 +1898,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_scratch_intro",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "creative_coding",
@@ -756,10 +1943,10 @@
       "domain": "www.geogebra.org",
       "duplicate_signal": {
         "codes": [
-          "SAME_RUN_DOMAIN_REPEAT"
+          "SAME_RUN_URL_DUPLICATE"
         ],
-        "kind": "same_run_domain",
-        "label": "이번 실행 도메인 2개"
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
       },
       "evidence_urls": [
         "https://www.geogebra.org/geometry"
@@ -802,7 +1989,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_geogebra",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "math",
         "geometry",
@@ -824,7 +2011,7 @@
           "spatial_reasoning"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 2개",
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
       "why_recommended": "초등 수업에서 학생이 점과 선분을 만들고 드래그해 길이와 모양 변화를 관찰합니다. 방식으로 바로 활용할 수 있고, GeoGebra 웹 조작판에서 기하 도구를 바로 사용하는 interactive 활동입니다. 근거가 확인됨."
     },
     {
@@ -847,10 +2034,10 @@
       "domain": "science.nasa.gov",
       "duplicate_signal": {
         "codes": [
-          "SAME_RUN_DOMAIN_REPEAT"
+          "SAME_RUN_URL_DUPLICATE"
         ],
-        "kind": "same_run_domain",
-        "label": "이번 실행 도메인 3개"
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
       },
       "evidence_urls": [
         "https://science.nasa.gov/kids/games/"
@@ -893,7 +2080,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_climate_kids_games",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "science",
         "earth_science",
@@ -915,7 +2102,7 @@
           "environment"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
       "why_recommended": "초등 수업에서 학생이 활동을 선택해 조작하고 결과를 관찰하며 기후 개념을 이야기합니다. 방식으로 바로 활용할 수 있고, NASA Climate Kids의 play 메뉴에서 게임형 interactive 활동으로 이동할 수 있습니다. 근거가 확인됨."
     },
     {
@@ -986,7 +2173,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_language_wordwall_random_wheel",
       "source_run_id": "qf-auto-20260604-015923",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "Korean/language",
         "speaking",
@@ -1078,7 +2265,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_light_phet",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "science",
         "light"
@@ -1168,7 +2355,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_space_nasa_space_place",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "science",
         "earth_space"
@@ -1258,7 +2445,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_kandinsky",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "art",
         "music_expression"
@@ -1346,7 +2533,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_quickdraw",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "art",
         "AI_literacy"
@@ -1436,7 +2623,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_fraction_mlc",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "math",
         "fractions"
@@ -1524,7 +2711,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_polypad",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -1614,7 +2801,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_fraction_wall_visnos",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "math",
         "fractions"
@@ -1704,7 +2891,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_base_ten_didax",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "math",
         "place_value"
@@ -1792,7 +2979,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_turtle_pond_nctm",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "math",
         "coordinate_reasoning"
@@ -1837,7 +3024,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 5개"
+        "label": "이번 실행 도메인 6개"
       },
       "evidence_urls": [
         "https://studio.code.org/fa/courses/artist/units/1/lessons/1/levels/1"
@@ -1880,7 +3067,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_codeorg_artist",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "coding",
         "creative_coding"
@@ -1900,7 +3087,7 @@
           "creative_coding"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 5개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 6개",
       "why_recommended": "초등 수업에서 학생이 블록 명령을 이어 붙여 캐릭터가 그림을 그리도록 실행한다. 방식으로 바로 활용할 수 있고, Code.org Artist level opens as a browser interactive coding puzzle; 설치 없는 조작 활동. 근거가 확인됨."
     },
     {
@@ -1968,7 +3155,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_scratch_intro",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "coding",
         "creative_coding"
@@ -2056,7 +3243,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_digital_citizenship_interland",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "social studies",
         "digital_citizenship"
@@ -2144,7 +3331,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_google_earth_web",
       "source_run_id": "qf-auto-20260604-012010",
-      "source_run_order": 1,
+      "source_run_order": 2,
       "subject_unit_tags": [
         "social studies"
       ],
@@ -2233,7 +3420,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_blockly_maze_ko",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "coding",
         "sequencing"
@@ -2322,7 +3509,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_turtleacademy_playground",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "coding",
         "creative_coding",
@@ -2413,7 +3600,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_scratch_intro",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "coding",
         "creative_coding"
@@ -2504,7 +3691,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_language_word_clouds_abcya",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "Korean/language",
         "vocabulary",
@@ -2595,7 +3782,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_digital_citizenship_interland",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "social studies",
         "digital_citizenship"
@@ -2684,7 +3871,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_google_earth_web",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "social studies"
       ],
@@ -2771,7 +3958,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_polypad",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -2860,7 +4047,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_turtle_pond_nctm",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "math",
         "coordinate_reasoning"
@@ -2906,7 +4093,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 2개"
+        "label": "이번 실행 도메인 3개"
       },
       "evidence_urls": [
         "https://www.geogebra.org/geometry?lang=ko"
@@ -2949,7 +4136,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geogebra_geometry_ko",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -2969,7 +4156,7 @@
           "geometry"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 2개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 3개",
       "why_recommended": "초등 수업에서 학생이 점, 선분, 다각형을 그리고 끌어 보며 도형의 변화를 설명합니다. 방식으로 바로 활용할 수 있고, 한국어 설정 가능한 브라우저 기하 조작판에서 직접 만들고 이동합니다. 근거가 확인됨."
     },
     {
@@ -3038,7 +4225,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_arts_jspaint_canvas",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "arts",
         "Korean/language",
@@ -3129,7 +4316,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_ai_quickdraw_sketch",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "arts",
         "coding",
@@ -3220,7 +4407,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_arts_autodraw_canvas",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "arts",
         "creative_expression"
@@ -3309,7 +4496,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_smithsonian_pick_plate",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "social studies",
         "health",
@@ -3398,7 +4585,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_wikimedia_maps",
       "source_run_id": "qf-auto-20260604-004449",
-      "source_run_order": 2,
+      "source_run_order": 3,
       "subject_unit_tags": [
         "social studies",
         "map_skills"
@@ -3489,7 +4676,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_fraction_mlc",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "fractions"
@@ -3578,7 +4765,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_polypad",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -3669,7 +4856,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_fraction_wall_visnos",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "fractions"
@@ -3760,7 +4947,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_base_ten_didax",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "place_value"
@@ -3849,7 +5036,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_turtle_pond_nctm",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "coordinate_reasoning"
@@ -3940,7 +5127,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_light_phet",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "science",
         "light"
@@ -4029,7 +5216,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_engineering_tamis_tower",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "science",
         "engineering_design"
@@ -4120,7 +5307,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_space_nasa_space_place",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "science",
         "earth_space"
@@ -4211,7 +5398,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_arts_music_chrome_song_maker",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "arts",
         "music",
@@ -4304,7 +5491,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_starfall_puzzles",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "math",
         "geometry",
@@ -4397,7 +5584,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_engineering_pbs_fidgit_power",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "science",
         "engineering_design",
@@ -4490,7 +5677,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_arts_visual_google_puzzle_party",
       "source_run_id": "qf-auto-20260603-230115",
-      "source_run_order": 3,
+      "source_run_order": 4,
       "subject_unit_tags": [
         "arts",
         "visual_arts",
@@ -4567,7 +5754,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -4640,7 +5827,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -4713,7 +5900,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -4786,7 +5973,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -4859,7 +6046,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -4932,7 +6119,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5005,7 +6192,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222916",
-      "source_run_order": 4,
+      "source_run_order": 5,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5078,7 +6265,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5151,7 +6338,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5224,7 +6411,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5297,7 +6484,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5370,7 +6557,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5443,7 +6630,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5516,7 +6703,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "coding"
       ],
@@ -5587,7 +6774,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-222638",
-      "source_run_order": 5,
+      "source_run_order": 6,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -5664,7 +6851,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -5739,7 +6926,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -5814,7 +7001,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -5887,7 +7074,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -5960,7 +7147,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -6033,7 +7220,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -6073,7 +7260,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 9개"
+        "label": "이번 실행 도메인 10개"
       },
       "evidence_urls": [
         "https://ssec.si.edu/bumperducks"
@@ -6106,7 +7293,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -6124,7 +7311,7 @@
           "general"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 9개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 10개",
       "why_recommended": "초등 수업에서 초등 과학·사회 환경 수업에서 학생이 물길을 따라 이동하는 물체와 오염 확산을 살펴보는 웹 활동입니다. 브라우저 활동으로 경로와 영향을 직접 조작 활동처럼 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -6146,7 +7333,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 9개"
+        "label": "이번 실행 도메인 10개"
       },
       "evidence_urls": [
         "https://ssec.si.edu/aquation"
@@ -6179,7 +7366,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -6197,7 +7384,7 @@
           "general"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 9개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 10개",
       "why_recommended": "초등 수업에서 초등 과학·사회 물 자원 수업에서 학생이 지역별 물 배분 문제를 선택하며 해결 전략을 생각하는 웹 활동입니다. 브라우저 활동으로 자원 배분을 직접 조작 활동으로 탐구합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -6252,7 +7439,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-215327",
-      "source_run_order": 6,
+      "source_run_order": 7,
       "subject_unit_tags": [
         "general"
       ],
@@ -6327,7 +7514,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6402,7 +7589,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6477,7 +7664,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6548,7 +7735,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6619,7 +7806,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6694,7 +7881,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6765,7 +7952,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6836,7 +8023,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6911,7 +8098,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-211652",
-      "source_run_order": 7,
+      "source_run_order": 8,
       "subject_unit_tags": [
         "general"
       ],
@@ -6986,7 +8173,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7061,7 +8248,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7136,7 +8323,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7211,7 +8398,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7286,7 +8473,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7361,7 +8548,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7436,7 +8623,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -7513,7 +8700,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "general"
       ],
@@ -7588,7 +8775,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-204522",
-      "source_run_order": 8,
+      "source_run_order": 9,
       "subject_unit_tags": [
         "math"
       ],
@@ -7663,7 +8850,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -7738,7 +8925,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -7813,7 +9000,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -7853,7 +9040,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 5개"
+        "label": "이번 실행 도메인 6개"
       },
       "evidence_urls": [
         "https://studio.code.org/hoc/1"
@@ -7886,7 +9073,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -7904,7 +9091,7 @@
           "coding"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 5개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 6개",
       "why_recommended": "초등 수업에서 초등 정보 수업에서 학생이 블록을 순서대로 놓아 캐릭터를 이동시키는 웹 활동입니다. 브라우저 활동으로 순차 명령을 직접 조작 활동으로 확인합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -7926,7 +9113,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 5개"
+        "label": "이번 실행 도메인 6개"
       },
       "evidence_urls": [
         "https://studio.code.org/flappy/1"
@@ -7959,7 +9146,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -7977,7 +9164,7 @@
           "coding"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 5개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 6개",
       "why_recommended": "초등 수업에서 초등 정보·창의 활동에서 학생이 이벤트 블록을 조합해 간단한 플래피 게임 동작을 만드는 웹 활동입니다. 브라우저 활동으로 이벤트와 조건을 조작 활동으로 실험합니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -8032,7 +9219,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -8105,7 +9292,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "coding"
       ],
@@ -8178,7 +9365,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-200950",
-      "source_run_order": 9,
+      "source_run_order": 10,
       "subject_unit_tags": [
         "general"
       ],
@@ -8253,7 +9440,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-193630",
-      "source_run_order": 10,
+      "source_run_order": 11,
       "subject_unit_tags": [
         "general"
       ],
@@ -8328,7 +9515,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-193630",
-      "source_run_order": 10,
+      "source_run_order": 11,
       "subject_unit_tags": [
         "general"
       ],
@@ -8403,7 +9590,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-193630",
-      "source_run_order": 10,
+      "source_run_order": 11,
       "subject_unit_tags": [
         "general"
       ],
@@ -8478,7 +9665,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-193630",
-      "source_run_order": 10,
+      "source_run_order": 11,
       "subject_unit_tags": [
         "general"
       ],
@@ -8551,7 +9738,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-193630",
-      "source_run_order": 10,
+      "source_run_order": 11,
       "subject_unit_tags": [
         "general"
       ],
@@ -8624,7 +9811,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190405",
-      "source_run_order": 11,
+      "source_run_order": 12,
       "subject_unit_tags": [
         "general"
       ],
@@ -8697,7 +9884,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190405",
-      "source_run_order": 11,
+      "source_run_order": 12,
       "subject_unit_tags": [
         "general"
       ],
@@ -8770,7 +9957,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190405",
-      "source_run_order": 11,
+      "source_run_order": 12,
       "subject_unit_tags": [
         "general"
       ],
@@ -8845,7 +10032,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -8920,7 +10107,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -8995,7 +10182,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9066,7 +10253,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9139,7 +10326,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9212,7 +10399,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9283,7 +10470,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9356,7 +10543,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-190308",
-      "source_run_order": 12,
+      "source_run_order": 13,
       "subject_unit_tags": [
         "general"
       ],
@@ -9429,7 +10616,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-163348",
-      "source_run_order": 13,
+      "source_run_order": 14,
       "subject_unit_tags": [
         "general"
       ],
@@ -9502,7 +10689,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-163348",
-      "source_run_order": 13,
+      "source_run_order": 14,
       "subject_unit_tags": [
         "general"
       ],
@@ -9575,7 +10762,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-163348",
-      "source_run_order": 13,
+      "source_run_order": 14,
       "subject_unit_tags": [
         "general"
       ],
@@ -9648,7 +10835,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-163348",
-      "source_run_order": 13,
+      "source_run_order": 14,
       "subject_unit_tags": [
         "general"
       ],
@@ -9723,7 +10910,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -9798,7 +10985,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -9873,7 +11060,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -9948,7 +11135,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "coding"
       ],
@@ -10023,7 +11210,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "coding"
       ],
@@ -10098,7 +11285,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "coding"
       ],
@@ -10171,7 +11358,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -10244,7 +11431,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -10315,7 +11502,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-160022",
-      "source_run_order": 14,
+      "source_run_order": 15,
       "subject_unit_tags": [
         "general"
       ],
@@ -10390,7 +11577,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-152552",
-      "source_run_order": 15,
+      "source_run_order": 16,
       "subject_unit_tags": [
         "math"
       ],
@@ -10465,7 +11652,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-152552",
-      "source_run_order": 15,
+      "source_run_order": 16,
       "subject_unit_tags": [
         "math"
       ],
@@ -10538,7 +11725,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-152552",
-      "source_run_order": 15,
+      "source_run_order": 16,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -10580,7 +11767,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 7개"
+        "label": "이번 실행 도메인 8개"
       },
       "evidence_urls": [
         "https://polypad.amplify.com/tangram"
@@ -10613,7 +11800,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-152552",
-      "source_run_order": 15,
+      "source_run_order": 16,
       "subject_unit_tags": [
         "math"
       ],
@@ -10631,7 +11818,7 @@
           "math"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 7개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 8개",
       "why_recommended": "초등 수업에서 초등 수학 도형 조작 활동: 학생이 브라우저에서 칠교 조각을 회전·이동해 여러 모양을 만들며 공간 감각과 합성 도형을 탐구한다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -10684,7 +11871,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-152552",
-      "source_run_order": 15,
+      "source_run_order": 16,
       "subject_unit_tags": [
         "general"
       ],
@@ -10759,7 +11946,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "math"
       ],
@@ -10834,7 +12021,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -10911,7 +12098,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -10953,7 +12140,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 6개"
+        "label": "이번 실행 도메인 7개"
       },
       "evidence_urls": [
         "https://scratch.mit.edu/projects/editor/"
@@ -10986,7 +12173,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "coding"
       ],
@@ -11004,7 +12191,7 @@
           "coding"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 6개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 7개",
       "why_recommended": "초등 수업에서 초등 정보·창의표현 웹 활동: 학생이 브라우저 활동으로 블록을 끌어 순차·반복·조건 명령을 조합하고 간단한 애니메이션이나 상호작용을 만든다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -11057,7 +12244,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "coding"
       ],
@@ -11132,7 +12319,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "general"
       ],
@@ -11207,7 +12394,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-145037",
-      "source_run_order": 16,
+      "source_run_order": 17,
       "subject_unit_tags": [
         "general"
       ],
@@ -11282,7 +12469,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "general"
       ],
@@ -11357,7 +12544,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "general"
       ],
@@ -11432,7 +12619,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "general"
       ],
@@ -11507,7 +12694,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "coding"
       ],
@@ -11582,7 +12769,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "coding"
       ],
@@ -11657,7 +12844,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "coding"
       ],
@@ -11728,7 +12915,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "math"
       ],
@@ -11803,7 +12990,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "general"
       ],
@@ -11878,7 +13065,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-141805",
-      "source_run_order": 17,
+      "source_run_order": 18,
       "subject_unit_tags": [
         "math"
       ],
@@ -11953,7 +13140,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "math"
       ],
@@ -12028,7 +13215,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "math"
       ],
@@ -12101,7 +13288,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "general"
       ],
@@ -12174,7 +13361,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "general"
       ],
@@ -12247,7 +13434,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "general"
       ],
@@ -12320,7 +13507,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "general"
       ],
@@ -12393,7 +13580,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-134441",
-      "source_run_order": 18,
+      "source_run_order": 19,
       "subject_unit_tags": [
         "general"
       ],
@@ -12433,7 +13620,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 8개"
+        "label": "이번 실행 도메인 9개"
       },
       "evidence_urls": [
         "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Patch-Tool/"
@@ -12466,7 +13653,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "math"
       ],
@@ -12484,7 +13671,7 @@
           "math"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 8개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 9개",
       "why_recommended": "초등 수업에서 초등 수학 도형과 규칙성 수업에서 학생이 도형 조각을 회전·배치해 패턴과 대칭을 탐구하는 웹 활동 조작 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -12506,7 +13693,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 8개"
+        "label": "이번 실행 도메인 9개"
       },
       "evidence_urls": [
         "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Concentration/"
@@ -12539,7 +13726,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "math"
       ],
@@ -12557,7 +13744,7 @@
           "math"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 8개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 9개",
       "why_recommended": "초등 수업에서 초등 수학 분류와 기억 전략 수업에서 학생이 카드를 뒤집어 관계를 찾고 짝을 맞추는 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -12614,7 +13801,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "general"
       ],
@@ -12689,7 +13876,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "general"
       ],
@@ -12764,7 +13951,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "general"
       ],
@@ -12837,7 +14024,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "general"
       ],
@@ -12908,7 +14095,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "coding"
       ],
@@ -12979,7 +14166,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-131130",
-      "source_run_order": 19,
+      "source_run_order": 20,
       "subject_unit_tags": [
         "general"
       ],
@@ -13054,7 +14241,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13129,7 +14316,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13204,7 +14391,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13279,7 +14466,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13354,7 +14541,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13429,7 +14616,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "math"
       ],
@@ -13504,7 +14691,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "math"
       ],
@@ -13579,7 +14766,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "math"
       ],
@@ -13652,7 +14839,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13725,7 +14912,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-123759",
-      "source_run_order": 20,
+      "source_run_order": 21,
       "subject_unit_tags": [
         "general"
       ],
@@ -13800,7 +14987,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "coding"
       ],
@@ -13875,7 +15062,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "coding"
       ],
@@ -13950,7 +15137,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "general"
       ],
@@ -14025,7 +15212,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "general"
       ],
@@ -14100,7 +15287,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "general"
       ],
@@ -14175,7 +15362,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "math"
       ],
@@ -14248,7 +15435,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "coding"
       ],
@@ -14321,7 +15508,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "general"
       ],
@@ -14394,7 +15581,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-120233",
-      "source_run_order": 21,
+      "source_run_order": 22,
       "subject_unit_tags": [
         "general"
       ],
@@ -14469,7 +15656,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "general"
       ],
@@ -14544,7 +15731,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "general"
       ],
@@ -14619,7 +15806,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "general"
       ],
@@ -14692,7 +15879,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "math"
       ],
@@ -14732,7 +15919,7 @@
           "SAME_RUN_DOMAIN_REPEAT"
         ],
         "kind": "same_run_domain",
-        "label": "이번 실행 도메인 8개"
+        "label": "이번 실행 도메인 9개"
       },
       "evidence_urls": [
         "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Circle-Tool/"
@@ -14765,7 +15952,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "math"
       ],
@@ -14783,7 +15970,7 @@
           "math"
         ]
       },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 8개",
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 9개",
       "why_recommended": "초등 수업에서 초등 수학 원과 도형 단원에서 학생이 반지름과 중심을 바꾸어 원의 성질을 탐구하는 브라우저 활동. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨."
     },
     {
@@ -14838,7 +16025,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "math"
       ],
@@ -14913,7 +16100,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "general"
       ],
@@ -14988,7 +16175,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-112725",
-      "source_run_order": 22,
+      "source_run_order": 23,
       "subject_unit_tags": [
         "general"
       ],
@@ -15063,7 +16250,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "coding"
       ],
@@ -15138,7 +16325,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "coding"
       ],
@@ -15213,7 +16400,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "coding"
       ],
@@ -15284,7 +16471,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "coding"
       ],
@@ -15355,7 +16542,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "coding"
       ],
@@ -15430,7 +16617,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-105331",
-      "source_run_order": 23,
+      "source_run_order": 24,
       "subject_unit_tags": [
         "general"
       ],
@@ -15505,7 +16692,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-093947",
-      "source_run_order": 24,
+      "source_run_order": 25,
       "subject_unit_tags": [
         "math"
       ],
@@ -15580,7 +16767,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-093947",
-      "source_run_order": 24,
+      "source_run_order": 25,
       "subject_unit_tags": [
         "math",
         "coding"
@@ -15657,7 +16844,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-093947",
-      "source_run_order": 24,
+      "source_run_order": 25,
       "subject_unit_tags": [
         "general"
       ],
@@ -15732,7 +16919,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_direct_elementary_web_activity",
       "source_run_id": "qf-auto-20260603-093947",
-      "source_run_order": 24,
+      "source_run_order": 25,
       "subject_unit_tags": [
         "general"
       ],
@@ -15815,7 +17002,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -15898,7 +17085,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -15981,7 +17168,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -16064,7 +17251,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -16147,7 +17334,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -16230,7 +17417,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -16313,7 +17500,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "math"
       ],
@@ -16396,7 +17583,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "direct_profile_uploaded_inventory_adjacent_known_good_20260602",
       "source_run_id": "qf_direct_uploaded_adjacent_20260602",
-      "source_run_order": 25,
+      "source_run_order": 26,
       "subject_unit_tags": [
         "coding"
       ],
@@ -16469,7 +17656,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "curated_mixed_quality",
       "source_run_id": "qf_fullcheck_20260602",
-      "source_run_order": 26,
+      "source_run_order": 27,
       "subject_unit_tags": [
         "math"
       ],
@@ -16542,7 +17729,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "curated_mixed_quality",
       "source_run_id": "qf-curated-20260602-132724",
-      "source_run_order": 27,
+      "source_run_order": 28,
       "subject_unit_tags": [
         "math"
       ],
@@ -16565,18 +17752,18 @@
     }
   ],
   "counts": {
-    "candidate_count": 212,
-    "evidence_count": 212,
+    "candidate_count": 225,
+    "evidence_count": 225,
     "rejected_count": 38,
-    "run_count": 29
+    "run_count": 30
   },
   "destination": "runtime_only",
   "latest_run_counts": {
-    "candidate_count": 11,
-    "evidence_count": 11,
+    "candidate_count": 13,
+    "evidence_count": 13,
     "rejected_count": 0
   },
-  "operator_review_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-015923/operator_review/review.json",
+  "operator_review_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-023122/operator_review/review.json",
   "public_payload": false,
   "rejected_preview": [
     {
@@ -17982,10 +19169,11 @@
       "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
     }
   ],
-  "report_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-015923/quality_report.json",
+  "report_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-023122/quality_report.json",
   "review_overlay_path": null,
-  "run_id": "qf-auto-20260604-015923",
+  "run_id": "qf-auto-20260604-023122",
   "run_ids": [
+    "qf-auto-20260604-023122",
     "qf-auto-20260604-015923",
     "qf-auto-20260604-012010",
     "qf-auto-20260604-004449",
