@@ -130,7 +130,7 @@
     .triage-row:hover { border-color: #b6c3d1; }
     .row-shell {
       display: grid;
-      grid-template-columns: 82px minmax(0, 1.7fr) minmax(220px, .8fr) 260px;
+      grid-template-columns: 54px minmax(0, 1.7fr) minmax(220px, .8fr) 260px;
       gap: 10px;
       align-items: stretch;
       padding: 10px;
@@ -140,16 +140,12 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 3px;
       min-height: 72px;
-      padding: 0 8px;
       border-right: 1px solid var(--border-subtle);
       color: var(--muted);
       font-size: 11px;
       font-weight: 700;
-      text-align: center;
     }
-    .queue-no span { line-height: 1.15; }
     .queue-no strong { color: var(--text); font-size: 17px; }
     .main-cell, .signal-cell, .action-cell { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
     .row-head { display: flex; align-items: center; gap: 8px; min-width: 0; }
@@ -227,18 +223,18 @@
           <p>Supabase/승인대기/Published에 쓰지 않는 내부 검토 화면입니다. 후보 설명, 수업 활용, 학생 행동, 근거, 위험 신호를 행 단위로 훑고 판단 라벨만 남깁니다.</p>
           <div class="run-meta">
             <span class="meta-pill"><span class="status-dot "></span>Audit ok: True</span>
-            <span class="meta-pill">Run ID: qf-auto-20260603-163348</span>
+            <span class="meta-pill">Run ID: qf-auto-20260603-190405</span>
             <span class="meta-pill">Public payload: False</span>
             <span class="meta-pill">Destination: runtime_only</span>
           </div>
         </div>
         <div class="queue-summary" aria-label="검토 진행률">
-          <div class="line"><span>오늘 미검토 4 / 처리 0</span><span>0%</span></div>
+          <div class="line"><span>오늘 미검토 3 / 처리 0</span><span>0%</span></div>
           <div class="progress-track"><div class="progress-fill" style="width:0%"></div></div>
         </div>
-        <div class="stat"><div class="value">4</div><div class="label">후보</div></div>
+        <div class="stat"><div class="value">3</div><div class="label">후보</div></div>
         <div class="stat"><div class="value">0</div><div class="label">학교컴</div></div>
-        <div class="stat"><div class="value">1</div><div class="label">탈락/진단</div></div>
+        <div class="stat"><div class="value">0</div><div class="label">탈락/진단</div></div>
       </section>
 
       <section class="toolbar" aria-label="후보 필터">
@@ -265,13 +261,14 @@
       <section id="candidates">
         <div class="section-head">
           <div><h2>후보 검토 큐</h2><p>무엇 / 수업 활용 위치 / 학생 행동 / 근거 / 위험 신호 / 판단 버튼을 한 행에서 확인합니다.</p></div>
-          <span class="meta-pill">4 candidates</span>
+          <span class="meta-pill">3 candidates</span>
         </div>
         <ol class="triage-list" id="candidateGrid"><li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="earth.nullschool.net" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
   <article class="row-shell">
-    <div class="queue-no" aria-label="우선순위 40" title="우선순위 40"><span>우선순위</span><strong>40</strong></div>
+    <div class="queue-no"><span>P</span><strong>40</strong></div>
     <div class="main-cell">
       <div class="row-head">
+        <span class="chip warn">미검토</span>
         <span class="chip warn">미검토</span>
         <h3>Earth Nullschool - 지구 바람과 날씨 지도</h3>
       </div>
@@ -314,12 +311,12 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.geoguessr.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
+<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="www.geoguessr.com" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
   <article class="row-shell">
-    <div class="queue-no" aria-label="우선순위 20" title="우선순위 20"><span>우선순위</span><strong>20</strong></div>
+    <div class="queue-no"><span>P</span><strong>40</strong></div>
     <div class="main-cell">
       <div class="row-head">
-        <span class="chip warn">반복 도메인 주의</span>
+        <span class="chip warn">미검토</span>
         <span class="chip warn">미검토</span>
         <h3>Seterra World Continents and Oceans - 대륙과 대양 지도 퀴즈</h3>
       </div>
@@ -334,8 +331,8 @@
     </div>
     <div class="signal-cell">
       <div class="chips">
-        <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">이번 실행 도메인 2개</span>
+        <span class="chip info">신규 확인</span>
+        
         <span class="chip good">초등</span>
         <span class="chip info">일반</span>
       </div>
@@ -362,59 +359,12 @@
     </details>
   </article>
 </li>
-<li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="true" data-domain="www.geoguessr.com" data-triage-bucket="duplicate_or_existing" data-priority="20" data-duplicate="true">
-  <article class="row-shell">
-    <div class="queue-no" aria-label="우선순위 20" title="우선순위 20"><span>우선순위</span><strong>20</strong></div>
-    <div class="main-cell">
-      <div class="row-head">
-        <span class="chip warn">반복 도메인 주의</span>
-        <span class="chip warn">미검토</span>
-        <h3>Seterra Asia Countries Map Quiz - 아시아 나라 위치 탐구</h3>
-      </div>
-      <a class="url" href="https://www.geoguessr.com/vgp/3167" target="_blank" rel="noreferrer">https://www.geoguessr.com/vgp/3167</a>
-      <div class="meta-line">
-        <span>www.geoguessr.com</span>
-        <span>초등</span>
-        <span>일반</span>
-        <span>직접 웹활동</span>
-      </div>
-      <p class="row-summary">초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다. · 초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다.</p>
-    </div>
-    <div class="signal-cell">
-      <div class="chips">
-        <span class="chip warn">학교컴 확인</span>
-        <span class="chip warn">이번 실행 도메인 2개</span>
-        <span class="chip good">초등</span>
-        <span class="chip info">일반</span>
-      </div>
-      <div class="field"><b>위험 신호</b><div class="chips"><span class="chip good">로그인 불필요</span><span class="chip good">설치 불필요</span><span class="chip good">개인정보 낮음</span><span class="chip good">외부링크 낮음</span></div></div>
-    </div>
-    <div class="action-cell">
-      
-      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action keep">후보 유지</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
-    </div>
-    <details class="more row-details">
-      <summary>상세 근거·디버그 펼치기</summary>
-      <div class="detail-grid">
-        <div class="field"><b>한 줄 요약</b><p>초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다.</p></div>
-        <div class="field"><b>학생 행동</b><p>초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다.</p></div>
-        <div class="field"><b>수업 활용 위치</b><p>초등 / 일반 / 직접 웹활동</p></div>
-        <div class="field"><b>수업 활용 예시</b><p>general 수업에서 초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.</p></div>
-        <div class="field"><b>추천 이유</b><p>초등 수업에서 초등 사회 세계 여러 나라 수업에서 학생이 지도 위 나라를 직접 찾는 조작 활동으로 공간 인식을 기르는 웹 활동입니다. 방식으로 바로 활용할 수 있고, 직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨. 근거가 확인됨.</p></div>
-        <div class="field"><b>근거</b><p>직접 URL 기록에서 브라우저 조작 활동 가능성이 확인됨.</p></div>
-        <div class="field"><b>Evidence URLs</b><p><a class="url" href="https://www.geoguessr.com/vgp/3167" target="_blank" rel="noreferrer">https://www.geoguessr.com/vgp/3167</a></p></div>
-        <div class="field"><b>교사용 주의</b><p>로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.</p></div>
-        <div class="field"><b>학교 확인</b><p>학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.</p></div>
-        <div class="field"><b>내부 상태</b><p>내부 검토 전용</p></div>
-      </div>
-    </details>
-  </article>
-</li>
 <li class="triage-row" data-card data-type="candidate" data-disposition="unreviewed" data-warning="false" data-existing-domain="false" data-school-check="false" data-domain="ssec.si.edu" data-triage-bucket="unreviewed" data-priority="40" data-duplicate="false">
   <article class="row-shell">
-    <div class="queue-no" aria-label="우선순위 40" title="우선순위 40"><span>우선순위</span><strong>40</strong></div>
+    <div class="queue-no"><span>P</span><strong>40</strong></div>
     <div class="main-cell">
       <div class="row-head">
+        <span class="chip warn">미검토</span>
         <span class="chip warn">미검토</span>
         <h3>Smithsonian Pick Your Plate - 세계 식단 구성</h3>
       </div>
@@ -462,44 +412,9 @@
       <section id="rejected">
         <div class="section-head">
           <div><h2>탈락 / 내부 검토 전용</h2><p>탈락 항목도 소스 프로필 조정을 위한 진단 행으로 보존합니다.</p></div>
-          <span class="meta-pill">1 rejected</span>
+          <span class="meta-pill">0 rejected</span>
         </div>
-        <ol class="triage-list" id="rejectedGrid"><li class="triage-row" data-card data-type="rejected" data-disposition="rejected" data-warning="true" data-existing-domain="true" data-school-check="false" data-domain="eyes.nasa.gov" data-triage-bucket="rejected" data-priority="90" data-duplicate="true">
-  <article class="row-shell">
-    <div class="queue-no" aria-label="진단 우선순위 90" title="진단 우선순위 90"><span>진단 우선</span><strong>90</strong></div>
-    <div class="main-cell">
-      <div class="row-head">
-        <span class="chip bad">탈락/진단</span>
-        <span class="chip warn">기타 탈락</span>
-        <h3>NASA Eyes on the Solar System - 태양계 3D 탐구</h3>
-      </div>
-      <a class="url" href="https://eyes.nasa.gov/apps/solar-system/#/home" target="_blank" rel="noreferrer">https://eyes.nasa.gov/apps/solar-system/#/home</a>
-      <div class="meta-line"><span>eyes.nasa.gov</span><span>기록 후 검증</span></div>
-      <p class="row-summary">post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨.</p>
-    </div>
-    <div class="signal-cell">
-      <div class="field"><b>탈락 코드</b><div class="chips"><span class="chip bad">기존 후보와 중복</span></div></div>
-      <div class="chips"><span class="chip bad">기존 후보와 중복</span></div>
-    </div>
-    <div class="action-cell">
-      
-      <div class="actions" aria-label="판단 버튼"><span class="field-label">판단 버튼</span><span class="action danger">후보 삭제</span><span class="action ">보류</span><span class="action ">설명 수정</span><span class="action primary">학교컴 확인 필요</span></div>
-    </div>
-    <details class="more row-details">
-      <summary>상세 근거·디버그 펼치기</summary>
-      <div class="detail-grid">
-        <div class="field"><b>탈락 단계</b><p>기록 후 검증</p></div>
-        <div class="field"><b>탈락 이유</b><p>post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨.</p></div>
-        <div class="field"><b>진단 분류</b><p>기타 탈락</p></div>
-        <div class="field"><b>출처 힌트</b><p>명확한 표준 분류 밖의 reject reason입니다.</p></div>
-        <div class="field"><b>다음 조정</b><p>reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.</p></div>
-        <div class="field"><b>디버그 보관</b><p>True</p></div>
-        <div class="field"><b>내부 상태</b><p>rejected_internal_review_only</p></div>
-        <div class="field"><b>내부 코드</b><p>REJECT_OBSIDIAN_DUPLICATE</p></div>
-      </div>
-    </details>
-  </article>
-</li></ol>
+        <ol class="triage-list" id="rejectedGrid"><li class="empty"><strong>탈락 후보가 없습니다</strong><br>이번 실행에서 제외된 항목이 없습니다.</li></ol>
       </section>
 
       <div class="footer-note">
