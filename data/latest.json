@@ -12,6 +12,1127 @@
         "hold": "보류",
         "keep": "후보 유지"
       },
+      "candidate_id": "cand-auto-math-clock-mlc-math-learning-center-math-clock",
+      "canonical_final_url": "https://apps.mathlearningcenter.org/math-clock",
+      "classroom_use_case": "math, time 수업에서 시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "시각 읽기",
+        "경과 시간"
+      ],
+      "direct_play_evidence": "웹 활동: movable clock hands and interactive time display",
+      "disposition": "candidate_internal_review_only",
+      "domain": "apps.mathlearningcenter.org",
+      "duplicate_count": 2,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-math-learning-center-math-clock-time-model",
+          "canonical_final_url": "https://apps.mathlearningcenter.org/math-clock",
+          "created_at": "2026-06-03T12:37:59.822352+09:00",
+          "final_url": "https://apps.mathlearningcenter.org/math-clock/",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-123759",
+          "source_run_order": 43,
+          "title": "Math Learning Center Math Clock Time Model",
+          "url": "https://apps.mathlearningcenter.org/math-clock/"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_math_clock_mlc",
+        "auto_direct_elementary_web_activity"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260603-123759"
+      ],
+      "evidence_urls": [
+        "https://apps.mathlearningcenter.org/math-clock/"
+      ],
+      "hidden_duplicate_count": 1,
+      "how_students_use_it": "시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다.",
+      "item_id": "cand-auto-math-clock-mlc-math-learning-center-math-clock",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 98,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_clock_mlc",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "math",
+        "time"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "Math Learning Center Math Clock",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://apps.mathlearningcenter.org/math-clock/",
+      "what": "브라우저에서 시계 바늘과 시간 표시를 직접 조작하며 시각 읽기와 경과 시간을 탐구하는 초등 수학 웹 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "time"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다. 방식으로 바로 활용할 수 있고, 웹 활동: movable clock hands and interactive time display 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-pattern-blocks-didax-didax-pattern-blocks",
+      "canonical_final_url": "https://www.didax.com/apps/pattern-blocks",
+      "classroom_use_case": "math, geometry 수업에서 블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "평면도형",
+        "대칭",
+        "도형 구성"
+      ],
+      "direct_play_evidence": "브라우저 활동: drag pattern blocks on a canvas",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.didax.com",
+      "duplicate_count": 2,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-didax-pattern-blocks",
+          "canonical_final_url": "https://www.didax.com/apps/pattern-blocks",
+          "created_at": "2026-06-03T14:50:37.597078+09:00",
+          "final_url": "https://www.didax.com/apps/pattern-blocks/",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-145037",
+          "source_run_order": 39,
+          "title": "Didax Pattern Blocks - 패턴 블록 구성",
+          "url": "https://www.didax.com/apps/pattern-blocks/"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_math_pattern_blocks_didax",
+        "auto_direct_elementary_web_activity"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260603-145037"
+      ],
+      "evidence_urls": [
+        "https://www.didax.com/apps/pattern-blocks/"
+      ],
+      "hidden_duplicate_count": 1,
+      "how_students_use_it": "블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다.",
+      "item_id": "cand-auto-math-pattern-blocks-didax-didax-pattern-blocks",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_pattern_blocks_didax",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "math",
+        "geometry"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "Didax Pattern Blocks",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.didax.com/apps/pattern-blocks/",
+      "what": "패턴 블록을 화면에 끌어 놓고 회전·조합하면서 도형 구성과 대칭을 탐구하는 초등 수학 조작 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "geometry"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다. 방식으로 바로 활용할 수 있고, 브라우저 활동: drag pattern blocks on a canvas 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-force-motion-phet-phet",
+      "canonical_final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
+      "classroom_use_case": "science, force_motion 수업에서 물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "힘",
+        "운동",
+        "마찰"
+      ],
+      "direct_play_evidence": "시뮬레이션: manipulate pushes, friction, motion in browser",
+      "disposition": "candidate_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_count": 2,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-phet-forces-motion-basics-korean-simulation",
+          "canonical_final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
+          "created_at": "2026-06-03T12:37:59.822352+09:00",
+          "final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-123759",
+          "source_run_order": 43,
+          "title": "PhET Forces Motion Basics Korean Simulation",
+          "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_science_force_motion_phet",
+        "auto_direct_elementary_web_activity"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260603-123759"
+      ],
+      "evidence_urls": [
+        "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko"
+      ],
+      "hidden_duplicate_count": 1,
+      "how_students_use_it": "물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다.",
+      "item_id": "cand-auto-science-force-motion-phet-phet",
+      "korean_accessibility": "ko_ui",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:ko_ui",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_force_motion_phet",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "force_motion"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "PhET 힘과 운동 기초",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
+      "what": "한국어 UI 시뮬레이션에서 물체를 밀고 힘의 방향과 크기를 바꾸며 운동 변화를 관찰하는 초등 과학 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "force_motion"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다. 방식으로 바로 활용할 수 있고, 시뮬레이션: manipulate pushes, friction, motion in browser 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-water-aquation-smithsonian-aquation",
+      "canonical_final_url": "https://ssec.si.edu/aquation",
+      "classroom_use_case": "science, environment, social studies 수업에서 제한된 물을 지역에 배분하고 선택 결과를 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "물 자원",
+        "환경",
+        "지역 사회 문제"
+      ],
+      "direct_play_evidence": "웹 활동: allocate water resources and respond to game feedback",
+      "disposition": "candidate_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_count": 2,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-smithsonian-aquation",
+          "canonical_final_url": "https://ssec.si.edu/aquation",
+          "created_at": "2026-06-03T21:53:27.246032+09:00",
+          "final_url": "https://ssec.si.edu/aquation",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-215327",
+          "source_run_order": 29,
+          "title": "Smithsonian Aquation 물 자원 게임",
+          "url": "https://ssec.si.edu/aquation"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_science_water_aquation",
+        "auto_direct_elementary_web_activity"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260603-215327"
+      ],
+      "evidence_urls": [
+        "https://ssec.si.edu/aquation"
+      ],
+      "hidden_duplicate_count": 1,
+      "how_students_use_it": "제한된 물을 지역에 배분하고 선택 결과를 확인한다.",
+      "item_id": "cand-auto-science-water-aquation-smithsonian-aquation",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_water_aquation",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "environment",
+        "social studies"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Smithsonian Aquation",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://ssec.si.edu/aquation",
+      "what": "물 자원을 배분하고 지역의 필요를 맞추는 게임형 웹 활동으로 환경·사회 문제를 탐구한다.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "environment",
+          "social studies"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 제한된 물을 지역에 배분하고 선택 결과를 확인한다. 방식으로 바로 활용할 수 있고, 웹 활동: allocate water resources and respond to game feedback 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-ai-oceans-codeorg-code-org-ai-for-oceans",
+      "canonical_final_url": "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1",
+      "classroom_use_case": "coding, ai_literacy 수업에서 화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "인공지능 기초",
+        "분류",
+        "데이터"
+      ],
+      "direct_play_evidence": "웹 활동: classify ocean items and train a model in browser",
+      "disposition": "candidate_internal_review_only",
+      "domain": "studio.code.org",
+      "duplicate_count": 1,
+      "duplicate_history": [],
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_DOMAIN_REPEAT"
+        ],
+        "kind": "same_run_domain",
+        "label": "이번 실행 도메인 20개"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_coding_ai_oceans_codeorg"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833"
+      ],
+      "evidence_urls": [
+        "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1"
+      ],
+      "hidden_duplicate_count": 0,
+      "how_students_use_it": "화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다.",
+      "item_id": "cand-auto-coding-ai-oceans-codeorg-code-org-ai-for-oceans",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_ai_oceans_codeorg",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "coding",
+        "ai_literacy"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Code.org AI for Oceans",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1",
+      "what": "바다 생물을 분류하며 AI 학습 데이터를 만드는 과정을 체험하는 초등 코딩·디지털 소양 웹 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "ai_literacy"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 도메인 20개",
+      "why_recommended": "초등 수업에서 화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다. 방식으로 바로 활용할 수 있고, 웹 활동: classify ocean items and train a model in browser 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-social-mapmaker-natgeo-national-geographic-mapmaker",
+      "canonical_final_url": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide",
+      "classroom_use_case": "social studies 수업에서 지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "지도 읽기",
+        "지역 비교",
+        "환경"
+      ],
+      "direct_play_evidence": "웹 활동: pan, zoom, and toggle map layers in browser",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.nationalgeographic.org",
+      "duplicate_count": 1,
+      "duplicate_history": [],
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "duplicate_source_profile_ids": [
+        "auto_social_mapmaker_natgeo"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833"
+      ],
+      "evidence_urls": [
+        "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/"
+      ],
+      "hidden_duplicate_count": 0,
+      "how_students_use_it": "지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다.",
+      "item_id": "cand-auto-social-mapmaker-natgeo-national-geographic-mapmaker",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": false,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_social_mapmaker_natgeo",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "social studies"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "National Geographic MapMaker",
+      "triage_bucket": "unreviewed",
+      "triage_priority": 40,
+      "url": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/",
+      "what": "지도 레이어를 켜고 끄며 지형·인구·기후 정보를 비교하는 초등 사회/지리 탐구 웹 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "social studies"
+        ]
+      },
+      "why_questionable": "특이 경고 없음",
+      "why_recommended": "초등 수업에서 지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다. 방식으로 바로 활용할 수 있고, 웹 활동: pan, zoom, and toggle map layers in browser 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-art-animation-abcya-alt-abcya-animate",
+      "canonical_final_url": "https://www.abcya.com/games/animate",
+      "classroom_use_case": "art, creative_expression 수업에서 프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "시각 표현",
+        "이야기 구성"
+      ],
+      "direct_play_evidence": "웹 활동: create frame-by-frame animation in browser",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_count": 3,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-abcya-animate",
+          "canonical_final_url": "https://www.abcya.com/games/animate",
+          "created_at": "2026-06-03T14:18:05.308449+09:00",
+          "final_url": "https://www.abcya.com/games/animate",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-141805",
+          "source_run_order": 40,
+          "title": "ABCya Animate",
+          "url": "https://www.abcya.com/games/animate"
+        },
+        {
+          "candidate_id": "cand-auto-direct-elementary-web-activity-abcya-animate",
+          "canonical_final_url": "https://www.abcya.com/games/animate",
+          "created_at": "2026-06-03T12:02:33.960676+09:00",
+          "final_url": "https://www.abcya.com/games/animate",
+          "source_id": "auto_direct_elementary_web_activity",
+          "source_profile_id": "auto_direct_elementary_web_activity",
+          "source_run_id": "qf-auto-20260603-120233",
+          "source_run_order": 44,
+          "title": "ABCya Animate 이야기 장면 만들기",
+          "url": "https://www.abcya.com/games/animate"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_art_animation_abcya_alt",
+        "auto_direct_elementary_web_activity"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260603-141805",
+        "qf-auto-20260603-120233"
+      ],
+      "evidence_urls": [
+        "https://www.abcya.com/games/animate"
+      ],
+      "hidden_duplicate_count": 2,
+      "how_students_use_it": "프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다.",
+      "item_id": "cand-auto-art-animation-abcya-alt-abcya-animate",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_art_animation_abcya_alt",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "art",
+        "creative_expression"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "ABCya Animate",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.abcya.com/games/animate",
+      "what": "장면을 추가하고 그림을 움직여 짧은 애니메이션을 만드는 초등 미술·국어 창작 웹 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "art",
+          "creative_expression"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다. 방식으로 바로 활용할 수 있고, 웹 활동: create frame-by-frame animation in browser 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-engineering-fidgit-power-pbs-kids-design-squad-fidgit-power",
+      "canonical_final_url": "https://pbskids.org/videos/design-squad",
+      "classroom_use_case": "science, engineering_design 수업에서 부품을 배치하고 작동 결과를 보며 설계를 수정한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "공학 설계",
+        "에너지",
+        "문제 해결"
+      ],
+      "direct_play_evidence": "웹 활동: arrange parts and test an engineering solution",
+      "disposition": "candidate_internal_review_only",
+      "domain": "pbskids.org",
+      "duplicate_count": 4,
+      "duplicate_history": [
+        {
+          "candidate_id": "cand-auto-science-designsquad-fidgit-power-pbs-kids-design-squad-fidgit-power",
+          "canonical_final_url": "https://pbskids.org/videos/design-squad",
+          "created_at": "2026-06-04T13:53:05.292767+09:00",
+          "final_url": "https://pbskids.org/videos/design-squad",
+          "source_id": "auto_science_designsquad_fidgit_power",
+          "source_profile_id": "auto_science_designsquad_fidgit_power",
+          "source_run_id": "qf-auto-20260604-135037",
+          "source_run_order": 6,
+          "title": "PBS Kids Design Squad Fidgit Power",
+          "url": "https://pbskids.org/videos/design-squad"
+        },
+        {
+          "candidate_id": "cand-auto-science-engineering-pbs-fidgit-power-pbs-kids-design-squad-fidgit-power",
+          "canonical_final_url": "https://pbskids.org/videos/design-squad",
+          "created_at": "2026-06-04T03:08:45.414813+09:00",
+          "final_url": "https://pbskids.org/videos/design-squad",
+          "source_id": "auto_science_engineering_pbs_fidgit_power",
+          "source_profile_id": "auto_science_engineering_pbs_fidgit_power",
+          "source_run_id": "qf-auto-20260604-030547",
+          "source_run_order": 21,
+          "title": "PBS Kids Design Squad Fidgit Power",
+          "url": "https://pbskids.org/videos/design-squad"
+        },
+        {
+          "candidate_id": "cand-auto-science-engineering-pbs-fidgit-power-pbs-kids-design-squad-fidgit-power",
+          "canonical_final_url": "https://pbskids.org/videos/design-squad",
+          "created_at": "2026-06-03T23:01:15.924206+09:00",
+          "final_url": "https://pbskids.org/videos/design-squad",
+          "source_id": "auto_science_engineering_pbs_fidgit_power",
+          "source_profile_id": "auto_science_engineering_pbs_fidgit_power",
+          "source_run_id": "qf-auto-20260603-230115",
+          "source_run_order": 26,
+          "title": "PBS Kids Design Squad Fidgit Power",
+          "url": "https://pbskids.org/videos/design-squad"
+        }
+      ],
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "duplicate_source_profile_ids": [
+        "auto_science_engineering_fidgit_power",
+        "auto_science_designsquad_fidgit_power",
+        "auto_science_engineering_pbs_fidgit_power"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833",
+        "qf-auto-20260604-135037",
+        "qf-auto-20260604-030547",
+        "qf-auto-20260603-230115"
+      ],
+      "evidence_urls": [
+        "https://pbskids.org/videos/design-squad"
+      ],
+      "hidden_duplicate_count": 3,
+      "how_students_use_it": "부품을 배치하고 작동 결과를 보며 설계를 수정한다.",
+      "item_id": "cand-auto-science-engineering-fidgit-power-pbs-kids-design-squad-fidgit-power",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_engineering_fidgit_power",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "science",
+        "engineering_design"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "PBS Kids Design Squad Fidgit Power",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://pbskids.org/videos/design-squad",
+      "what": "장치를 조립해 전력을 전달하고 문제를 해결하는 초등 공학 설계형 브라우저 게임 활동.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "engineering_design"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 부품을 배치하고 작동 결과를 보며 설계를 수정한다. 방식으로 바로 활용할 수 있고, 웹 활동: arrange parts and test an engineering solution 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-tinkercad-codeblocks-tinkercad-codeblocks",
+      "canonical_final_url": "https://www.tinkercad.com/codeblocks",
+      "classroom_use_case": "coding, creative_coding 수업에서 코드 블록을 연결해 3D 물체 생성 결과를 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "순차",
+        "반복",
+        "3D 표현"
+      ],
+      "direct_play_evidence": "브라우저 활동: arrange code blocks to generate 3D shapes",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.tinkercad.com",
+      "duplicate_count": 1,
+      "duplicate_history": [],
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "duplicate_source_profile_ids": [
+        "auto_coding_tinkercad_codeblocks"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833"
+      ],
+      "evidence_urls": [
+        "https://www.tinkercad.com/codeblocks"
+      ],
+      "hidden_duplicate_count": 0,
+      "how_students_use_it": "코드 블록을 연결해 3D 물체 생성 결과를 확인한다.",
+      "item_id": "cand-auto-coding-tinkercad-codeblocks-tinkercad-codeblocks",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": false,
+      "quality_score": 92,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:unclassified",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_tinkercad_codeblocks",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "coding",
+        "creative_coding"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Tinkercad Codeblocks",
+      "triage_bucket": "unreviewed",
+      "triage_priority": 40,
+      "url": "https://www.tinkercad.com/codeblocks",
+      "what": "블록 명령으로 3D 모양을 만들며 순서와 반복을 탐구하는 창의 코딩 웹 활동 후보.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "creative_coding"
+        ]
+      },
+      "why_questionable": "특이 경고 없음",
+      "why_recommended": "초등 수업에서 코드 블록을 연결해 3D 물체 생성 결과를 확인한다. 방식으로 바로 활용할 수 있고, 브라우저 활동: arrange code blocks to generate 3D shapes 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-bbc-guardians-math-bbc-bitesize-guardians-defenders-of-mathematica",
+      "canonical_final_url": "https://www.bbc.co.uk/bitesize/articles/zrybvk7",
+      "classroom_use_case": "math, number_sense 수업에서 게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "수 감각",
+        "연산"
+      ],
+      "direct_play_evidence": "웹 활동: play a browser math game with interactive challenges",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.bbc.co.uk",
+      "duplicate_count": 1,
+      "duplicate_history": [],
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "duplicate_source_profile_ids": [
+        "auto_math_bbc_guardians_math"
+      ],
+      "duplicate_source_run_ids": [
+        "qf-auto-20260604-171833"
+      ],
+      "evidence_urls": [
+        "https://www.bbc.co.uk/bitesize/articles/zrybvk7"
+      ],
+      "hidden_duplicate_count": 0,
+      "how_students_use_it": "게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다.",
+      "item_id": "cand-auto-math-bbc-guardians-math-bbc-bitesize-guardians-defenders-of-mathematica",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": false,
+      "quality_score": 86,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:unclassified",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "none",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_bbc_guardians_math",
+      "source_run_id": "qf-auto-20260604-171833",
+      "source_run_order": 0,
+      "subject_unit_tags": [
+        "math",
+        "number_sense"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "BBC Bitesize Guardians: Defenders of Mathematica",
+      "triage_bucket": "unreviewed",
+      "triage_priority": 40,
+      "url": "https://www.bbc.co.uk/bitesize/articles/zrybvk7",
+      "what": "초등 수준 수 감각과 문제 해결을 게임 방식으로 연습하는 브라우저 수학 활동 후보.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "number_sense"
+        ]
+      },
+      "why_questionable": "특이 경고 없음",
+      "why_recommended": "초등 수업에서 게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다. 방식으로 바로 활용할 수 있고, 웹 활동: play a browser math game with interactive challenges 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
       "candidate_id": "cand-auto-coding-blockly-maze-ko-blockly-maze-korean-sequencing-activity",
       "canonical_final_url": "https://blockly.games/maze?lang=ko",
       "classroom_use_case": "coding, sequencing 수업에서 학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
@@ -291,7 +1412,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_blockly_maze_ko",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "sequencing"
@@ -404,7 +1525,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_codeorg_artist",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "art"
@@ -727,7 +1848,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_scratch_intro",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "coding",
         "creative_coding"
@@ -894,7 +2015,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_kandinsky",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "art",
         "music"
@@ -1285,7 +2406,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_quickdraw",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "art",
         "ai_literacy"
@@ -1737,7 +2858,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geometry_polypad",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -2163,7 +3284,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_turtle_pond_nctm",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "math",
         "coordinate_reasoning"
@@ -2497,7 +3618,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_engineering_tamis_tower",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "science",
         "engineering_design"
@@ -2703,7 +3824,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_geogebra_geometry",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -2856,7 +3977,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_autodraw",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "art",
         "ai_literacy"
@@ -2969,7 +4090,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_music_typatone",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "music",
         "Korean/language"
@@ -3081,7 +4202,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_music_incredibox_demo",
       "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
+      "source_run_order": 1,
       "subject_unit_tags": [
         "music",
         "creative_expression"
@@ -3103,1127 +4224,6 @@
       },
       "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
       "why_recommended": "초등 수업에서 학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다. 방식으로 바로 활용할 수 있고, Incredibox demo exposes direct browser play controls for beat mixing. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-clock-mlc-math-learning-center-math-clock",
-      "canonical_final_url": "https://apps.mathlearningcenter.org/math-clock",
-      "classroom_use_case": "math, time 수업에서 시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "시각 읽기",
-        "경과 시간"
-      ],
-      "direct_play_evidence": "웹 활동: movable clock hands and interactive time display",
-      "disposition": "candidate_internal_review_only",
-      "domain": "apps.mathlearningcenter.org",
-      "duplicate_count": 2,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-math-learning-center-math-clock-time-model",
-          "canonical_final_url": "https://apps.mathlearningcenter.org/math-clock",
-          "created_at": "2026-06-03T12:37:59.822352+09:00",
-          "final_url": "https://apps.mathlearningcenter.org/math-clock/",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-123759",
-          "source_run_order": 43,
-          "title": "Math Learning Center Math Clock Time Model",
-          "url": "https://apps.mathlearningcenter.org/math-clock/"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_math_clock_mlc",
-        "auto_direct_elementary_web_activity"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260603-123759"
-      ],
-      "evidence_urls": [
-        "https://apps.mathlearningcenter.org/math-clock/"
-      ],
-      "hidden_duplicate_count": 1,
-      "how_students_use_it": "시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다.",
-      "item_id": "cand-auto-math-clock-mlc-math-learning-center-math-clock",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 98,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier1",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_clock_mlc",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "math",
-        "time"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "Math Learning Center Math Clock",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://apps.mathlearningcenter.org/math-clock/",
-      "what": "브라우저에서 시계 바늘과 시간 표시를 직접 조작하며 시각 읽기와 경과 시간을 탐구하는 초등 수학 웹 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "time"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 시계 바늘을 움직이고 디지털/아날로그 표시를 비교한다. 방식으로 바로 활용할 수 있고, 웹 활동: movable clock hands and interactive time display 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-pattern-blocks-didax-didax-pattern-blocks",
-      "canonical_final_url": "https://www.didax.com/apps/pattern-blocks",
-      "classroom_use_case": "math, geometry 수업에서 블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "평면도형",
-        "대칭",
-        "도형 구성"
-      ],
-      "direct_play_evidence": "브라우저 활동: drag pattern blocks on a canvas",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.didax.com",
-      "duplicate_count": 2,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-didax-pattern-blocks",
-          "canonical_final_url": "https://www.didax.com/apps/pattern-blocks",
-          "created_at": "2026-06-03T14:50:37.597078+09:00",
-          "final_url": "https://www.didax.com/apps/pattern-blocks/",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-145037",
-          "source_run_order": 39,
-          "title": "Didax Pattern Blocks - 패턴 블록 구성",
-          "url": "https://www.didax.com/apps/pattern-blocks/"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_math_pattern_blocks_didax",
-        "auto_direct_elementary_web_activity"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260603-145037"
-      ],
-      "evidence_urls": [
-        "https://www.didax.com/apps/pattern-blocks/"
-      ],
-      "hidden_duplicate_count": 1,
-      "how_students_use_it": "블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다.",
-      "item_id": "cand-auto-math-pattern-blocks-didax-didax-pattern-blocks",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_pattern_blocks_didax",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "math",
-        "geometry"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "Didax Pattern Blocks",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.didax.com/apps/pattern-blocks/",
-      "what": "패턴 블록을 화면에 끌어 놓고 회전·조합하면서 도형 구성과 대칭을 탐구하는 초등 수학 조작 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "geometry"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 블록을 드래그해 모양을 만들고 회전·뒤집기를 시도한다. 방식으로 바로 활용할 수 있고, 브라우저 활동: drag pattern blocks on a canvas 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-science-force-motion-phet-phet",
-      "canonical_final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
-      "classroom_use_case": "science, force_motion 수업에서 물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "힘",
-        "운동",
-        "마찰"
-      ],
-      "direct_play_evidence": "시뮬레이션: manipulate pushes, friction, motion in browser",
-      "disposition": "candidate_internal_review_only",
-      "domain": "phet.colorado.edu",
-      "duplicate_count": 2,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-phet-forces-motion-basics-korean-simulation",
-          "canonical_final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
-          "created_at": "2026-06-03T12:37:59.822352+09:00",
-          "final_url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-123759",
-          "source_run_order": 43,
-          "title": "PhET Forces Motion Basics Korean Simulation",
-          "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_science_force_motion_phet",
-        "auto_direct_elementary_web_activity"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260603-123759"
-      ],
-      "evidence_urls": [
-        "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko"
-      ],
-      "hidden_duplicate_count": 1,
-      "how_students_use_it": "물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다.",
-      "item_id": "cand-auto-science-force-motion-phet-phet",
-      "korean_accessibility": "ko_ui",
-      "needs_school_check": true,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:ko_ui",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier1",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_science_force_motion_phet",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "science",
-        "force_motion"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "PhET 힘과 운동 기초",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html?locale=ko",
-      "what": "한국어 UI 시뮬레이션에서 물체를 밀고 힘의 방향과 크기를 바꾸며 운동 변화를 관찰하는 초등 과학 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "science",
-          "force_motion"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 물체에 힘을 가하고 마찰·힘 조건을 바꾸어 움직임을 관찰한다. 방식으로 바로 활용할 수 있고, 시뮬레이션: manipulate pushes, friction, motion in browser 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-science-water-aquation-smithsonian-aquation",
-      "canonical_final_url": "https://ssec.si.edu/aquation",
-      "classroom_use_case": "science, environment, social studies 수업에서 제한된 물을 지역에 배분하고 선택 결과를 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "물 자원",
-        "환경",
-        "지역 사회 문제"
-      ],
-      "direct_play_evidence": "웹 활동: allocate water resources and respond to game feedback",
-      "disposition": "candidate_internal_review_only",
-      "domain": "ssec.si.edu",
-      "duplicate_count": 2,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-smithsonian-aquation",
-          "canonical_final_url": "https://ssec.si.edu/aquation",
-          "created_at": "2026-06-03T21:53:27.246032+09:00",
-          "final_url": "https://ssec.si.edu/aquation",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-215327",
-          "source_run_order": 29,
-          "title": "Smithsonian Aquation 물 자원 게임",
-          "url": "https://ssec.si.edu/aquation"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_science_water_aquation",
-        "auto_direct_elementary_web_activity"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260603-215327"
-      ],
-      "evidence_urls": [
-        "https://ssec.si.edu/aquation"
-      ],
-      "hidden_duplicate_count": 1,
-      "how_students_use_it": "제한된 물을 지역에 배분하고 선택 결과를 확인한다.",
-      "item_id": "cand-auto-science-water-aquation-smithsonian-aquation",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_science_water_aquation",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "science",
-        "environment",
-        "social studies"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Smithsonian Aquation",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://ssec.si.edu/aquation",
-      "what": "물 자원을 배분하고 지역의 필요를 맞추는 게임형 웹 활동으로 환경·사회 문제를 탐구한다.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "science",
-          "environment",
-          "social studies"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 제한된 물을 지역에 배분하고 선택 결과를 확인한다. 방식으로 바로 활용할 수 있고, 웹 활동: allocate water resources and respond to game feedback 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-coding-ai-oceans-codeorg-code-org-ai-for-oceans",
-      "canonical_final_url": "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1",
-      "classroom_use_case": "coding, ai_literacy 수업에서 화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "인공지능 기초",
-        "분류",
-        "데이터"
-      ],
-      "direct_play_evidence": "웹 활동: classify ocean items and train a model in browser",
-      "disposition": "candidate_internal_review_only",
-      "domain": "studio.code.org",
-      "duplicate_count": 1,
-      "duplicate_history": [],
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_DOMAIN_REPEAT"
-        ],
-        "kind": "same_run_domain",
-        "label": "이번 실행 도메인 20개"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_coding_ai_oceans_codeorg"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833"
-      ],
-      "evidence_urls": [
-        "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1"
-      ],
-      "hidden_duplicate_count": 0,
-      "how_students_use_it": "화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다.",
-      "item_id": "cand-auto-coding-ai-oceans-codeorg-code-org-ai-for-oceans",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_coding_ai_oceans_codeorg",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "coding",
-        "ai_literacy"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Code.org AI for Oceans",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1",
-      "what": "바다 생물을 분류하며 AI 학습 데이터를 만드는 과정을 체험하는 초등 코딩·디지털 소양 웹 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "coding",
-          "ai_literacy"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 도메인 20개",
-      "why_recommended": "초등 수업에서 화면의 해양 생물을 분류하고 AI 모델 반응을 확인한다. 방식으로 바로 활용할 수 있고, 웹 활동: classify ocean items and train a model in browser 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-social-mapmaker-natgeo-national-geographic-mapmaker",
-      "canonical_final_url": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide",
-      "classroom_use_case": "social studies 수업에서 지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "지도 읽기",
-        "지역 비교",
-        "환경"
-      ],
-      "direct_play_evidence": "웹 활동: pan, zoom, and toggle map layers in browser",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.nationalgeographic.org",
-      "duplicate_count": 1,
-      "duplicate_history": [],
-      "duplicate_signal": {
-        "codes": [],
-        "kind": "none",
-        "label": ""
-      },
-      "duplicate_source_profile_ids": [
-        "auto_social_mapmaker_natgeo"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833"
-      ],
-      "evidence_urls": [
-        "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/"
-      ],
-      "hidden_duplicate_count": 0,
-      "how_students_use_it": "지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다.",
-      "item_id": "cand-auto-social-mapmaker-natgeo-national-geographic-mapmaker",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": false,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_social_mapmaker_natgeo",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "social studies"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "National Geographic MapMaker",
-      "triage_bucket": "unreviewed",
-      "triage_priority": 40,
-      "url": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/",
-      "what": "지도 레이어를 켜고 끄며 지형·인구·기후 정보를 비교하는 초등 사회/지리 탐구 웹 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "social studies"
-        ]
-      },
-      "why_questionable": "특이 경고 없음",
-      "why_recommended": "초등 수업에서 지도 레이어를 선택하고 확대·이동하며 지역 정보를 비교한다. 방식으로 바로 활용할 수 있고, 웹 활동: pan, zoom, and toggle map layers in browser 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-art-animation-abcya-alt-abcya-animate",
-      "canonical_final_url": "https://www.abcya.com/games/animate",
-      "classroom_use_case": "art, creative_expression 수업에서 프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "시각 표현",
-        "이야기 구성"
-      ],
-      "direct_play_evidence": "웹 활동: create frame-by-frame animation in browser",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.abcya.com",
-      "duplicate_count": 3,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-abcya-animate",
-          "canonical_final_url": "https://www.abcya.com/games/animate",
-          "created_at": "2026-06-03T14:18:05.308449+09:00",
-          "final_url": "https://www.abcya.com/games/animate",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-141805",
-          "source_run_order": 40,
-          "title": "ABCya Animate",
-          "url": "https://www.abcya.com/games/animate"
-        },
-        {
-          "candidate_id": "cand-auto-direct-elementary-web-activity-abcya-animate",
-          "canonical_final_url": "https://www.abcya.com/games/animate",
-          "created_at": "2026-06-03T12:02:33.960676+09:00",
-          "final_url": "https://www.abcya.com/games/animate",
-          "source_id": "auto_direct_elementary_web_activity",
-          "source_profile_id": "auto_direct_elementary_web_activity",
-          "source_run_id": "qf-auto-20260603-120233",
-          "source_run_order": 44,
-          "title": "ABCya Animate 이야기 장면 만들기",
-          "url": "https://www.abcya.com/games/animate"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_art_animation_abcya_alt",
-        "auto_direct_elementary_web_activity"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260603-141805",
-        "qf-auto-20260603-120233"
-      ],
-      "evidence_urls": [
-        "https://www.abcya.com/games/animate"
-      ],
-      "hidden_duplicate_count": 2,
-      "how_students_use_it": "프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다.",
-      "item_id": "cand-auto-art-animation-abcya-alt-abcya-animate",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_art_animation_abcya_alt",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "art",
-        "creative_expression"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "ABCya Animate",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.abcya.com/games/animate",
-      "what": "장면을 추가하고 그림을 움직여 짧은 애니메이션을 만드는 초등 미술·국어 창작 웹 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "art",
-          "creative_expression"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 프레임을 만들고 오브젝트를 움직여 애니메이션을 완성한다. 방식으로 바로 활용할 수 있고, 웹 활동: create frame-by-frame animation in browser 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-science-engineering-fidgit-power-pbs-kids-design-squad-fidgit-power",
-      "canonical_final_url": "https://pbskids.org/videos/design-squad",
-      "classroom_use_case": "science, engineering_design 수업에서 부품을 배치하고 작동 결과를 보며 설계를 수정한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "공학 설계",
-        "에너지",
-        "문제 해결"
-      ],
-      "direct_play_evidence": "웹 활동: arrange parts and test an engineering solution",
-      "disposition": "candidate_internal_review_only",
-      "domain": "pbskids.org",
-      "duplicate_count": 4,
-      "duplicate_history": [
-        {
-          "candidate_id": "cand-auto-science-designsquad-fidgit-power-pbs-kids-design-squad-fidgit-power",
-          "canonical_final_url": "https://pbskids.org/videos/design-squad",
-          "created_at": "2026-06-04T13:53:05.292767+09:00",
-          "final_url": "https://pbskids.org/videos/design-squad",
-          "source_id": "auto_science_designsquad_fidgit_power",
-          "source_profile_id": "auto_science_designsquad_fidgit_power",
-          "source_run_id": "qf-auto-20260604-135037",
-          "source_run_order": 6,
-          "title": "PBS Kids Design Squad Fidgit Power",
-          "url": "https://pbskids.org/videos/design-squad"
-        },
-        {
-          "candidate_id": "cand-auto-science-engineering-pbs-fidgit-power-pbs-kids-design-squad-fidgit-power",
-          "canonical_final_url": "https://pbskids.org/videos/design-squad",
-          "created_at": "2026-06-04T03:08:45.414813+09:00",
-          "final_url": "https://pbskids.org/videos/design-squad",
-          "source_id": "auto_science_engineering_pbs_fidgit_power",
-          "source_profile_id": "auto_science_engineering_pbs_fidgit_power",
-          "source_run_id": "qf-auto-20260604-030547",
-          "source_run_order": 21,
-          "title": "PBS Kids Design Squad Fidgit Power",
-          "url": "https://pbskids.org/videos/design-squad"
-        },
-        {
-          "candidate_id": "cand-auto-science-engineering-pbs-fidgit-power-pbs-kids-design-squad-fidgit-power",
-          "canonical_final_url": "https://pbskids.org/videos/design-squad",
-          "created_at": "2026-06-03T23:01:15.924206+09:00",
-          "final_url": "https://pbskids.org/videos/design-squad",
-          "source_id": "auto_science_engineering_pbs_fidgit_power",
-          "source_profile_id": "auto_science_engineering_pbs_fidgit_power",
-          "source_run_id": "qf-auto-20260603-230115",
-          "source_run_order": 26,
-          "title": "PBS Kids Design Squad Fidgit Power",
-          "url": "https://pbskids.org/videos/design-squad"
-        }
-      ],
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "duplicate_source_profile_ids": [
-        "auto_science_engineering_fidgit_power",
-        "auto_science_designsquad_fidgit_power",
-        "auto_science_engineering_pbs_fidgit_power"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833",
-        "qf-auto-20260604-135037",
-        "qf-auto-20260604-030547",
-        "qf-auto-20260603-230115"
-      ],
-      "evidence_urls": [
-        "https://pbskids.org/videos/design-squad"
-      ],
-      "hidden_duplicate_count": 3,
-      "how_students_use_it": "부품을 배치하고 작동 결과를 보며 설계를 수정한다.",
-      "item_id": "cand-auto-science-engineering-fidgit-power-pbs-kids-design-squad-fidgit-power",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_science_engineering_fidgit_power",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "science",
-        "engineering_design"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "PBS Kids Design Squad Fidgit Power",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://pbskids.org/videos/design-squad",
-      "what": "장치를 조립해 전력을 전달하고 문제를 해결하는 초등 공학 설계형 브라우저 게임 활동.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "science",
-          "engineering_design"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 부품을 배치하고 작동 결과를 보며 설계를 수정한다. 방식으로 바로 활용할 수 있고, 웹 활동: arrange parts and test an engineering solution 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-coding-tinkercad-codeblocks-tinkercad-codeblocks",
-      "canonical_final_url": "https://www.tinkercad.com/codeblocks",
-      "classroom_use_case": "coding, creative_coding 수업에서 코드 블록을 연결해 3D 물체 생성 결과를 확인한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "순차",
-        "반복",
-        "3D 표현"
-      ],
-      "direct_play_evidence": "브라우저 활동: arrange code blocks to generate 3D shapes",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.tinkercad.com",
-      "duplicate_count": 1,
-      "duplicate_history": [],
-      "duplicate_signal": {
-        "codes": [],
-        "kind": "none",
-        "label": ""
-      },
-      "duplicate_source_profile_ids": [
-        "auto_coding_tinkercad_codeblocks"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833"
-      ],
-      "evidence_urls": [
-        "https://www.tinkercad.com/codeblocks"
-      ],
-      "hidden_duplicate_count": 0,
-      "how_students_use_it": "코드 블록을 연결해 3D 물체 생성 결과를 확인한다.",
-      "item_id": "cand-auto-coding-tinkercad-codeblocks-tinkercad-codeblocks",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": false,
-      "quality_score": 92,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:unclassified",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_coding_tinkercad_codeblocks",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "coding",
-        "creative_coding"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Tinkercad Codeblocks",
-      "triage_bucket": "unreviewed",
-      "triage_priority": 40,
-      "url": "https://www.tinkercad.com/codeblocks",
-      "what": "블록 명령으로 3D 모양을 만들며 순서와 반복을 탐구하는 창의 코딩 웹 활동 후보.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "coding",
-          "creative_coding"
-        ]
-      },
-      "why_questionable": "특이 경고 없음",
-      "why_recommended": "초등 수업에서 코드 블록을 연결해 3D 물체 생성 결과를 확인한다. 방식으로 바로 활용할 수 있고, 브라우저 활동: arrange code blocks to generate 3D shapes 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-bbc-guardians-math-bbc-bitesize-guardians-defenders-of-mathematica",
-      "canonical_final_url": "https://www.bbc.co.uk/bitesize/articles/zrybvk7",
-      "classroom_use_case": "math, number_sense 수업에서 게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "수 감각",
-        "연산"
-      ],
-      "direct_play_evidence": "웹 활동: play a browser math game with interactive challenges",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.bbc.co.uk",
-      "duplicate_count": 1,
-      "duplicate_history": [],
-      "duplicate_signal": {
-        "codes": [],
-        "kind": "none",
-        "label": ""
-      },
-      "duplicate_source_profile_ids": [
-        "auto_math_bbc_guardians_math"
-      ],
-      "duplicate_source_run_ids": [
-        "qf-auto-20260604-171833"
-      ],
-      "evidence_urls": [
-        "https://www.bbc.co.uk/bitesize/articles/zrybvk7"
-      ],
-      "hidden_duplicate_count": 0,
-      "how_students_use_it": "게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다.",
-      "item_id": "cand-auto-math-bbc-guardians-math-bbc-bitesize-guardians-defenders-of-mathematica",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": false,
-      "quality_score": 86,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:unclassified",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "none",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_bbc_guardians_math",
-      "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
-      "subject_unit_tags": [
-        "math",
-        "number_sense"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "BBC Bitesize Guardians: Defenders of Mathematica",
-      "triage_bucket": "unreviewed",
-      "triage_priority": 40,
-      "url": "https://www.bbc.co.uk/bitesize/articles/zrybvk7",
-      "what": "초등 수준 수 감각과 문제 해결을 게임 방식으로 연습하는 브라우저 수학 활동 후보.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "number_sense"
-        ]
-      },
-      "why_questionable": "특이 경고 없음",
-      "why_recommended": "초등 수업에서 게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다. 방식으로 바로 활용할 수 있고, 웹 활동: play a browser math game with interactive challenges 근거가 확인됨."
     },
     {
       "action_labels": {
@@ -17690,1073 +17690,13 @@
   },
   "destination": "runtime_only",
   "latest_run_counts": {
-    "candidate_count": 12,
-    "evidence_count": 12,
-    "rejected_count": 1
+    "candidate_count": 10,
+    "evidence_count": 10,
+    "rejected_count": 0
   },
-  "operator_review_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-164445/operator_review/review.json",
+  "operator_review_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-171833/operator_review/review.json",
   "public_payload": false,
   "raw_candidate_preview": [
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-coding-blockly-maze-ko-blockly-maze-korean-sequencing-activity",
-      "classroom_use_case": "coding, sequencing 수업에서 학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "순차 구조",
-        "알고리즘 기초"
-      ],
-      "direct_play_evidence": "URL 자체에서 Blockly maze interactive play activity가 열린다.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "blockly.games",
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "evidence_urls": [
-        "https://blockly.games/maze?lang=ko"
-      ],
-      "how_students_use_it": "학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다.",
-      "item_id": "cand-auto-coding-blockly-maze-ko-blockly-maze-korean-sequencing-activity",
-      "korean_accessibility": "ko_ui",
-      "needs_school_check": true,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:ko_ui",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier1",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_coding_blockly_maze_ko",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "coding",
-        "sequencing"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "Blockly Maze Korean sequencing activity",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://blockly.games/maze?lang=ko",
-      "what": "브라우저에서 블록을 끌어 미로를 해결하는 interactive coding web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "coding",
-          "sequencing"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다. 방식으로 바로 활용할 수 있고, URL 자체에서 Blockly maze interactive play activity가 열린다. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-coding-codeorg-artist-code-org-artist-course-drawing-level",
-      "classroom_use_case": "coding, art 수업에서 학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "반복 전 순차 명령",
-        "도형 그리기"
-      ],
-      "direct_play_evidence": "Code.org studio level URL points to an interactive coding puzzle screen.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "studio.code.org",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://studio.code.org/fr/courses/artist/units/1/lessons/1/levels/1"
-      ],
-      "how_students_use_it": "학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다.",
-      "item_id": "cand-auto-coding-codeorg-artist-code-org-artist-course-drawing-level",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_coding_codeorg_artist",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "coding",
-        "art"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Code.org Artist course drawing level",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://studio.code.org/fr/courses/artist/units/1/lessons/1/levels/1",
-      "what": "브라우저에서 블록 명령으로 선과 도형을 그리는 interactive creative coding activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "coding",
-          "art"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다. 방식으로 바로 활용할 수 있고, Code.org studio level URL points to an interactive coding puzzle screen. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-coding-scratch-intro-scratch-starter-editor-tutorial",
-      "classroom_use_case": "coding, creative_coding 수업에서 학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "이벤트",
-        "캐릭터 움직임"
-      ],
-      "direct_play_evidence": "Scratch project editor opens directly in browser with starter tutorial controls.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "scratch.mit.edu",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
-      ],
-      "how_students_use_it": "학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다.",
-      "item_id": "cand-auto-coding-scratch-intro-scratch-starter-editor-tutorial",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_coding_scratch_intro",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "coding",
-        "creative_coding"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Scratch starter editor tutorial",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
-      "what": "브라우저 편집기에서 캐릭터 움직임을 만드는 interactive creative coding web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "coding",
-          "creative_coding"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다. 방식으로 바로 활용할 수 있고, Scratch project editor opens directly in browser with starter tutorial controls. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-art-kandinsky-chrome-music-lab-kandinsky-drawing-sound",
-      "classroom_use_case": "art, music 수업에서 학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "선과 색",
-        "소리 표현"
-      ],
-      "direct_play_evidence": "Kandinsky page provides direct drawing canvas and play control.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "musiclab.chromeexperiments.com",
-      "duplicate_signal": {
-        "codes": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "kind": "existing_domain",
-        "label": "기존 도메인 발견"
-      },
-      "evidence_urls": [
-        "https://musiclab.chromeexperiments.com/Kandinsky/"
-      ],
-      "how_students_use_it": "학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다.",
-      "item_id": "cand-auto-art-kandinsky-chrome-music-lab-kandinsky-drawing-sound",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 98,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier1",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [
-          "INVENTORY_DOMAIN_SEEN"
-        ],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_art_kandinsky",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "art",
-        "music"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
-      "title": "Chrome Music Lab Kandinsky drawing sound",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
-      "what": "그림을 그리면 소리로 바뀌는 interactive art and music web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "art",
-          "music"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
-      "why_recommended": "초등 수업에서 학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다. 방식으로 바로 활용할 수 있고, Kandinsky page provides direct drawing canvas and play control. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-game",
-      "classroom_use_case": "art, ai_literacy 수업에서 학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "빠른 스케치",
-        "AI 인식"
-      ],
-      "direct_play_evidence": "Quick Draw opens a direct browser drawing game with prompt and canvas.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "quickdraw.withgoogle.com",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://quickdraw.withgoogle.com/"
-      ],
-      "how_students_use_it": "학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다.",
-      "item_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-game",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_art_quickdraw",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "art",
-        "ai_literacy"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Quick Draw AI drawing game",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://quickdraw.withgoogle.com/",
-      "what": "제시어를 제한 시간 안에 그려 AI가 맞히는 interactive drawing game.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "art",
-          "ai_literacy"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다. 방식으로 바로 활용할 수 있고, Quick Draw opens a direct browser drawing game with prompt and canvas. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-geometry-polypad-polypad-geometry-workspace",
-      "classroom_use_case": "math, geometry 수업에서 학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "도형 구성",
-        "대칭과 넓이 탐구"
-      ],
-      "direct_play_evidence": "Polypad URL opens a browser manipulative workspace.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "polypad.amplify.com",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://polypad.amplify.com/p"
-      ],
-      "how_students_use_it": "학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다.",
-      "item_id": "cand-auto-math-geometry-polypad-polypad-geometry-workspace",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 92,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier1",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_geometry_polypad",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "math",
-        "geometry"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Polypad geometry workspace",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://polypad.amplify.com/p",
-      "what": "도형 타일과 가상 도구를 움직이는 interactive geometry manipulative web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "geometry"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다. 방식으로 바로 활용할 수 있고, Polypad URL opens a browser manipulative workspace. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-path",
-      "classroom_use_case": "math, coordinate_reasoning 수업에서 학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "좌표 감각",
-        "방향과 거리"
-      ],
-      "direct_play_evidence": "Turtle Pond is an NCTM Interactives activity page.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.nctm.org",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/"
-      ],
-      "how_students_use_it": "학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다.",
-      "item_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-path",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 88,
-      "quality_score_band": "good",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:partial",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_turtle_pond_nctm",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "math",
-        "coordinate_reasoning"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "NCTM Turtle Pond coordinate path",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/",
-      "what": "거북이를 좌표와 방향으로 움직이는 interactive math web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "coordinate_reasoning"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다. 방식으로 바로 활용할 수 있고, Turtle Pond is an NCTM Interactives activity page. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
-      "classroom_use_case": "science, engineering_design 수업에서 학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "구조물 안정성",
-        "설계 개선"
-      ],
-      "direct_play_evidence": "Tami's Tower page hosts a direct interactive engineering challenge.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "ssec.si.edu",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://ssec.si.edu/tamis-tower"
-      ],
-      "how_students_use_it": "학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다.",
-      "item_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
-      "korean_accessibility": "teacher_guided",
-      "needs_school_check": true,
-      "quality_score": 94,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:teacher_guided",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_science_engineering_tamis_tower",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "science",
-        "engineering_design"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Smithsonian Tami's Tower engineering challenge",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://ssec.si.edu/tamis-tower",
-      "what": "탑 구조를 만들고 안정성을 시험하는 interactive engineering web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "science",
-          "engineering_design"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다. 방식으로 바로 활용할 수 있고, Tami's Tower page hosts a direct interactive engineering challenge. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-math-geogebra-geometry-geogebra-geometry-construction-pad",
-      "classroom_use_case": "math, geometry 수업에서 학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "점 선분 각",
-        "도형 작도"
-      ],
-      "direct_play_evidence": "GeoGebra Geometry opens a browser construction workspace.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.geogebra.org",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://www.geogebra.org/geometry"
-      ],
-      "how_students_use_it": "학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다.",
-      "item_id": "cand-auto-math-geogebra-geometry-geogebra-geometry-construction-pad",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_math_geogebra_geometry",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "math",
-        "geometry"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "GeoGebra Geometry construction pad",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.geogebra.org/geometry",
-      "what": "점과 선분을 만들며 도형 성질을 탐구하는 interactive geometry web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "math",
-          "geometry"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다. 방식으로 바로 활용할 수 있고, GeoGebra Geometry opens a browser construction workspace. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-art-autodraw-autodraw-browser-drawing-helper",
-      "classroom_use_case": "art, ai_literacy 수업에서 학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "상징 그림",
-        "AI 추천 비교"
-      ],
-      "direct_play_evidence": "AutoDraw provides a direct canvas and suggestion controls in browser.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.autodraw.com",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://www.autodraw.com/"
-      ],
-      "how_students_use_it": "학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다.",
-      "item_id": "cand-auto-art-autodraw-autodraw-browser-drawing-helper",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_art_autodraw",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "art",
-        "ai_literacy"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "AutoDraw browser drawing helper",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.autodraw.com/",
-      "what": "손그림을 그리면 추천 그림으로 바꿔보는 interactive drawing web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "art",
-          "ai_literacy"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다. 방식으로 바로 활용할 수 있고, AutoDraw provides a direct canvas and suggestion controls in browser. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-music-typatone-typatone-keyboard-music-maker",
-      "classroom_use_case": "music, Korean/language 수업에서 학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "리듬과 멜로디",
-        "낱말 표현"
-      ],
-      "direct_play_evidence": "Typatone opens a browser keyboard-to-music play surface.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "typatone.com",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://typatone.com/"
-      ],
-      "how_students_use_it": "학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다.",
-      "item_id": "cand-auto-music-typatone-typatone-keyboard-music-maker",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_music_typatone",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "music",
-        "Korean/language"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Typatone keyboard music maker",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://typatone.com/",
-      "what": "글자를 입력하면 멜로디가 되는 interactive music composition web activity.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "music",
-          "Korean/language"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다. 방식으로 바로 활용할 수 있고, Typatone opens a browser keyboard-to-music play surface. 근거가 확인됨."
-    },
-    {
-      "action_labels": {
-        "check_school_computer": "학교컴 확인 필요",
-        "delete": "후보 삭제",
-        "edit_description": "설명 수정",
-        "hold": "보류",
-        "keep": "후보 유지"
-      },
-      "candidate_id": "cand-auto-music-incredibox-demo-incredibox-demo-beat-building",
-      "classroom_use_case": "music, creative_expression 수업에서 학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
-      "curriculum_topics": [
-        "음색 조합",
-        "반복 리듬"
-      ],
-      "direct_play_evidence": "Incredibox demo exposes direct browser play controls for beat mixing.",
-      "disposition": "candidate_internal_review_only",
-      "domain": "www.incredibox.com",
-      "duplicate_signal": {
-        "codes": [
-          "SAME_RUN_URL_DUPLICATE"
-        ],
-        "kind": "same_run_url",
-        "label": "이번 실행 URL 반복"
-      },
-      "evidence_urls": [
-        "https://www.incredibox.com/demo/"
-      ],
-      "how_students_use_it": "학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다.",
-      "item_id": "cand-auto-music-incredibox-demo-incredibox-demo-beat-building",
-      "korean_accessibility": "low_text_en",
-      "needs_school_check": true,
-      "quality_score": 96,
-      "quality_score_band": "excellent",
-      "quality_score_reasons": [
-        "direct_play:strong",
-        "student_action:strong",
-        "curriculum:topic",
-        "elementary_fit:strong",
-        "accessibility:low_text_en",
-        "safety:low_risk",
-        "novelty:fresh",
-        "source_tier:tier2",
-        "teacher_review:valuable"
-      ],
-      "review_actions": [
-        "keep",
-        "delete",
-        "hold",
-        "edit_description",
-        "check_school_computer"
-      ],
-      "risk_signals": {
-        "ad_intrusiveness": "low",
-        "chat_or_ugc_risk": "none",
-        "external_navigation_risk": "low",
-        "install_required": false,
-        "login_required": false,
-        "operational_warnings": [],
-        "privacy_risk": "low",
-        "reject_reason_codes": []
-      },
-      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
-      "school_check_status": "not_checked",
-      "source_profile_id": "auto_music_incredibox_demo",
-      "source_run_id": "qf-auto-20260604-164445",
-      "source_run_order": 0,
-      "subject_unit_tags": [
-        "music",
-        "creative_expression"
-      ],
-      "suggested_grade_label": "초등",
-      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
-      "title": "Incredibox demo beat building",
-      "triage_bucket": "duplicate_or_existing",
-      "triage_priority": 20,
-      "url": "https://www.incredibox.com/demo/",
-      "what": "캐릭터에 소리 아이콘을 올려 비트를 만드는 interactive music game.",
-      "where_in_class": {
-        "activity_type": "direct_play_web_activity",
-        "grade_band": "elementary",
-        "subject_tags": [
-          "music",
-          "creative_expression"
-        ]
-      },
-      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
-      "why_recommended": "초등 수업에서 학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다. 방식으로 바로 활용할 수 있고, Incredibox demo exposes direct browser play controls for beat mixing. 근거가 확인됨."
-    },
     {
       "action_labels": {
         "check_school_computer": "학교컴 확인 필요",
@@ -18824,7 +17764,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_clock_mlc",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "math",
         "time"
@@ -18915,7 +17855,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_pattern_blocks_didax",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "math",
         "geometry"
@@ -19006,7 +17946,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_force_motion_phet",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "science",
         "force_motion"
@@ -19095,7 +18035,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_water_aquation",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "science",
         "environment",
@@ -19186,7 +18126,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_ai_oceans_codeorg",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "coding",
         "ai_literacy"
@@ -19273,7 +18213,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_social_mapmaker_natgeo",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "social studies"
       ],
@@ -19361,7 +18301,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_art_animation_abcya_alt",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "art",
         "creative_expression"
@@ -19452,7 +18392,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_science_engineering_fidgit_power",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "science",
         "engineering_design"
@@ -19539,7 +18479,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_coding_tinkercad_codeblocks",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "coding",
         "creative_coding"
@@ -19625,7 +18565,7 @@
       "school_check_status": "not_checked",
       "source_profile_id": "auto_math_bbc_guardians_math",
       "source_run_id": "qf-auto-20260604-171833",
-      "source_run_order": 1,
+      "source_run_order": 0,
       "subject_unit_tags": [
         "math",
         "number_sense"
@@ -19647,6 +18587,1066 @@
       },
       "why_questionable": "특이 경고 없음",
       "why_recommended": "초등 수업에서 게임 속 문제를 풀고 캐릭터를 움직이며 단계별 도전을 해결한다. 방식으로 바로 활용할 수 있고, 웹 활동: play a browser math game with interactive challenges 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-blockly-maze-ko-blockly-maze-korean-sequencing-activity",
+      "classroom_use_case": "coding, sequencing 수업에서 학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "순차 구조",
+        "알고리즘 기초"
+      ],
+      "direct_play_evidence": "URL 자체에서 Blockly maze interactive play activity가 열린다.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "blockly.games",
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "evidence_urls": [
+        "https://blockly.games/maze?lang=ko"
+      ],
+      "how_students_use_it": "학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다.",
+      "item_id": "cand-auto-coding-blockly-maze-ko-blockly-maze-korean-sequencing-activity",
+      "korean_accessibility": "ko_ui",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:ko_ui",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_blockly_maze_ko",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "coding",
+        "sequencing"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "Blockly Maze Korean sequencing activity",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://blockly.games/maze?lang=ko",
+      "what": "브라우저에서 블록을 끌어 미로를 해결하는 interactive coding web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "sequencing"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 학생이 이동 블록을 조립하고 실행해 캐릭터가 목표 지점에 도착하도록 수정한다. 방식으로 바로 활용할 수 있고, URL 자체에서 Blockly maze interactive play activity가 열린다. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-codeorg-artist-code-org-artist-course-drawing-level",
+      "classroom_use_case": "coding, art 수업에서 학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "반복 전 순차 명령",
+        "도형 그리기"
+      ],
+      "direct_play_evidence": "Code.org studio level URL points to an interactive coding puzzle screen.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "studio.code.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://studio.code.org/fr/courses/artist/units/1/lessons/1/levels/1"
+      ],
+      "how_students_use_it": "학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다.",
+      "item_id": "cand-auto-coding-codeorg-artist-code-org-artist-course-drawing-level",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_codeorg_artist",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "coding",
+        "art"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Code.org Artist course drawing level",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://studio.code.org/fr/courses/artist/units/1/lessons/1/levels/1",
+      "what": "브라우저에서 블록 명령으로 선과 도형을 그리는 interactive creative coding activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "art"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 이동·회전 블록을 배치해 화면에 간단한 그림을 완성한다. 방식으로 바로 활용할 수 있고, Code.org studio level URL points to an interactive coding puzzle screen. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-coding-scratch-intro-scratch-starter-editor-tutorial",
+      "classroom_use_case": "coding, creative_coding 수업에서 학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "이벤트",
+        "캐릭터 움직임"
+      ],
+      "direct_play_evidence": "Scratch project editor opens directly in browser with starter tutorial controls.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "scratch.mit.edu",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://scratch.mit.edu/projects/editor/?tutorial=getStarted"
+      ],
+      "how_students_use_it": "학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다.",
+      "item_id": "cand-auto-coding-scratch-intro-scratch-starter-editor-tutorial",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_coding_scratch_intro",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "coding",
+        "creative_coding"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Scratch starter editor tutorial",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://scratch.mit.edu/projects/editor/?tutorial=getStarted",
+      "what": "브라우저 편집기에서 캐릭터 움직임을 만드는 interactive creative coding web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "coding",
+          "creative_coding"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 블록을 끌어 스프라이트를 움직이고 소리를 넣어 간단한 장면을 만든다. 방식으로 바로 활용할 수 있고, Scratch project editor opens directly in browser with starter tutorial controls. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-art-kandinsky-chrome-music-lab-kandinsky-drawing-sound",
+      "classroom_use_case": "art, music 수업에서 학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "선과 색",
+        "소리 표현"
+      ],
+      "direct_play_evidence": "Kandinsky page provides direct drawing canvas and play control.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "musiclab.chromeexperiments.com",
+      "duplicate_signal": {
+        "codes": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "kind": "existing_domain",
+        "label": "기존 도메인 발견"
+      },
+      "evidence_urls": [
+        "https://musiclab.chromeexperiments.com/Kandinsky/"
+      ],
+      "how_students_use_it": "학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다.",
+      "item_id": "cand-auto-art-kandinsky-chrome-music-lab-kandinsky-drawing-sound",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 98,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [
+          "INVENTORY_DOMAIN_SEEN"
+        ],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_art_kandinsky",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "art",
+        "music"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "운영 경고 확인 필요: INVENTORY_DOMAIN_SEEN",
+      "title": "Chrome Music Lab Kandinsky drawing sound",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "what": "그림을 그리면 소리로 바뀌는 interactive art and music web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "art",
+          "music"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 기존 도메인 발견 · 운영 경고: INVENTORY_DOMAIN_SEEN",
+      "why_recommended": "초등 수업에서 학생이 선과 도형을 그려 재생 버튼으로 그림이 만드는 소리를 비교한다. 방식으로 바로 활용할 수 있고, Kandinsky page provides direct drawing canvas and play control. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-game",
+      "classroom_use_case": "art, ai_literacy 수업에서 학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "빠른 스케치",
+        "AI 인식"
+      ],
+      "direct_play_evidence": "Quick Draw opens a direct browser drawing game with prompt and canvas.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "quickdraw.withgoogle.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://quickdraw.withgoogle.com/"
+      ],
+      "how_students_use_it": "학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다.",
+      "item_id": "cand-auto-art-quickdraw-quick-draw-ai-drawing-game",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_art_quickdraw",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "art",
+        "ai_literacy"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Quick Draw AI drawing game",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://quickdraw.withgoogle.com/",
+      "what": "제시어를 제한 시간 안에 그려 AI가 맞히는 interactive drawing game.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "art",
+          "ai_literacy"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 화면에 사물을 그리고 AI의 추측을 보며 표현 특징을 다시 생각한다. 방식으로 바로 활용할 수 있고, Quick Draw opens a direct browser drawing game with prompt and canvas. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-geometry-polypad-polypad-geometry-workspace",
+      "classroom_use_case": "math, geometry 수업에서 학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "도형 구성",
+        "대칭과 넓이 탐구"
+      ],
+      "direct_play_evidence": "Polypad URL opens a browser manipulative workspace.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://polypad.amplify.com/p"
+      ],
+      "how_students_use_it": "학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다.",
+      "item_id": "cand-auto-math-geometry-polypad-polypad-geometry-workspace",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 92,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier1",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_geometry_polypad",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "math",
+        "geometry"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Polypad geometry workspace",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://polypad.amplify.com/p",
+      "what": "도형 타일과 가상 도구를 움직이는 interactive geometry manipulative web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "geometry"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 도형 조각을 끌어 배열하고 회전·뒤집기로 모양 관계를 탐구한다. 방식으로 바로 활용할 수 있고, Polypad URL opens a browser manipulative workspace. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-path",
+      "classroom_use_case": "math, coordinate_reasoning 수업에서 학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "좌표 감각",
+        "방향과 거리"
+      ],
+      "direct_play_evidence": "Turtle Pond is an NCTM Interactives activity page.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.nctm.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/"
+      ],
+      "how_students_use_it": "학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다.",
+      "item_id": "cand-auto-math-turtle-pond-nctm-nctm-turtle-pond-coordinate-path",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 88,
+      "quality_score_band": "good",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:partial",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_turtle_pond_nctm",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "math",
+        "coordinate_reasoning"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "NCTM Turtle Pond coordinate path",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Turtle-Pond/",
+      "what": "거북이를 좌표와 방향으로 움직이는 interactive math web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "coordinate_reasoning"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 이동 명령을 조절해 거북이가 연못의 목표 지점에 닿도록 경로를 설계한다. 방식으로 바로 활용할 수 있고, Turtle Pond is an NCTM Interactives activity page. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
+      "classroom_use_case": "science, engineering_design 수업에서 학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "구조물 안정성",
+        "설계 개선"
+      ],
+      "direct_play_evidence": "Tami's Tower page hosts a direct interactive engineering challenge.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://ssec.si.edu/tamis-tower"
+      ],
+      "how_students_use_it": "학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다.",
+      "item_id": "cand-auto-science-engineering-tamis-tower-smithsonian-tami-s-tower-engineering-challenge",
+      "korean_accessibility": "teacher_guided",
+      "needs_school_check": true,
+      "quality_score": 94,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:teacher_guided",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_science_engineering_tamis_tower",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "science",
+        "engineering_design"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Smithsonian Tami's Tower engineering challenge",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://ssec.si.edu/tamis-tower",
+      "what": "탑 구조를 만들고 안정성을 시험하는 interactive engineering web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "science",
+          "engineering_design"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 제한 조건에 맞춰 탑을 구성하고 결과를 관찰해 설계를 고친다. 방식으로 바로 활용할 수 있고, Tami's Tower page hosts a direct interactive engineering challenge. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-math-geogebra-geometry-geogebra-geometry-construction-pad",
+      "classroom_use_case": "math, geometry 수업에서 학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "점 선분 각",
+        "도형 작도"
+      ],
+      "direct_play_evidence": "GeoGebra Geometry opens a browser construction workspace.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.geogebra.org",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.geogebra.org/geometry"
+      ],
+      "how_students_use_it": "학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다.",
+      "item_id": "cand-auto-math-geogebra-geometry-geogebra-geometry-construction-pad",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_math_geogebra_geometry",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "math",
+        "geometry"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "GeoGebra Geometry construction pad",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.geogebra.org/geometry",
+      "what": "점과 선분을 만들며 도형 성질을 탐구하는 interactive geometry web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "math",
+          "geometry"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 점·선분·다각형 도구로 도형을 만들고 변화를 관찰한다. 방식으로 바로 활용할 수 있고, GeoGebra Geometry opens a browser construction workspace. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-art-autodraw-autodraw-browser-drawing-helper",
+      "classroom_use_case": "art, ai_literacy 수업에서 학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "상징 그림",
+        "AI 추천 비교"
+      ],
+      "direct_play_evidence": "AutoDraw provides a direct canvas and suggestion controls in browser.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.autodraw.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.autodraw.com/"
+      ],
+      "how_students_use_it": "학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다.",
+      "item_id": "cand-auto-art-autodraw-autodraw-browser-drawing-helper",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_art_autodraw",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "art",
+        "ai_literacy"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "AutoDraw browser drawing helper",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.autodraw.com/",
+      "what": "손그림을 그리면 추천 그림으로 바꿔보는 interactive drawing web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "art",
+          "ai_literacy"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 간단한 사물을 그리고 추천 아이콘과 자신의 표현을 비교해 고른다. 방식으로 바로 활용할 수 있고, AutoDraw provides a direct canvas and suggestion controls in browser. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-music-typatone-typatone-keyboard-music-maker",
+      "classroom_use_case": "music, Korean/language 수업에서 학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "리듬과 멜로디",
+        "낱말 표현"
+      ],
+      "direct_play_evidence": "Typatone opens a browser keyboard-to-music play surface.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "typatone.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://typatone.com/"
+      ],
+      "how_students_use_it": "학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다.",
+      "item_id": "cand-auto-music-typatone-typatone-keyboard-music-maker",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_music_typatone",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "music",
+        "Korean/language"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Typatone keyboard music maker",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://typatone.com/",
+      "what": "글자를 입력하면 멜로디가 되는 interactive music composition web activity.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "music",
+          "Korean/language"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 단어를 입력하고 글자 순서가 만드는 소리 패턴을 듣고 비교한다. 방식으로 바로 활용할 수 있고, Typatone opens a browser keyboard-to-music play surface. 근거가 확인됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류",
+        "keep": "후보 유지"
+      },
+      "candidate_id": "cand-auto-music-incredibox-demo-incredibox-demo-beat-building",
+      "classroom_use_case": "music, creative_expression 수업에서 학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다. 활동으로 개념을 확인하거나 비교·탐구할 때 사용.",
+      "curriculum_topics": [
+        "음색 조합",
+        "반복 리듬"
+      ],
+      "direct_play_evidence": "Incredibox demo exposes direct browser play controls for beat mixing.",
+      "disposition": "candidate_internal_review_only",
+      "domain": "www.incredibox.com",
+      "duplicate_signal": {
+        "codes": [
+          "SAME_RUN_URL_DUPLICATE"
+        ],
+        "kind": "same_run_url",
+        "label": "이번 실행 URL 반복"
+      },
+      "evidence_urls": [
+        "https://www.incredibox.com/demo/"
+      ],
+      "how_students_use_it": "학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다.",
+      "item_id": "cand-auto-music-incredibox-demo-incredibox-demo-beat-building",
+      "korean_accessibility": "low_text_en",
+      "needs_school_check": true,
+      "quality_score": 96,
+      "quality_score_band": "excellent",
+      "quality_score_reasons": [
+        "direct_play:strong",
+        "student_action:strong",
+        "curriculum:topic",
+        "elementary_fit:strong",
+        "accessibility:low_text_en",
+        "safety:low_risk",
+        "novelty:fresh",
+        "source_tier:tier2",
+        "teacher_review:valuable"
+      ],
+      "review_actions": [
+        "keep",
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "risk_signals": {
+        "ad_intrusiveness": "low",
+        "chat_or_ugc_risk": "none",
+        "external_navigation_risk": "low",
+        "install_required": false,
+        "login_required": false,
+        "operational_warnings": [],
+        "privacy_risk": "low",
+        "reject_reason_codes": []
+      },
+      "school_check_prompt": "학교 컴퓨터/학교망에서 URL 접속과 활동 실행 여부를 확인하세요.",
+      "school_check_status": "not_checked",
+      "source_profile_id": "auto_music_incredibox_demo",
+      "source_run_id": "qf-auto-20260604-164445",
+      "source_run_order": 1,
+      "subject_unit_tags": [
+        "music",
+        "creative_expression"
+      ],
+      "suggested_grade_label": "초등",
+      "teacher_caution": "로그인/설치 없이 실행 가능한지 학교 환경에서 최종 확인하세요.",
+      "title": "Incredibox demo beat building",
+      "triage_bucket": "duplicate_or_existing",
+      "triage_priority": 20,
+      "url": "https://www.incredibox.com/demo/",
+      "what": "캐릭터에 소리 아이콘을 올려 비트를 만드는 interactive music game.",
+      "where_in_class": {
+        "activity_type": "direct_play_web_activity",
+        "grade_band": "elementary",
+        "subject_tags": [
+          "music",
+          "creative_expression"
+        ]
+      },
+      "why_questionable": "반복/기존 신호: 이번 실행 URL 반복",
+      "why_recommended": "초등 수업에서 학생이 여러 소리 아이콘을 조합해 짧은 리듬 패턴을 만들고 느낌을 설명한다. 방식으로 바로 활용할 수 있고, Incredibox demo exposes direct browser play controls for beat mixing. 근거가 확인됨."
     },
     {
       "action_labels": {
@@ -61490,12 +61490,12 @@
       "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
     }
   ],
-  "report_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-164445/quality_report.json",
+  "report_path": "local-runtime-root-redacted/quality-first/qf-auto-20260604-171833/quality_report.json",
   "review_overlay_path": null,
-  "run_id": "qf-auto-20260604-164445",
+  "run_id": "qf-auto-20260604-171833",
   "run_ids": [
-    "qf-auto-20260604-164445",
     "qf-auto-20260604-171833",
+    "qf-auto-20260604-164445",
     "qf-auto-20260604-161003",
     "qf-auto-20260604-153450",
     "qf-auto-20260604-150312",
