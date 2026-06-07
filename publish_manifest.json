@@ -8,7 +8,7 @@
   "included_files": [
     "index.html",
     "data/latest.json",
-    "data/qf-auto-20260607-233715.json",
+    "data/qf-auto-20260608-001555.json",
     "publish_manifest.json"
   ],
   "notes": [
@@ -22,7 +22,7 @@
   "schema_version": "quality_first_static_publish.v1",
   "school_review_write_mode": "ask_hermes",
   "source_dashboard_root": "local-dashboard-root-redacted",
-  "source_run_id": "qf-auto-20260607-233715",
+  "source_run_id": "qf-auto-20260608-001555",
   "source_surface": "quality-first",
   "write_back_enabled": false
 }
