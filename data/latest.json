@@ -33996,8 +33996,8 @@
     "evidence_count": 731,
     "hidden_duplicate_count": 505,
     "raw_candidate_count": 731,
-    "rejected_count": 261,
-    "run_count": 96,
+    "rejected_count": 271,
+    "run_count": 97,
     "visible_candidate_count": 226
   },
   "dashboard_facets": {
@@ -101210,6 +101210,500 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "studio.code.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://studio.code.org/in/en/courses/artist/units/1/lessons/1/levels/1",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Code.org Artist: 블록으로 그림 그리기",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://studio.code.org/in/en/courses/artist/units/1/lessons/1/levels/1",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "apps.mathlearningcenter.org",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 후보와 중복"
+      },
+      "item_id": "https://apps.mathlearningcenter.org/number-rack/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Math Learning Center Number Rack",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://apps.mathlearningcenter.org/number-rack/",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_all.html?locale=ko",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PhET Hooke의 법칙 시뮬레이션",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_all.html?locale=ko",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://ssec.si.edu/aquation",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Smithsonian Aquation 물 자원 게임",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://ssec.si.edu/aquation",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 후보와 중복"
+      },
+      "item_id": "https://www.abcya.com/games/storymaker",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Storymaker 창작 쓰기",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/storymaker",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "beinternetawesome.withgoogle.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://beinternetawesome.withgoogle.com/en_us/interland/reality-river",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Interland Reality River 디지털 시민성 게임",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://beinternetawesome.withgoogle.com/en_us/interland/reality-river",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.ictgames.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.ictgames.com/mobilePage/hundredHunt/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ICT Games Hundred Hunt 수 배열 탐색",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.ictgames.com/mobilePage/hundredHunt/",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://polypad.amplify.com/p",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Mathigon Polypad 패턴블록 탐구",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://polypad.amplify.com/p",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "artsandculture.google.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw?cp=e30.",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Google Arts & Culture Blob Opera",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw?cp=e30.",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.readwritethink.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.readwritethink.org/classroom-resources/student-interactives/timeline",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ReadWriteThink Timeline Maker",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.readwritethink.org/classroom-resources/student-interactives/timeline",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "후보 삭제",
+        "edit_description": "설명 수정",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_OBSIDIAN_DUPLICATE"
       ],
       "diagnostic_category": "other_rejection",
@@ -110372,6 +110866,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260614-191418",
     "qf-auto-20260614-161812",
     "qf-auto-20260614-154142",
     "qf-auto-20260614-114449",
@@ -110415,7 +110910,7 @@
       "label": "보류"
     },
     {
-      "count": 461,
+      "count": 471,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
