@@ -335,6 +335,96 @@
       }
     }
 
+    .diagnostics-panel {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--panel);
+      margin-bottom: 12px;
+      padding: 0;
+      overflow: hidden;
+    }
+    .diagnostics-panel > summary {
+      cursor: pointer;
+      padding: 10px 12px;
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 750;
+      background: var(--panel-soft);
+    }
+    .diagnostics-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      padding: 10px;
+    }
+    .diagnostics-grid.compact {
+      padding-top: 0;
+    }
+    .diagnostic-card {
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius);
+      background: var(--panel-soft);
+      padding: 9px;
+      min-width: 0;
+    }
+    .diagnostic-card b {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+    .diagnostic-card p, .diagnostic-card li, .diagnostics-explain li {
+      margin: 0;
+      color: var(--text-2);
+      font-size: 12px;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+    .diagnostic-card p + p {
+      margin-top: 4px;
+    }
+    .diagnostic-card ul, .diagnostics-explain ul {
+      display: grid;
+      gap: 4px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .diagnostic-card li {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .diagnostic-card li b {
+      margin: 0;
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+    .diagnostics-explain {
+      border-top: 1px solid var(--border-subtle);
+      padding: 10px;
+    }
+    .diagnostics-explain > b {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+    @media (max-width: 1100px) {
+      .diagnostics-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 760px) {
+      .diagnostics-grid {
+        grid-template-columns: 1fr;
+      }
+      .diagnostic-card li {
+        display: grid;
+      }
+      .diagnostic-card li b {
+        text-align: left;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -408,6 +498,22 @@
             </select>
           </section>
           <div class="review-lanes" aria-label="검토 그룹"><div class="review-lane" data-lane="new_this_run"><span>이번 실행 신규</span><strong>1</strong></div><div class="review-lane" data-lane="ready"><span>바로 볼 노트</span><strong>26</strong></div><div class="review-lane" data-lane="school_check"><span>학교컴 확인</span><strong>3</strong></div><div class="review-lane" data-lane="duplicate_warning"><span>중복/기존 주의</span><strong>218</strong></div><div class="review-lane" data-lane="diagnostics"><span>진단/탈락</span><strong>312</strong></div></div>
+          <details class="diagnostics-panel" id="acquisition-diagnostics">
+            <summary>획득 진단 보기</summary>
+            <div class="diagnostics-grid">
+              <div class="diagnostic-card"><b>이번 실행</b><p>신규 1 / 후보 12 / 탈락 0</p><p>Latest run: qf-auto-20260621-014640</p></div>
+              <div class="diagnostic-card"><b>Planner</b><p>Planner: low_yield_high_quality</p><p>AUTO_INVESTIGATION_STRUCTURALLY_SMALL_PROFILE_POOL</p></div>
+              <div class="diagnostic-card"><b>숨김</b><p>manual_seed / recheck 숨김 0</p><p>반복/중복 숨김 221</p></div>
+              <div class="diagnostic-card"><b>획득 파일럿</b><p>획득 파일럿 신규 0 / 유용 0</p><p>선택 5 / cap 6</p></div>
+            </div>
+            <div class="diagnostics-grid compact">
+              <div class="diagnostic-card"><b>소스 모드</b><ul><li><span>unknown</span><b>247 · 유용 17</b></li></ul></div>
+              <div class="diagnostic-card"><b>소스 역할</b><ul><li><span>unknown</span><b>247 · 유용 17</b></li></ul></div>
+              <div class="diagnostic-card"><b>탈락 이유</b><ul><li><span>REJECT_MIDDLE_HIGH_LEVEL</span><b>196</b></li><li><span>REJECT_OBSIDIAN_DUPLICATE</span><b>70</b></li><li><span>REJECT_BLOCKED_DOMAIN</span><b>24</b></li><li><span>REJECT_INTRUSIVE_ADS</span><b>9</b></li><li><span>REJECT_PRIVACY_RISK</span><b>5</b></li><li><span>REJECT_CHAT_OR_UGC</span><b>4</b></li></ul></div>
+              <div class="diagnostic-card"><b>보류/숨김 이유</b><ul><li><span>historical_run</span><b>235</b></li><li><span>duplicate_signal</span><b>221</b></li><li><span>INVENTORY_DOMAIN_SEEN</span><b>218</b></li><li><span>duplicate_count</span><b>135</b></li><li><span>hidden_duplicate_count</span><b>135</b></li></ul></div>
+            </div>
+            <div class="diagnostics-explain"><b>신규가 적은 이유</b><ul><li>이번 실행 신규 후보가 있거나 추가 설명이 필요하지 않습니다.</li></ul></div>
+          </details>
 
           <section id="candidates">
             <div class="section-head">
