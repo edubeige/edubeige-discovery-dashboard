@@ -656,12 +656,12 @@
     ],
     "top_reject_reasons": [
       {
-        "count": 197,
+        "count": 199,
         "key": "REJECT_MIDDLE_HIGH_LEVEL",
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
       {
-        "count": 72,
+        "count": 73,
         "key": "REJECT_OBSIDIAN_DUPLICATE",
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
@@ -671,19 +671,19 @@
         "label": "REJECT_BLOCKED_DOMAIN"
       },
       {
-        "count": 9,
+        "count": 17,
         "key": "REJECT_INTRUSIVE_ADS",
         "label": "REJECT_INTRUSIVE_ADS"
       },
       {
-        "count": 6,
+        "count": 14,
         "key": "REJECT_INSTALL_REQUIRED",
         "label": "REJECT_INSTALL_REQUIRED"
       },
       {
-        "count": 6,
-        "key": "REJECT_NOT_DIRECT_PLAY",
-        "label": "REJECT_NOT_DIRECT_PLAY"
+        "count": 13,
+        "key": "REJECT_CHAT_OR_UGC",
+        "label": "REJECT_CHAT_OR_UGC"
       }
     ]
   },
@@ -44470,8 +44470,8 @@
     "evidence_count": 918,
     "hidden_duplicate_count": 649,
     "raw_candidate_count": 918,
-    "rejected_count": 323,
-    "run_count": 118,
+    "rejected_count": 338,
+    "run_count": 119,
     "visible_candidate_count": 269
   },
   "dashboard_facets": {
@@ -132929,6 +132929,823 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "eyes.nasa.gov",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 노트와 중복"
+      },
+      "item_id": "https://eyes.nasa.gov/apps/solar-system/#/home",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "NASA Eyes on the Solar System",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://eyes.nasa.gov/apps/solar-system/#/home",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.abcya.com/games/tangrams",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Tangrams",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/tangrams",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "pbskids.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://pbskids.org/videos/design-squad",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PBS Kids Design Squad Fidgit Power",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://pbskids.org/videos/design-squad",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.seterra.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.seterra.com/#quizzes",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Seterra Asia Map Quiz",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.seterra.com/#quizzes",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.incredibox.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.incredibox.com/demo/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Incredibox Demo",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.incredibox.com/demo/",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "science.nasa.gov",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://science.nasa.gov/climate-change/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "NASA Climate Time Machine",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://science.nasa.gov/climate-change/",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "earthengine.google.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://earthengine.google.com/timelapse/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Google Earth Timelapse",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://earthengine.google.com/timelapse/",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "artsandculture.google.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Google Arts & Culture Blob Opera",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "code.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://code.org/en-US/minecraft",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Code.org Minecraft Hour of Code",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://code.org/en-US/minecraft",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "musiclab.chromeexperiments.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Chrome Music Lab Kandinsky",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://polypad.amplify.com/p",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Mathigon Polypad",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://polypad.amplify.com/p",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.sheppardsoftware.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.sheppardsoftware.com/science/animals/games/animal-characteristics/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Sheppard Software Animal Characteristics Game",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.sheppardsoftware.com/science/animals/games/animal-characteristics/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "quickdraw.withgoogle.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://quickdraw.withgoogle.com/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Quick, Draw! with Google",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://quickdraw.withgoogle.com/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "bomomo.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://bomomo.com/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Bomomo Generative Drawing",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://bomomo.com/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.nationalgeographic.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "National Geographic MapMaker",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.nationalgeographic.org/society/learn/mapmaker-launch-guide/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_MIDDLE_HIGH_LEVEL"
       ],
       "diagnostic_category": "level_or_curriculum_mismatch",
@@ -143242,6 +144059,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260622-054210",
     "qf-auto-20260620-191157",
     "qf-auto-20260614-191418",
     "qf-auto-20260614-161812",
@@ -143292,7 +144110,7 @@
       "label": "보류"
     },
     {
-      "count": 561,
+      "count": 576,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
