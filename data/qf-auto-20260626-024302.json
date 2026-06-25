@@ -666,7 +666,7 @@
     ],
     "top_reject_reasons": [
       {
-        "count": 201,
+        "count": 205,
         "key": "REJECT_MIDDLE_HIGH_LEVEL",
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
@@ -45900,8 +45900,8 @@
     "evidence_count": 958,
     "hidden_duplicate_count": 682,
     "raw_candidate_count": 958,
-    "rejected_count": 350,
-    "run_count": 123,
+    "rejected_count": 354,
+    "run_count": 124,
     "visible_candidate_count": 276
   },
   "dashboard_facets": {
@@ -138631,6 +138631,202 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://ssec.si.edu/aquation",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Smithsonian Aquation water balance game",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://ssec.si.edu/aquation",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.abcya.com/games/counting_fish",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Counting Fish number activity",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/counting_fish",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "pbskids.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://pbskids.org/videos/design-squad",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PBS Kids Design Squad Fidgit Power",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://pbskids.org/videos/design-squad",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.typingclub.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.typingclub.com/sportal/program-3.game",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "TypingClub Jungle Junior sample typing activity",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.typingclub.com/sportal/program-3.game",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_OBSIDIAN_DUPLICATE"
       ],
       "diagnostic_category": "other_rejection",
@@ -149765,6 +149961,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260626-053707",
     "qf-auto-20260622-054210",
     "qf-auto-20260620-191157",
     "qf-auto-20260614-191418",
@@ -149816,7 +150013,7 @@
       "label": "보류"
     },
     {
-      "count": 596,
+      "count": 600,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
