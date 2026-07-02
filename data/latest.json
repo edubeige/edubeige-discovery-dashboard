@@ -1040,32 +1040,32 @@
     ],
     "top_reject_reasons": [
       {
-        "count": 240,
+        "count": 241,
         "key": "REJECT_MIDDLE_HIGH_LEVEL",
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
       {
-        "count": 130,
+        "count": 131,
         "key": "REJECT_OBSIDIAN_DUPLICATE",
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
       {
-        "count": 92,
+        "count": 96,
         "key": "REJECT_CHAT_OR_UGC",
         "label": "REJECT_CHAT_OR_UGC"
       },
       {
-        "count": 82,
+        "count": 86,
         "key": "REJECT_BROKEN_OR_UNVERIFIABLE",
         "label": "REJECT_BROKEN_OR_UNVERIFIABLE"
       },
       {
-        "count": 79,
+        "count": 83,
         "key": "REJECT_INTRUSIVE_ADS",
         "label": "REJECT_INTRUSIVE_ADS"
       },
       {
-        "count": 58,
+        "count": 62,
         "key": "REJECT_PRIVACY_RISK",
         "label": "REJECT_PRIVACY_RISK"
       }
@@ -54657,8 +54657,8 @@
     "evidence_count": 1106,
     "hidden_duplicate_count": 779,
     "raw_candidate_count": 1106,
-    "rejected_count": 553,
-    "run_count": 157,
+    "rejected_count": 560,
+    "run_count": 158,
     "visible_candidate_count": 327
   },
   "dashboard_facets": {
@@ -162656,6 +162656,391 @@
         "key": "other",
         "label": "기타"
       },
+      "title": "NASA Eyes Solar System 3D 탐구",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://eyes.nasa.gov/apps/solar-system/",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.sheppardsoftware.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.sheppardsoftware.com/geography/usa/50-states-game-1/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Sheppard Software USA Geography 주 지도 퀴즈",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.sheppardsoftware.com/geography/usa/50-states-game-1/",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "pbskids.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://pbskids.org/videos/design-squad",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PBS Kids Design Squad Fidgit Power",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://pbskids.org/videos/design-squad",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://ssec.si.edu/aquation",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Smithsonian Aquation 물 순환 전략 게임",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://ssec.si.edu/aquation",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "code.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://code.org/en-US/hour-of-code/helloworld",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Code.org Hello World 초급 코딩",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://code.org/en-US/hour-of-code/helloworld",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://polypad.amplify.com/p",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Mathigon Polypad 가상 조작판",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://polypad.amplify.com/p",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.tynker.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.tynker.com/hour-of-code/dragon-dash",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Tynker Dragon Dash 기초 코딩",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.tynker.com/hour-of-code/dragon-dash",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "eyes.nasa.gov",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 노트와 중복"
+      },
+      "item_id": "https://eyes.nasa.gov/apps/solar-system/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
       "title": "NASA Eyes Solar System Explorer",
       "triage_bucket": "rejected",
       "triage_priority": 90,
@@ -182507,6 +182892,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260703-021315",
     "qf-auto-20260702-113538",
     "qf-auto-20260702-083914",
     "qf-auto-20260702-080113",
@@ -182576,7 +182962,7 @@
       "label": "보류"
     },
     {
-      "count": 853,
+      "count": 860,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
