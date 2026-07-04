@@ -1221,7 +1221,7 @@
     ],
     "top_reject_reasons": [
       {
-        "count": 245,
+        "count": 250,
         "key": "REJECT_MIDDLE_HIGH_LEVEL",
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
@@ -1231,19 +1231,19 @@
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
       {
-        "count": 106,
+        "count": 111,
         "key": "REJECT_CHAT_OR_UGC",
         "label": "REJECT_CHAT_OR_UGC"
+      },
+      {
+        "count": 98,
+        "key": "REJECT_INTRUSIVE_ADS",
+        "label": "REJECT_INTRUSIVE_ADS"
       },
       {
         "count": 96,
         "key": "REJECT_BROKEN_OR_UNVERIFIABLE",
         "label": "REJECT_BROKEN_OR_UNVERIFIABLE"
-      },
-      {
-        "count": 93,
-        "key": "REJECT_INTRUSIVE_ADS",
-        "label": "REJECT_INTRUSIVE_ADS"
       },
       {
         "count": 72,
@@ -58992,8 +58992,8 @@
     "evidence_count": 1184,
     "hidden_duplicate_count": 832,
     "raw_candidate_count": 1184,
-    "rejected_count": 585,
-    "run_count": 167,
+    "rejected_count": 591,
+    "run_count": 168,
     "visible_candidate_count": 352
   },
   "dashboard_facets": {
@@ -174601,6 +174601,320 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.roomrecess.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.roomrecess.com/mobile/TimeTeller/play.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "RoomRecess Time Teller",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.roomrecess.com/mobile/TimeTeller/play.html",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.visnos.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.visnos.com/demos/angle-measurement-practice",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Visnos Interactive Protractor",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.visnos.com/demos/angle-measurement-practice",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html?locale=ko",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PhET Natural Selection",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html?locale=ko",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "eyes.nasa.gov",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://eyes.nasa.gov/apps/earth/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "NASA Eyes on Earth",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://eyes.nasa.gov/apps/earth/",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://ssec.si.edu/weather-lab",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Smithsonian Weather Lab",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://ssec.si.edu/weather-lab",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "diagnostic_category": "level_or_curriculum_mismatch",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.abcya.com/games/keyboard_zoo",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "초등·조작활동 키워드를 강화하고 중등/대수/학습지/교사용 도구 키워드를 제외하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_MIDDLE_HIGH_LEVEL",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "초등 일반학급 범위를 벗어난 중등/대수/전문 도구 신호가 감지되었습니다.",
+      "stage": "candidate_quality_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Keyboard Zoo",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/keyboard_zoo",
+      "why_rejected": "candidate_quality_gate 단계에서 REJECT_MIDDLE_HIGH_LEVEL, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_LOGIN_REQUIRED",
         "REJECT_INSTALL_REQUIRED",
         "REJECT_PRIVACY_RISK",
@@ -195716,6 +196030,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260704-132611",
     "qf-auto-20260703-134451",
     "qf-auto-20260703-032527",
     "qf-auto-20260703-021315",
@@ -195788,7 +196103,7 @@
       "label": "보류"
     },
     {
-      "count": 910,
+      "count": 916,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
