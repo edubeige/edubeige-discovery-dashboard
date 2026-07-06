@@ -1401,27 +1401,27 @@
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
       {
-        "count": 155,
+        "count": 156,
         "key": "REJECT_OBSIDIAN_DUPLICATE",
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
       {
-        "count": 113,
+        "count": 118,
         "key": "REJECT_CHAT_OR_UGC",
         "label": "REJECT_CHAT_OR_UGC"
       },
       {
-        "count": 111,
+        "count": 116,
         "key": "REJECT_BROKEN_OR_UNVERIFIABLE",
         "label": "REJECT_BROKEN_OR_UNVERIFIABLE"
       },
       {
-        "count": 101,
+        "count": 106,
         "key": "REJECT_INTRUSIVE_ADS",
         "label": "REJECT_INTRUSIVE_ADS"
       },
       {
-        "count": 75,
+        "count": 80,
         "key": "REJECT_PRIVACY_RISK",
         "label": "REJECT_PRIVACY_RISK"
       }
@@ -63352,8 +63352,8 @@
     "evidence_count": 1293,
     "hidden_duplicate_count": 919,
     "raw_candidate_count": 1293,
-    "rejected_count": 642,
-    "run_count": 184,
+    "rejected_count": 649,
+    "run_count": 185,
     "visible_candidate_count": 374
   },
   "dashboard_facets": {
@@ -189971,6 +189971,401 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.roomrecess.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.roomrecess.com/mobile/SightWordSmash/play.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "RoomRecess Sight Word Smash",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.roomrecess.com/mobile/SightWordSmash/play.html",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 노트와 중복"
+      },
+      "item_id": "https://www.abcya.com/games/storymaker",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Storymaker",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/storymaker",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "science.nasa.gov",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://science.nasa.gov/kids/earth/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "NASA Climate Kids Coral Bleaching Game",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://science.nasa.gov/kids/earth/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "ssec.si.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://ssec.si.edu/weather-lab",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Smithsonian Weather Lab",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://ssec.si.edu/weather-lab",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://phet.colorado.edu/sims/html/models-of-the-hydrogen-atom/latest/models-of-the-hydrogen-atom_all.html?locale=ko",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PhET Models of the Hydrogen Atom",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://phet.colorado.edu/sims/html/models-of-the-hydrogen-atom/latest/models-of-the-hydrogen-atom_all.html?locale=ko",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.geoguessr.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.geoguessr.com/vgp/3187",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Seterra Continents and Oceans",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.geoguessr.com/vgp/3187",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "access_or_install_blocker",
+      "disposition": "rejected_internal_review_only",
+      "domain": "blockly.games",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://blockly.games/music?lang=ko",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "로그인 없이, 설치 없이, 웹 활동 같은 접근성 조건을 profile/query에 강화하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOGIN_REQUIRED",
+        "REJECT_INSTALL_REQUIRED",
+        "REJECT_PRIVACY_RISK",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "로그인/계정/설치가 필요한 활동이라 초등 일반학급 즉시 활용성이 낮습니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Blockly Games Music Korean",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://blockly.games/music?lang=ko",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_LOGIN_REQUIRED, REJECT_INSTALL_REQUIRED, REJECT_PRIVACY_RISK, REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_PRIVACY_RISK",
         "REJECT_CHAT_OR_UGC",
         "REJECT_INTRUSIVE_ADS",
@@ -212900,6 +213295,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260706-153206",
     "qf-auto-20260706-041019",
     "qf-auto-20260705-233347",
     "qf-auto-20260704-203809",
@@ -212977,7 +213373,7 @@
       "label": "보류"
     },
     {
-      "count": 993,
+      "count": 1000,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
