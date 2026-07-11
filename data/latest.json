@@ -1889,17 +1889,17 @@
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
       {
-        "count": 159,
+        "count": 167,
         "key": "REJECT_CHAT_OR_UGC",
         "label": "REJECT_CHAT_OR_UGC"
       },
       {
-        "count": 149,
+        "count": 157,
         "key": "REJECT_INTRUSIVE_ADS",
         "label": "REJECT_INTRUSIVE_ADS"
       },
       {
-        "count": 147,
+        "count": 155,
         "key": "REJECT_BROKEN_OR_UNVERIFIABLE",
         "label": "REJECT_BROKEN_OR_UNVERIFIABLE"
       },
@@ -76775,8 +76775,8 @@
     "evidence_count": 1551,
     "hidden_duplicate_count": 1099,
     "raw_candidate_count": 1551,
-    "rejected_count": 829,
-    "run_count": 225,
+    "rejected_count": 840,
+    "run_count": 226,
     "visible_candidate_count": 452
   },
   "dashboard_facets": {
@@ -229295,6 +229295,577 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.mathplayground.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.mathplayground.com/geoboard.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Math Playground Geoboard",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.mathplayground.com/geoboard.html",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "javalab.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://javalab.org/en/lens_en/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "JavaLab Lens Simulation",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://javalab.org/en/lens_en/",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "python.microbit.org",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://python.microbit.org/v/3",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_LOW_QUALITY_SCORE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "candidate_quality_score",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "BBC micro:bit Python Editor Simulator",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://python.microbit.org/v/3",
+      "why_rejected": "candidate_quality_score 단계에서 REJECT_LOW_QUALITY_SCORE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "polypad.amplify.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://polypad.amplify.com/p",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Mathigon Polypad Virtual Manipulatives",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://polypad.amplify.com/p",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "phet.colorado.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_all.html?locale=ko",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "PhET Hooke's Law Korean Simulation",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://phet.colorado.edu/sims/html/hookes-law/latest/hookes-law_all.html?locale=ko",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "labs.minutelabs.io",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://labs.minutelabs.io/Chaotic-Pendulum/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "MinuteLabs Chaotic Pendulum",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://labs.minutelabs.io/Chaotic-Pendulum/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "blockly.games",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://blockly.games/movie?lang=en",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Blockly Games Movie English",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://blockly.games/movie?lang=en",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "scratch.mit.edu",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://scratch.mit.edu/projects/editor/?tutorial=all",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Scratch Project Editor Explore",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://scratch.mit.edu/projects/editor/?tutorial=all",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "musiclab.chromeexperiments.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Chrome Music Lab Kandinsky",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://musiclab.chromeexperiments.com/Kandinsky/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "world-geography-games.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://world-geography-games.com/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "World Geography Games Countries of Asia",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://world-geography-games.com/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "lizardpoint.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://lizardpoint.com/geography/world-rivers-quiz.php",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Lizard Point World Rivers Map Quiz",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://lizardpoint.com/geography/world-rivers-quiz.php",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_LOGIN_REQUIRED",
         "REJECT_INSTALL_REQUIRED",
         "REJECT_PRIVACY_RISK",
@@ -259251,6 +259822,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260711-185434",
     "qf-auto-20260711-165102",
     "qf-auto-20260711-142805",
     "qf-auto-20260710-163022",
@@ -259343,7 +259915,7 @@
       "label": "보류"
     },
     {
-      "count": 1251,
+      "count": 1262,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
