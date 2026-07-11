@@ -1856,22 +1856,22 @@
         "label": "REJECT_MIDDLE_HIGH_LEVEL"
       },
       {
-        "count": 203,
+        "count": 204,
         "key": "REJECT_OBSIDIAN_DUPLICATE",
         "label": "REJECT_OBSIDIAN_DUPLICATE"
       },
       {
-        "count": 147,
+        "count": 153,
         "key": "REJECT_CHAT_OR_UGC",
         "label": "REJECT_CHAT_OR_UGC"
       },
       {
-        "count": 137,
+        "count": 143,
         "key": "REJECT_INTRUSIVE_ADS",
         "label": "REJECT_INTRUSIVE_ADS"
       },
       {
-        "count": 135,
+        "count": 141,
         "key": "REJECT_BROKEN_OR_UNVERIFIABLE",
         "label": "REJECT_BROKEN_OR_UNVERIFIABLE"
       },
@@ -76420,8 +76420,8 @@
     "evidence_count": 1537,
     "hidden_duplicate_count": 1086,
     "raw_candidate_count": 1537,
-    "rejected_count": 811,
-    "run_count": 222,
+    "rejected_count": 822,
+    "run_count": 223,
     "visible_candidate_count": 451
   },
   "dashboard_facets": {
@@ -227597,6 +227597,571 @@
       "actionability_bucket": "diagnostics",
       "debug_labels": [
         "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "mrnussbaum.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://mrnussbaum.com/cash-out-online-game",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Mr. Nussbaum Cash Out",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://mrnussbaum.com/cash-out-online-game",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.mathplayground.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.mathplayground.com/geoboard.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Math Playground Geoboard",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.mathplayground.com/geoboard.html",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.roomrecess.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.roomrecess.com/mobile/TimeTeller/play.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "RoomRecess Time Teller",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.roomrecess.com/mobile/TimeTeller/play.html",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "apps.mathlearningcenter.org",
+      "duplicate_signal": {
+        "codes": [
+          "REJECT_OBSIDIAN_DUPLICATE"
+        ],
+        "kind": "exact_or_existing_candidate",
+        "label": "기존 노트와 중복"
+      },
+      "item_id": "https://apps.mathlearningcenter.org/number-rack/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_OBSIDIAN_DUPLICATE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Math Learning Center Number Rack",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://apps.mathlearningcenter.org/number-rack/",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_OBSIDIAN_DUPLICATE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.topmarks.co.uk",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.topmarks.co.uk/learning-to-count/place-value-basketball",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_BLOCKED_DOMAIN"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "post_recording_gate",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Topmarks Place Value Basketball",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.topmarks.co.uk/learning-to-count/place-value-basketball",
+      "why_rejected": "post_recording_gate 단계에서 REJECT_BLOCKED_DOMAIN 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.didax.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.didax.com/apps/fraction-number-line/",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Didax Fraction Number Line",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.didax.com/apps/fraction-number-line/",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "mathsbot.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://mathsbot.com/manipulatives/geoboard",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "MathsBot Geoboard",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://mathsbot.com/manipulatives/geoboard",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "learningmusic.ableton.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://learningmusic.ableton.com/notes-and-scales/notes-and-scales.html",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Ableton Learning Music Notes and Scales",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://learningmusic.ableton.com/notes-and-scales/notes-and-scales.html",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.musicca.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.musicca.com/metronome",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Musicca Metronome",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.musicca.com/metronome",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.typing.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.typing.com/student/game/keyboard-jump",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "Typing.com Keyboard Jump",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.typing.com/student/game/keyboard-jump",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "diagnostic_category": "other_rejection",
+      "disposition": "rejected_internal_review_only",
+      "domain": "www.abcya.com",
+      "duplicate_signal": {
+        "codes": [],
+        "kind": "none",
+        "label": ""
+      },
+      "item_id": "https://www.abcya.com/games/make-a-house",
+      "keep_for_debug": true,
+      "needs_school_check": false,
+      "next_query_adjustment_hint": "reason code와 원문 페이지를 확인해 source profile 필터나 probe 규칙 보강 여부를 판단하세요.",
+      "primary_status_label": "탈락 진단",
+      "reason_codes": [
+        "REJECT_CHAT_OR_UGC",
+        "REJECT_INTRUSIVE_ADS",
+        "REJECT_BROKEN_OR_UNVERIFIABLE"
+      ],
+      "review_actions": [
+        "delete",
+        "hold",
+        "edit_description",
+        "check_school_computer"
+      ],
+      "secondary_status_labels": [
+        "탈락 진단"
+      ],
+      "source_profile_hint": "명확한 표준 분류 밖의 reject reason입니다.",
+      "stage": "final_candidate_builder",
+      "subject_group": {
+        "key": "other",
+        "label": "기타"
+      },
+      "title": "ABCya Make a House",
+      "triage_bucket": "rejected",
+      "triage_priority": 90,
+      "url": "https://www.abcya.com/games/make-a-house",
+      "why_rejected": "final_candidate_builder 단계에서 REJECT_CHAT_OR_UGC, REJECT_INTRUSIVE_ADS, REJECT_BROKEN_OR_UNVERIFIABLE 사유로 제외됨."
+    },
+    {
+      "action_labels": {
+        "check_school_computer": "학교컴 확인 필요",
+        "delete": "진단으로 숨김",
+        "edit_description": "설명 보강",
+        "hold": "보류"
+      },
+      "actionability_bucket": "diagnostics",
+      "debug_labels": [
+        "rejected_internal_review_only",
         "REJECT_CHAT_OR_UGC"
       ],
       "diagnostic_category": "other_rejection",
@@ -256633,6 +257198,7 @@
     "qf_direct_uploaded_adjacent_20260602",
     "qf_fullcheck_20260602",
     "qf-curated-20260602-132724",
+    "qf-auto-20260711-142805",
     "qf-auto-20260710-163022",
     "qf-auto-20260710-151145",
     "qf-auto-20260710-143434",
@@ -256723,7 +257289,7 @@
       "label": "보류"
     },
     {
-      "count": 1232,
+      "count": 1243,
       "key": "diagnostics",
       "label": "진단/탈락"
     }
